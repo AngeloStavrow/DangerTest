@@ -1,6 +1,6 @@
 # README / Danger "Getting Started" Friction Log
 
-It's not even clear to me that this works for an iOS / macOS app, or if it's just for Swift Packages, so that's why I created a single-view iOS app called **DangerTest** to test this out.
+I've been curious about using [Danger] for a while, though I feel like I'm lacking a fair bit of background knowledge re: iOS/Swift build processes and CI to really be able to integrate the tool. It's not entirely clear to me that this works for an iOS / macOS app, or if it's just for Swift Packages, so that's why I created a single-view iOS app called **DangerTest** to test this out.
 
 ## [Installation]
 
@@ -219,6 +219,7 @@ I _think_ this might be because there's no Dangerfile in the repo yet? I'll merg
 
 But, nope, that doesn't help. So now I'm stuck. Technically, I've added Danger to the repository, but it… doesn't work for some reason that I don't fully understand.
 
+[Danger]: https://danger.systems/swift/
 [Installation]: https://danger.systems/swift/guides/getting_started.html#swift-pm
 [Creating a Dangerfile]: https://danger.systems/swift/guides/getting_started.html#creating-a-dangerfile
 [About The Dangerfile]: https://danger.systems/swift/guides/about_the_dangerfile.html
