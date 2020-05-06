@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "b1a649d38db46f549046ab338d67a650"
+build_time: [1588677498, 196826000]
+inputs:
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/BitBucketServerDSL.swift": [1588677480, 938284972]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Danger.swift": [1588677480, 938489792]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/DangerDSL.swift": [1588677480, 938687337]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/DangerResults.swift": [1588677480, 834899084]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/DangerUtils.swift": [1588677480, 835062858]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Extensions/DateFormatterExtensions.swift": [1588677480, 835289884]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Extensions/NSRegularExpressionExtensions.swift": [1588677480, 835441019]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/File.swift": [1588677480, 938966261]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/GitDSL.swift": [1588677480, 939177295]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/GitHubDSL.swift": [1588677480, 939391750]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/GitLabDSL.swift": [1588677480, 939599814]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/CurrentPathProvider.swift": [1588677480, 939903340]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLint.swift": [1588677480, 940170599]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLintViolation.swift": [1588677480, 940406407]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftlintReportDeleter.swift": [1588677480, 837056020]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Report.swift": [1588677480, 940630978]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Settings.swift": [1588677480, 837414869]

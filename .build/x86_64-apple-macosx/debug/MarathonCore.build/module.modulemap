@@ -1,0 +1,4 @@
+module MarathonCore {
+    header "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/MarathonCore-Swift.h"
+    requires objc
+}

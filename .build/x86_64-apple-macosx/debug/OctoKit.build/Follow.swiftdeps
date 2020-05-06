@@ -1,0 +1,168 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FollowRouter"
+provides-nominal:
+- "7OctoKit12FollowRouterO"
+provides-member:
+- ["7OctoKit7OctokitV", ""]
+- ["7OctoKit12FollowRouterO", ""]
+- ["7OctoKit7OctokitV", "myFollowers"]
+- ["7OctoKit7OctokitV", "followers"]
+- ["7OctoKit7OctokitV", "myFollowing"]
+- ["7OctoKit7OctokitV", "following"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Configuration"
+- !private "FloatLiteralType"
+- "FollowRouter"
+- "HTTPEncoding"
+- "HTTPMethod"
+- !private "IntegerLiteralType"
+- "Octokit"
+- "RequestKitURLSession"
+- "Response"
+- "Router"
+- "String"
+- !private "StringLiteralType"
+- !private "URLSession"
+- "URLSessionDataTaskProtocol"
+- "User"
+- "Void"
+depends-member:
+- !private ["s7CVarArgP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SQ", "GET"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "url"]
+- ["7OctoKit12FollowRouterO", "Configuration"]
+- ["7OctoKit12FollowRouterO", "HTTPEncoding"]
+- ["7OctoKit12FollowRouterO", "HTTPMethod"]
+- ["7OctoKit12FollowRouterO", "String"]
+- ["7OctoKit12FollowRouterO", "configuration"]
+- ["7OctoKit12FollowRouterO", "deinit"]
+- ["7OctoKit12FollowRouterO", "encoding"]
+- ["7OctoKit12FollowRouterO", "load"]
+- ["7OctoKit12FollowRouterO", "loadJSON"]
+- ["7OctoKit12FollowRouterO", "method"]
+- ["7OctoKit12FollowRouterO", "params"]
+- ["7OctoKit12FollowRouterO", "path"]
+- ["7OctoKit12FollowRouterO", "readAuthenticatedFollowers"]
+- ["7OctoKit12FollowRouterO", "readAuthenticatedFollowing"]
+- ["7OctoKit12FollowRouterO", "readFollowers"]
+- ["7OctoKit12FollowRouterO", "readFollowing"]
+- ["7OctoKit12FollowRouterO", "request"]
+- ["7OctoKit12FollowRouterO", "urlQuery"]
+- !private ["10RequestKit12HTTPEncodingO", "url"]
+- !private ["10RequestKit10HTTPMethodO", "GET"]
+- !private ["SH", "GET"]
+- !private ["SH", "shared"]
+- !private ["SH", "url"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["7OctoKit7OctokitV", "FollowRouter"]
+- ["7OctoKit7OctokitV", "RequestKitURLSession"]
+- ["7OctoKit7OctokitV", "Response"]
+- ["7OctoKit7OctokitV", "String"]
+- !private ["7OctoKit7OctokitV", "URLSession"]
+- ["7OctoKit7OctokitV", "URLSessionDataTaskProtocol"]
+- ["7OctoKit7OctokitV", "User"]
+- ["7OctoKit7OctokitV", "Void"]
+- !private ["7OctoKit7OctokitV", "configuration"]
+- ["7OctoKit7OctokitV", "followers"]
+- ["7OctoKit7OctokitV", "following"]
+- ["7OctoKit7OctokitV", "myFollowers"]
+- ["7OctoKit7OctokitV", "myFollowing"]
+- !private ["SY", "GET"]
+- !private ["SY", "url"]
+- !private ["10RequestKit0aB10URLSessionP", "shared"]
+- !private ["10RequestKit8ResponseO", "failure"]
+- !private ["10RequestKit8ResponseO", "success"]
+- ["10RequestKit6RouterP", ""]
+- ["10RequestKit6RouterP", "configuration"]
+- ["10RequestKit6RouterP", "encoding"]
+- ["10RequestKit6RouterP", "load"]
+- ["10RequestKit6RouterP", "loadJSON"]
+- ["10RequestKit6RouterP", "method"]
+- ["10RequestKit6RouterP", "params"]
+- ["10RequestKit6RouterP", "path"]
+- ["10RequestKit6RouterP", "readAuthenticatedFollowers"]
+- ["10RequestKit6RouterP", "readAuthenticatedFollowing"]
+- ["10RequestKit6RouterP", "readFollowers"]
+- ["10RequestKit6RouterP", "readFollowing"]
+- ["10RequestKit6RouterP", "request"]
+- ["10RequestKit6RouterP", "urlQuery"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7OctoKit18TokenConfigurationV", "deinit"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["7OctoKit4UserC", "deinit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SQ"
+- "7OctoKit12FollowRouterO"
+- !private "10RequestKit12HTTPEncodingO"
+- !private "10RequestKit10HTTPMethodO"
+- !private "SH"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "7OctoKit7OctokitV"
+- !private "SY"
+- !private "10RequestKit0aB10URLSessionP"
+- !private "10RequestKit8ResponseO"
+- "10RequestKit6RouterP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "7OctoKit18TokenConfigurationV"
+- !private "So12NSURLSessionC"
+- !private "7OctoKit4UserC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8ba02e398f237d48487bb7c211da994b"

@@ -1,0 +1,4 @@
+module DangerShellExecutor {
+    header "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/DangerShellExecutor-Swift.h"
+    requires objc
+}

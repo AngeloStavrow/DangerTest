@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "2765a2039d1e21724b4343fe9c4d6048"
+build_time: [1588677493, 392852000]
+inputs:
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Configuration.swift": [1588677479, 765913029]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/File.swift": [1588677479, 720019678]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Follow.swift": [1588677479, 720177076]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Gist.swift": [1588677479, 720358250]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Issue.swift": [1588677479, 720738135]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Label.swift": [1588677479, 720948545]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Milestone.swift": [1588677479, 721100679]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Octokit.swift": [1588677479, 721564349]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Parameters.swift": [1588677479, 721723337]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/PublicKey.swift": [1588677479, 721959840]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/PullRequest.swift": [1588677479, 722182533]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Releases.swift": [1588677479, 722415560]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Repositories.swift": [1588677479, 722588465]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Review.swift": [1588677479, 722801839]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Stars.swift": [1588677479, 722982064]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/String+PercentEncoding.swift": [1588677479, 723195791]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Time.swift": [1588677479, 723375420]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/URL+URLParameters.swift": [1588677479, 723527282]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/User.swift": [1588677479, 723685715]

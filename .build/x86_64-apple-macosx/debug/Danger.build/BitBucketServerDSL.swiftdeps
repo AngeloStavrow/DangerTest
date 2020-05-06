@@ -1,0 +1,956 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BitBucketServer"
+- "BitBucketServerActivity"
+- "BitBucketServerMetadata"
+- "BitBucketServerComment"
+- "BitBucketServerCommit"
+- "BitBucketServerPR"
+- "BitBucketServerMergeRef"
+- "BitBucketServerRepo"
+- "BitBucketServerProject"
+- "BitBucketServerUser"
+provides-nominal:
+- "6Danger15BitBucketServerV"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger23BitBucketServerMetadataV"
+- "6Danger22BitBucketServerCommentV"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV"
+- "6Danger21BitBucketServerCommitV"
+- "6Danger21BitBucketServerCommitV0bcdE6ParentV"
+- "6Danger17BitBucketServerPRV"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger17BitBucketServerPRV11ParticipantV"
+- "6Danger17BitBucketServerPRV8ReviewerV"
+- "6Danger23BitBucketServerMergeRefV"
+- "6Danger19BitBucketServerRepoV"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger19BitBucketServerUserV"
+provides-member:
+- ["6Danger15BitBucketServerV", ""]
+- ["6Danger15BitBucketServerV10CodingKeysO", ""]
+- ["6Danger23BitBucketServerActivityV", ""]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", ""]
+- ["6Danger23BitBucketServerMetadataV", ""]
+- ["6Danger22BitBucketServerCommentV", ""]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", ""]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", ""]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", ""]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", ""]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", ""]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", ""]
+- ["6Danger21BitBucketServerCommitV", ""]
+- ["6Danger21BitBucketServerCommitV0bcdE6ParentV", ""]
+- ["6Danger17BitBucketServerPRV", ""]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", ""]
+- ["6Danger17BitBucketServerPRV11ParticipantV", ""]
+- ["6Danger17BitBucketServerPRV8ReviewerV", ""]
+- ["6Danger23BitBucketServerMergeRefV", ""]
+- ["6Danger19BitBucketServerRepoV", ""]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", ""]
+- ["6Danger22BitBucketServerProjectV", ""]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", ""]
+- ["6Danger19BitBucketServerUserV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "BitBucketServer"
+- "BitBucketServerActivity"
+- "BitBucketServerComment"
+- "BitBucketServerCommit"
+- "BitBucketServerMergeRef"
+- "BitBucketServerMetadata"
+- "BitBucketServerPR"
+- "BitBucketServerProject"
+- "BitBucketServerRepo"
+- "BitBucketServerUser"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CodingKey"
+- "Decodable"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["6Danger15BitBucketServerV", "=="]
+- ["6Danger15BitBucketServerV", "BitBucketServerActivity"]
+- ["6Danger15BitBucketServerV", "BitBucketServerComment"]
+- ["6Danger15BitBucketServerV", "BitBucketServerCommit"]
+- ["6Danger15BitBucketServerV", "BitBucketServerMetadata"]
+- ["6Danger15BitBucketServerV", "BitBucketServerPR"]
+- ["6Danger15BitBucketServerV", "CodingKey"]
+- ["6Danger15BitBucketServerV", "CodingKeys"]
+- ["6Danger15BitBucketServerV", "String"]
+- ["6Danger15BitBucketServerV", "__derived_struct_equals"]
+- !private ["6Danger15BitBucketServerV", "_findStringSwitchCase"]
+- ["6Danger15BitBucketServerV", "activities"]
+- ["6Danger15BitBucketServerV", "comments"]
+- ["6Danger15BitBucketServerV", "commits"]
+- ["6Danger15BitBucketServerV", "deinit"]
+- ["6Danger15BitBucketServerV", "init"]
+- ["6Danger15BitBucketServerV", "metadata"]
+- ["6Danger15BitBucketServerV", "pullRequest"]
+- ["6Danger23BitBucketServerActivityV", "=="]
+- ["6Danger23BitBucketServerActivityV", "BitBucketServerUser"]
+- ["6Danger23BitBucketServerActivityV", "CodingKey"]
+- ["6Danger23BitBucketServerActivityV", "CodingKeys"]
+- ["6Danger23BitBucketServerActivityV", "Int"]
+- ["6Danger23BitBucketServerActivityV", "String"]
+- ["6Danger23BitBucketServerActivityV", "__derived_struct_equals"]
+- !private ["6Danger23BitBucketServerActivityV", "_findStringSwitchCase"]
+- ["6Danger23BitBucketServerActivityV", "action"]
+- ["6Danger23BitBucketServerActivityV", "commentAction"]
+- ["6Danger23BitBucketServerActivityV", "createdAt"]
+- ["6Danger23BitBucketServerActivityV", "deinit"]
+- ["6Danger23BitBucketServerActivityV", "id"]
+- ["6Danger23BitBucketServerActivityV", "init"]
+- ["6Danger23BitBucketServerActivityV", "user"]
+- ["6Danger22BitBucketServerCommentV", "=="]
+- ["6Danger22BitBucketServerCommentV", "BitBucketServerUser"]
+- ["6Danger22BitBucketServerCommentV", "CodingKey"]
+- ["6Danger22BitBucketServerCommentV", "CodingKeys"]
+- ["6Danger22BitBucketServerCommentV", "CommentDetail"]
+- ["6Danger22BitBucketServerCommentV", "Decodable"]
+- ["6Danger22BitBucketServerCommentV", "Equatable"]
+- ["6Danger22BitBucketServerCommentV", "Int"]
+- ["6Danger22BitBucketServerCommentV", "String"]
+- ["6Danger22BitBucketServerCommentV", "__derived_struct_equals"]
+- !private ["6Danger22BitBucketServerCommentV", "_findStringSwitchCase"]
+- ["6Danger22BitBucketServerCommentV", "action"]
+- ["6Danger22BitBucketServerCommentV", "comment"]
+- ["6Danger22BitBucketServerCommentV", "commentAction"]
+- ["6Danger22BitBucketServerCommentV", "createdAt"]
+- ["6Danger22BitBucketServerCommentV", "deinit"]
+- ["6Danger22BitBucketServerCommentV", "fromHash"]
+- ["6Danger22BitBucketServerCommentV", "id"]
+- ["6Danger22BitBucketServerCommentV", "init"]
+- ["6Danger22BitBucketServerCommentV", "previousFromHash"]
+- ["6Danger22BitBucketServerCommentV", "previousToHash"]
+- ["6Danger22BitBucketServerCommentV", "toHash"]
+- ["6Danger22BitBucketServerCommentV", "user"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "=="]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "BitBucketServerUser"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "CodingKey"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "CodingKeys"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "Int"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "String"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "__derived_struct_equals"]
+- !private ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "_findStringSwitchCase"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "author"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "createdAt"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "deinit"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "id"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "init"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "state"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV", "text"]
+- ["6Danger21BitBucketServerCommitV", "=="]
+- ["6Danger21BitBucketServerCommitV", "BitBucketServerCommitParent"]
+- ["6Danger21BitBucketServerCommitV", "BitBucketServerUser"]
+- ["6Danger21BitBucketServerCommitV", "Decodable"]
+- ["6Danger21BitBucketServerCommitV", "Equatable"]
+- ["6Danger21BitBucketServerCommitV", "Int"]
+- ["6Danger21BitBucketServerCommitV", "String"]
+- ["6Danger21BitBucketServerCommitV", "__derived_struct_equals"]
+- ["6Danger21BitBucketServerCommitV", "author"]
+- ["6Danger21BitBucketServerCommitV", "authorTimestamp"]
+- ["6Danger21BitBucketServerCommitV", "committer"]
+- ["6Danger21BitBucketServerCommitV", "committerTimestamp"]
+- ["6Danger21BitBucketServerCommitV", "deinit"]
+- ["6Danger21BitBucketServerCommitV", "displayId"]
+- ["6Danger21BitBucketServerCommitV", "id"]
+- ["6Danger21BitBucketServerCommitV", "init"]
+- ["6Danger21BitBucketServerCommitV", "message"]
+- ["6Danger21BitBucketServerCommitV", "parents"]
+- ["6Danger21BitBucketServerCommitV0bcdE6ParentV", "=="]
+- ["6Danger21BitBucketServerCommitV0bcdE6ParentV", "String"]
+- ["6Danger21BitBucketServerCommitV0bcdE6ParentV", "__derived_struct_equals"]
+- ["6Danger21BitBucketServerCommitV0bcdE6ParentV", "deinit"]
+- ["6Danger21BitBucketServerCommitV0bcdE6ParentV", "displayId"]
+- ["6Danger21BitBucketServerCommitV0bcdE6ParentV", "id"]
+- ["6Danger21BitBucketServerCommitV0bcdE6ParentV", "init"]
+- ["6Danger23BitBucketServerMergeRefV", "=="]
+- ["6Danger23BitBucketServerMergeRefV", "BitBucketServerRepo"]
+- ["6Danger23BitBucketServerMergeRefV", "String"]
+- ["6Danger23BitBucketServerMergeRefV", "__derived_struct_equals"]
+- ["6Danger23BitBucketServerMergeRefV", "deinit"]
+- ["6Danger23BitBucketServerMergeRefV", "displayId"]
+- ["6Danger23BitBucketServerMergeRefV", "id"]
+- ["6Danger23BitBucketServerMergeRefV", "init"]
+- ["6Danger23BitBucketServerMergeRefV", "latestCommit"]
+- ["6Danger23BitBucketServerMergeRefV", "repository"]
+- ["6Danger23BitBucketServerMetadataV", "=="]
+- ["6Danger23BitBucketServerMetadataV", "String"]
+- ["6Danger23BitBucketServerMetadataV", "__derived_struct_equals"]
+- ["6Danger23BitBucketServerMetadataV", "deinit"]
+- ["6Danger23BitBucketServerMetadataV", "init"]
+- ["6Danger23BitBucketServerMetadataV", "pullRequestID"]
+- ["6Danger23BitBucketServerMetadataV", "repoSlug"]
+- ["6Danger17BitBucketServerPRV", "=="]
+- ["6Danger17BitBucketServerPRV", "BitBucketServerMergeRef"]
+- ["6Danger17BitBucketServerPRV", "BitBucketServerUser"]
+- ["6Danger17BitBucketServerPRV", "Bool"]
+- ["6Danger17BitBucketServerPRV", "CodingKey"]
+- ["6Danger17BitBucketServerPRV", "CodingKeys"]
+- ["6Danger17BitBucketServerPRV", "Decodable"]
+- ["6Danger17BitBucketServerPRV", "Equatable"]
+- ["6Danger17BitBucketServerPRV", "Int"]
+- ["6Danger17BitBucketServerPRV", "Participant"]
+- ["6Danger17BitBucketServerPRV", "Reviewer"]
+- ["6Danger17BitBucketServerPRV", "String"]
+- ["6Danger17BitBucketServerPRV", "__derived_struct_equals"]
+- !private ["6Danger17BitBucketServerPRV", "_findStringSwitchCase"]
+- ["6Danger17BitBucketServerPRV", "author"]
+- ["6Danger17BitBucketServerPRV", "closed"]
+- ["6Danger17BitBucketServerPRV", "createdAt"]
+- ["6Danger17BitBucketServerPRV", "deinit"]
+- ["6Danger17BitBucketServerPRV", "description"]
+- ["6Danger17BitBucketServerPRV", "fromRef"]
+- ["6Danger17BitBucketServerPRV", "id"]
+- ["6Danger17BitBucketServerPRV", "init"]
+- ["6Danger17BitBucketServerPRV", "isLocked"]
+- ["6Danger17BitBucketServerPRV", "open"]
+- ["6Danger17BitBucketServerPRV", "participants"]
+- ["6Danger17BitBucketServerPRV", "reviewers"]
+- ["6Danger17BitBucketServerPRV", "state"]
+- ["6Danger17BitBucketServerPRV", "title"]
+- ["6Danger17BitBucketServerPRV", "toRef"]
+- ["6Danger17BitBucketServerPRV", "updatedAt"]
+- ["6Danger17BitBucketServerPRV", "version"]
+- ["6Danger22BitBucketServerProjectV", "=="]
+- ["6Danger22BitBucketServerProjectV", "Bool"]
+- ["6Danger22BitBucketServerProjectV", "CodingKey"]
+- ["6Danger22BitBucketServerProjectV", "CodingKeys"]
+- ["6Danger22BitBucketServerProjectV", "Int"]
+- ["6Danger22BitBucketServerProjectV", "String"]
+- ["6Danger22BitBucketServerProjectV", "__derived_struct_equals"]
+- !private ["6Danger22BitBucketServerProjectV", "_findStringSwitchCase"]
+- ["6Danger22BitBucketServerProjectV", "deinit"]
+- ["6Danger22BitBucketServerProjectV", "id"]
+- ["6Danger22BitBucketServerProjectV", "init"]
+- ["6Danger22BitBucketServerProjectV", "isPublic"]
+- ["6Danger22BitBucketServerProjectV", "key"]
+- ["6Danger22BitBucketServerProjectV", "name"]
+- ["6Danger22BitBucketServerProjectV", "type"]
+- ["6Danger19BitBucketServerRepoV", "=="]
+- ["6Danger19BitBucketServerRepoV", "BitBucketServerProject"]
+- ["6Danger19BitBucketServerRepoV", "Bool"]
+- ["6Danger19BitBucketServerRepoV", "CodingKey"]
+- ["6Danger19BitBucketServerRepoV", "CodingKeys"]
+- ["6Danger19BitBucketServerRepoV", "String"]
+- ["6Danger19BitBucketServerRepoV", "__derived_struct_equals"]
+- !private ["6Danger19BitBucketServerRepoV", "_findStringSwitchCase"]
+- ["6Danger19BitBucketServerRepoV", "deinit"]
+- ["6Danger19BitBucketServerRepoV", "forkable"]
+- ["6Danger19BitBucketServerRepoV", "init"]
+- ["6Danger19BitBucketServerRepoV", "isPublic"]
+- ["6Danger19BitBucketServerRepoV", "name"]
+- ["6Danger19BitBucketServerRepoV", "project"]
+- ["6Danger19BitBucketServerRepoV", "scmId"]
+- ["6Danger19BitBucketServerRepoV", "slug"]
+- ["6Danger19BitBucketServerUserV", "=="]
+- ["6Danger19BitBucketServerUserV", "Bool"]
+- ["6Danger19BitBucketServerUserV", "Int"]
+- ["6Danger19BitBucketServerUserV", "String"]
+- ["6Danger19BitBucketServerUserV", "__derived_struct_equals"]
+- ["6Danger19BitBucketServerUserV", "active"]
+- ["6Danger19BitBucketServerUserV", "deinit"]
+- ["6Danger19BitBucketServerUserV", "displayName"]
+- ["6Danger19BitBucketServerUserV", "emailAddress"]
+- ["6Danger19BitBucketServerUserV", "id"]
+- ["6Danger19BitBucketServerUserV", "init"]
+- ["6Danger19BitBucketServerUserV", "name"]
+- ["6Danger19BitBucketServerUserV", "slug"]
+- ["6Danger19BitBucketServerUserV", "type"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "=="]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "=="]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "=="]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "=="]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "=="]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "=="]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "=="]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "=="]
+- ["6Danger15BitBucketServerV10CodingKeysO", "RawValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "RawValue"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "RawValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "RawValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "RawValue"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "RawValue"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "RawValue"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "RawValue"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "_Default_RawValue"]
+- !private ["6Danger15BitBucketServerV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger17BitBucketServerPRV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger19BitBucketServerRepoV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger22BitBucketServerCommentV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger22BitBucketServerProjectV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger23BitBucketServerActivityV10CodingKeysO", "_findStringSwitchCase"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "_rawHashValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "_rawHashValue"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "_rawHashValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "_rawHashValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "_rawHashValue"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "_rawHashValue"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "_rawHashValue"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "_rawHashValue"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "action"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "action"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "activities"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "author"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "author"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "author"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "closed"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "comment"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "commentAction"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "commentAction"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "comments"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "comments"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "commits"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "createdAt"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "createdAt"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "createdAt"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "createdAt"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "createdAt"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "debugDescription"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "debugDescription"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "debugDescription"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "debugDescription"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "debugDescription"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "debugDescription"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "debugDescription"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "debugDescription"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "deinit"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "deinit"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "deinit"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "deinit"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "deinit"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "deinit"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "deinit"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "deinit"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "description"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "description"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "description"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "description"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "description"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "description"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "description"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "description"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "forkable"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "fromHash"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "fromRef"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "hash"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "hash"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "hash"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "hash"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "hash"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "hash"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "hash"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "hash"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "hashValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "hashValue"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "hashValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "hashValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "hashValue"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "hashValue"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "hashValue"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "hashValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "id"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "id"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "id"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "id"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "id"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "id"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "init"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "init"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "init"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "init"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "init"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "init"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "init"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "init"]
+- !private ["6Danger15BitBucketServerV10CodingKeysO", "init"]
+- !private ["6Danger17BitBucketServerPRV10CodingKeysO", "init"]
+- !private ["6Danger19BitBucketServerRepoV10CodingKeysO", "init"]
+- !private ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "init"]
+- !private ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "init"]
+- !private ["6Danger22BitBucketServerCommentV10CodingKeysO", "init"]
+- !private ["6Danger22BitBucketServerProjectV10CodingKeysO", "init"]
+- !private ["6Danger23BitBucketServerActivityV10CodingKeysO", "init"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "intValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "intValue"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "intValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "intValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "intValue"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "intValue"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "intValue"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "intValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "isLocked"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "isPublic"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "isPublic"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "key"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "metadata"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "name"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "name"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "open"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "participants"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "previousFromHash"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "previousToHash"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "project"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "properties"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "pullRequest"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "rawValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "rawValue"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "rawValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "rawValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "rawValue"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "rawValue"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "rawValue"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "rawValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "reviewers"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "scmId"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "slug"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "state"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "state"]
+- ["6Danger15BitBucketServerV10CodingKeysO", "stringValue"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "stringValue"]
+- ["6Danger19BitBucketServerRepoV10CodingKeysO", "stringValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "stringValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "stringValue"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "stringValue"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "stringValue"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "stringValue"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "tasks"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO", "text"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "text"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "title"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "toHash"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "toRef"]
+- ["6Danger22BitBucketServerProjectV10CodingKeysO", "type"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "updatedAt"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "updatedAt"]
+- ["6Danger22BitBucketServerCommentV10CodingKeysO", "user"]
+- ["6Danger23BitBucketServerActivityV10CodingKeysO", "user"]
+- ["6Danger17BitBucketServerPRV10CodingKeysO", "version"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO", "version"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "=="]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "BitBucketServerCommentTask"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "BitBucketServerUser"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "CodingKey"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "CodingKeys"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "CommentDetail"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "Decodable"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "Equatable"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "InnerProperties"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "Int"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "String"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "__derived_struct_equals"]
+- !private ["6Danger22BitBucketServerCommentV0E6DetailV", "_findStringSwitchCase"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "author"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "comments"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "createdAt"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "deinit"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "id"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "init"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "properties"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "tasks"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "text"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "updatedAt"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV", "version"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "action"]
+- !private ["Se", "active"]
+- !private ["Se", "activities"]
+- !private ["Se", "approved"]
+- !private ["Se", "author"]
+- !private ["Se", "authorTimestamp"]
+- !private ["Se", "closed"]
+- !private ["Se", "comment"]
+- !private ["Se", "commentAction"]
+- !private ["Se", "comments"]
+- !private ["Se", "commits"]
+- !private ["Se", "committer"]
+- !private ["Se", "committerTimestamp"]
+- !private ["Se", "createdAt"]
+- !private ["Se", "description"]
+- !private ["Se", "displayId"]
+- !private ["Se", "displayName"]
+- !private ["Se", "emailAddress"]
+- !private ["Se", "forkable"]
+- !private ["Se", "fromHash"]
+- !private ["Se", "fromRef"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "isLocked"]
+- !private ["Se", "isPublic"]
+- !private ["Se", "issues"]
+- !private ["Se", "key"]
+- !private ["Se", "lastReviewedCommit"]
+- !private ["Se", "latestCommit"]
+- !private ["Se", "message"]
+- !private ["Se", "metadata"]
+- !private ["Se", "name"]
+- !private ["Se", "open"]
+- !private ["Se", "parents"]
+- !private ["Se", "participants"]
+- !private ["Se", "previousFromHash"]
+- !private ["Se", "previousToHash"]
+- !private ["Se", "project"]
+- !private ["Se", "properties"]
+- !private ["Se", "pullRequest"]
+- !private ["Se", "pullRequestID"]
+- !private ["Se", "repoSlug"]
+- !private ["Se", "repository"]
+- !private ["Se", "repositoryId"]
+- !private ["Se", "reviewers"]
+- !private ["Se", "scmId"]
+- !private ["Se", "slug"]
+- !private ["Se", "state"]
+- !private ["Se", "tasks"]
+- !private ["Se", "text"]
+- !private ["Se", "title"]
+- !private ["Se", "toHash"]
+- !private ["Se", "toRef"]
+- !private ["Se", "type"]
+- !private ["Se", "updatedAt"]
+- !private ["Se", "user"]
+- !private ["Se", "version"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "action"]
+- !private ["SQ", "active"]
+- !private ["SQ", "activities"]
+- !private ["SQ", "approved"]
+- !private ["SQ", "author"]
+- !private ["SQ", "authorTimestamp"]
+- !private ["SQ", "closed"]
+- !private ["SQ", "comment"]
+- !private ["SQ", "commentAction"]
+- !private ["SQ", "comments"]
+- !private ["SQ", "commits"]
+- !private ["SQ", "committer"]
+- !private ["SQ", "committerTimestamp"]
+- !private ["SQ", "createdAt"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "displayId"]
+- !private ["SQ", "displayName"]
+- !private ["SQ", "emailAddress"]
+- !private ["SQ", "forkable"]
+- !private ["SQ", "fromHash"]
+- !private ["SQ", "fromRef"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isLocked"]
+- !private ["SQ", "isPublic"]
+- !private ["SQ", "issues"]
+- !private ["SQ", "key"]
+- !private ["SQ", "lastReviewedCommit"]
+- !private ["SQ", "latestCommit"]
+- !private ["SQ", "message"]
+- !private ["SQ", "metadata"]
+- !private ["SQ", "name"]
+- !private ["SQ", "open"]
+- !private ["SQ", "parents"]
+- !private ["SQ", "participants"]
+- !private ["SQ", "previousFromHash"]
+- !private ["SQ", "previousToHash"]
+- !private ["SQ", "project"]
+- !private ["SQ", "properties"]
+- !private ["SQ", "pullRequest"]
+- !private ["SQ", "pullRequestID"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "repoSlug"]
+- !private ["SQ", "repository"]
+- !private ["SQ", "repositoryId"]
+- !private ["SQ", "reviewers"]
+- !private ["SQ", "scmId"]
+- !private ["SQ", "slug"]
+- !private ["SQ", "state"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "tasks"]
+- !private ["SQ", "text"]
+- !private ["SQ", "title"]
+- !private ["SQ", "toHash"]
+- !private ["SQ", "toRef"]
+- !private ["SQ", "type"]
+- !private ["SQ", "updatedAt"]
+- !private ["SQ", "user"]
+- !private ["SQ", "version"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", "=="]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", "Int"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", "String"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", "__derived_struct_equals"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", "deinit"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", "init"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", "issues"]
+- ["6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV", "repositoryId"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["6Danger17BitBucketServerPRV11ParticipantV", "=="]
+- ["6Danger17BitBucketServerPRV11ParticipantV", "BitBucketServerUser"]
+- ["6Danger17BitBucketServerPRV11ParticipantV", "__derived_struct_equals"]
+- ["6Danger17BitBucketServerPRV11ParticipantV", "deinit"]
+- ["6Danger17BitBucketServerPRV11ParticipantV", "init"]
+- ["6Danger17BitBucketServerPRV11ParticipantV", "user"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "=="]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "BitBucketServerUser"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "Bool"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "String"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "__derived_struct_equals"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "approved"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "deinit"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "init"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "lastReviewedCommit"]
+- ["6Danger17BitBucketServerPRV8ReviewerV", "user"]
+depends-nominal:
+- "6Danger15BitBucketServerV"
+- "6Danger23BitBucketServerActivityV"
+- "6Danger22BitBucketServerCommentV"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV"
+- "6Danger21BitBucketServerCommitV"
+- "6Danger21BitBucketServerCommitV0bcdE6ParentV"
+- "6Danger23BitBucketServerMergeRefV"
+- "6Danger23BitBucketServerMetadataV"
+- "6Danger17BitBucketServerPRV"
+- "6Danger22BitBucketServerProjectV"
+- "6Danger19BitBucketServerRepoV"
+- "6Danger19BitBucketServerUserV"
+- "s9CodingKeyP"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- !private "6Danger15BitBucketServerV10CodingKeysO"
+- !private "6Danger17BitBucketServerPRV10CodingKeysO"
+- !private "6Danger19BitBucketServerRepoV10CodingKeysO"
+- !private "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- !private "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- !private "6Danger22BitBucketServerCommentV10CodingKeysO"
+- !private "6Danger22BitBucketServerProjectV10CodingKeysO"
+- !private "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- !private "6Danger15BitBucketServerV10CodingKeysO"
+- !private "6Danger17BitBucketServerPRV10CodingKeysO"
+- !private "6Danger19BitBucketServerRepoV10CodingKeysO"
+- !private "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- !private "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- !private "6Danger22BitBucketServerCommentV10CodingKeysO"
+- !private "6Danger22BitBucketServerProjectV10CodingKeysO"
+- !private "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger15BitBucketServerV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger19BitBucketServerRepoV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV0bcdE4TaskV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerProjectV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV10CodingKeysO"
+- "6Danger23BitBucketServerActivityV10CodingKeysO"
+- "6Danger17BitBucketServerPRV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV10CodingKeysO"
+- "6Danger22BitBucketServerCommentV0E6DetailV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "6Danger22BitBucketServerCommentV0E6DetailV15InnerPropertiesV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "6Danger17BitBucketServerPRV11ParticipantV"
+- "SY"
+- "6Danger17BitBucketServerPRV8ReviewerV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1f3d12126de927f2c5c9834fec584b0b"

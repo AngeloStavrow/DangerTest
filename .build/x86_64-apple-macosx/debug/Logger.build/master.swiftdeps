@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "0548120f6cac24330ca5907ecf2ab6f2"
+build_time: [1588677484, 250999000]
+inputs:
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/Logger/Sources/Logger/Logger.swift": [1588677479, 274753276]

@@ -1,0 +1,973 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GitLab"
+- "GitLabMetadata"
+- "GitLabMergeRequest"
+- "GitLabUser"
+provides-nominal:
+- "6Danger6GitLabV"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger14GitLabMetadataV"
+- "6Danger18GitLabMergeRequestV"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV"
+- "6Danger18GitLabMergeRequestV8PipelineV6StatusO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger10GitLabUserV"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger10GitLabUserV5StateO"
+provides-member:
+- ["6Danger6GitLabV", ""]
+- ["6Danger6GitLabV10CodingKeysO", ""]
+- ["6Danger14GitLabMetadataV", ""]
+- ["6Danger18GitLabMergeRequestV", ""]
+- ["6Danger18GitLabMergeRequestV5StateO", ""]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", ""]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", ""]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", ""]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", ""]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", ""]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", ""]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", ""]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", ""]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", ""]
+- ["6Danger18GitLabMergeRequestV8PipelineV", ""]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", ""]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", ""]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", ""]
+- ["6Danger10GitLabUserV", ""]
+- ["6Danger10GitLabUserV10CodingKeysO", ""]
+- ["6Danger10GitLabUserV5StateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "CodingKey"
+- "Date"
+- "Decodable"
+- "Equatable"
+- !private "FloatLiteralType"
+- "GitLab"
+- "GitLabMergeRequest"
+- "GitLabMetadata"
+- "GitLabUser"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["6Danger10GitLabUserV10CodingKeysO", "=="]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "=="]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "=="]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "=="]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "=="]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "=="]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "=="]
+- ["6Danger6GitLabV10CodingKeysO", "=="]
+- ["6Danger10GitLabUserV10CodingKeysO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "RawValue"]
+- ["6Danger6GitLabV10CodingKeysO", "RawValue"]
+- ["6Danger10GitLabUserV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger6GitLabV10CodingKeysO", "_Default_RawValue"]
+- !private ["6Danger10GitLabUserV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger18GitLabMergeRequestV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger6GitLabV10CodingKeysO", "_findStringSwitchCase"]
+- ["6Danger10GitLabUserV10CodingKeysO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "_rawHashValue"]
+- ["6Danger6GitLabV10CodingKeysO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "allowCollaboration"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "allowMaintainerToPush"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "approvalsBeforeMerge"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "assignee"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "author"]
+- ["6Danger10GitLabUserV10CodingKeysO", "avatarUrl"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "baseSha"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "canMerge"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "changesCount"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "closedAt"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "closedBy"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "createdAt"]
+- ["6Danger10GitLabUserV10CodingKeysO", "debugDescription"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "debugDescription"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "debugDescription"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "debugDescription"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "debugDescription"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "debugDescription"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "debugDescription"]
+- ["6Danger6GitLabV10CodingKeysO", "debugDescription"]
+- ["6Danger10GitLabUserV10CodingKeysO", "deinit"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "deinit"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "deinit"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "deinit"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "deinit"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "deinit"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "deinit"]
+- ["6Danger6GitLabV10CodingKeysO", "deinit"]
+- ["6Danger10GitLabUserV10CodingKeysO", "description"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "description"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "description"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "description"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "description"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "description"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "description"]
+- ["6Danger6GitLabV10CodingKeysO", "description"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "diffRefs"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "downvotes"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "dueDate"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "firstDeployedToProductionAt"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "forceRemoveSourceBranch"]
+- ["6Danger10GitLabUserV10CodingKeysO", "hash"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "hash"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "hash"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "hash"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "hash"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "hash"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "hash"]
+- ["6Danger6GitLabV10CodingKeysO", "hash"]
+- ["6Danger10GitLabUserV10CodingKeysO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "hashValue"]
+- ["6Danger6GitLabV10CodingKeysO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "headSha"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "humanTimeEstimate"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "humanTimeSpent"]
+- ["6Danger10GitLabUserV10CodingKeysO", "id"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "id"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "id"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "id"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "iid"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "iid"]
+- ["6Danger10GitLabUserV10CodingKeysO", "init"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "init"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "init"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "init"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "init"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "init"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "init"]
+- ["6Danger6GitLabV10CodingKeysO", "init"]
+- !private ["6Danger10GitLabUserV10CodingKeysO", "init"]
+- !private ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "init"]
+- !private ["6Danger18GitLabMergeRequestV10CodingKeysO", "init"]
+- !private ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "init"]
+- !private ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "init"]
+- !private ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "init"]
+- !private ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "init"]
+- !private ["6Danger6GitLabV10CodingKeysO", "init"]
+- ["6Danger10GitLabUserV10CodingKeysO", "intValue"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "intValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "intValue"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "intValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "intValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "intValue"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "intValue"]
+- ["6Danger6GitLabV10CodingKeysO", "intValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "labels"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "latestBuildFinishedAt"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "latestBuildStartedAt"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "mergeCommitSha"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "mergeOnPipelineSuccess"]
+- ["6Danger6GitLabV10CodingKeysO", "mergeRequest"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "mergedAt"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "mergedBy"]
+- ["6Danger6GitLabV10CodingKeysO", "metadata"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "milestone"]
+- ["6Danger10GitLabUserV10CodingKeysO", "name"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "pipeline"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "projectId"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "projectId"]
+- ["6Danger10GitLabUserV10CodingKeysO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "rawValue"]
+- ["6Danger6GitLabV10CodingKeysO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "ref"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "sha"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "sha"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "shouldRemoveSourceBranch"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "sourceBranch"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "sourceProjectId"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "startDate"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "startSha"]
+- ["6Danger10GitLabUserV10CodingKeysO", "state"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "state"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "state"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "status"]
+- ["6Danger10GitLabUserV10CodingKeysO", "stringValue"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO", "stringValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "stringValue"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO", "stringValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "stringValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "stringValue"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "stringValue"]
+- ["6Danger6GitLabV10CodingKeysO", "stringValue"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "subscribed"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "targetBranch"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "targetProjectId"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "timeEstimate"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "timeStats"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "title"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "title"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO", "totalTimeSpent"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "updatedAt"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "upvotes"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "userMergeData"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "userNotesCount"]
+- ["6Danger10GitLabUserV10CodingKeysO", "username"]
+- ["6Danger10GitLabUserV10CodingKeysO", "webUrl"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "webUrl"]
+- ["6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO", "webUrl"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO", "webUrl"]
+- ["6Danger18GitLabMergeRequestV10CodingKeysO", "workInProgress"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- ["Se", "RawValue"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "allowCollaboration"]
+- !private ["Se", "allowMaintainerToPush"]
+- !private ["Se", "approvalsBeforeMerge"]
+- !private ["Se", "assignee"]
+- !private ["Se", "author"]
+- !private ["Se", "avatarUrl"]
+- !private ["Se", "baseSha"]
+- !private ["Se", "canMerge"]
+- !private ["Se", "changesCount"]
+- !private ["Se", "closedAt"]
+- !private ["Se", "closedBy"]
+- !private ["Se", "createdAt"]
+- !private ["Se", "description"]
+- !private ["Se", "diffRefs"]
+- !private ["Se", "downvotes"]
+- !private ["Se", "dueDate"]
+- !private ["Se", "firstDeployedToProductionAt"]
+- !private ["Se", "forceRemoveSourceBranch"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "headSha"]
+- !private ["Se", "humanTimeEstimate"]
+- !private ["Se", "humanTimeSpent"]
+- !private ["Se", "id"]
+- !private ["Se", "iid"]
+- ["Se", "init"]
+- !private ["Se", "labels"]
+- !private ["Se", "latestBuildFinishedAt"]
+- !private ["Se", "latestBuildStartedAt"]
+- !private ["Se", "mergeCommitSha"]
+- !private ["Se", "mergeOnPipelineSuccess"]
+- !private ["Se", "mergeRequest"]
+- !private ["Se", "mergedAt"]
+- !private ["Se", "mergedBy"]
+- !private ["Se", "metadata"]
+- !private ["Se", "milestone"]
+- !private ["Se", "name"]
+- !private ["Se", "pipeline"]
+- !private ["Se", "projectId"]
+- !private ["Se", "pullRequestID"]
+- ["Se", "rawValue"]
+- !private ["Se", "ref"]
+- !private ["Se", "repoSlug"]
+- !private ["Se", "sha"]
+- !private ["Se", "shouldRemoveSourceBranch"]
+- !private ["Se", "sourceBranch"]
+- !private ["Se", "sourceProjectId"]
+- !private ["Se", "startDate"]
+- !private ["Se", "startSha"]
+- !private ["Se", "state"]
+- !private ["Se", "status"]
+- !private ["Se", "subscribed"]
+- !private ["Se", "targetBranch"]
+- !private ["Se", "targetProjectId"]
+- !private ["Se", "timeEstimate"]
+- !private ["Se", "timeStats"]
+- !private ["Se", "title"]
+- !private ["Se", "totalTimeSpent"]
+- !private ["Se", "updatedAt"]
+- !private ["Se", "upvotes"]
+- !private ["Se", "userMergeData"]
+- !private ["Se", "userNotesCount"]
+- !private ["Se", "username"]
+- !private ["Se", "webUrl"]
+- !private ["Se", "workInProgress"]
+- !private ["s7DecoderP", "container"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "=="]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "CodingKey"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "CodingKeys"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "String"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "__derived_struct_equals"]
+- !private ["6Danger18GitLabMergeRequestV8DiffRefsV", "_findStringSwitchCase"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "baseSha"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "deinit"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "headSha"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "init"]
+- ["6Danger18GitLabMergeRequestV8DiffRefsV", "startSha"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "allowCollaboration"]
+- !private ["SQ", "allowMaintainerToPush"]
+- !private ["SQ", "approvalsBeforeMerge"]
+- !private ["SQ", "assignee"]
+- !private ["SQ", "author"]
+- !private ["SQ", "avatarUrl"]
+- !private ["SQ", "baseSha"]
+- !private ["SQ", "canMerge"]
+- !private ["SQ", "changesCount"]
+- !private ["SQ", "closedAt"]
+- !private ["SQ", "closedBy"]
+- !private ["SQ", "createdAt"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "diffRefs"]
+- !private ["SQ", "downvotes"]
+- !private ["SQ", "dueDate"]
+- !private ["SQ", "firstDeployedToProductionAt"]
+- !private ["SQ", "forceRemoveSourceBranch"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "headSha"]
+- !private ["SQ", "humanTimeEstimate"]
+- !private ["SQ", "humanTimeSpent"]
+- !private ["SQ", "id"]
+- !private ["SQ", "iid"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "labels"]
+- !private ["SQ", "latestBuildFinishedAt"]
+- !private ["SQ", "latestBuildStartedAt"]
+- !private ["SQ", "mergeCommitSha"]
+- !private ["SQ", "mergeOnPipelineSuccess"]
+- !private ["SQ", "mergedAt"]
+- !private ["SQ", "mergedBy"]
+- !private ["SQ", "milestone"]
+- !private ["SQ", "name"]
+- !private ["SQ", "pipeline"]
+- !private ["SQ", "projectId"]
+- !private ["SQ", "pullRequestID"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "ref"]
+- !private ["SQ", "repoSlug"]
+- !private ["SQ", "sha"]
+- !private ["SQ", "shouldRemoveSourceBranch"]
+- !private ["SQ", "sourceBranch"]
+- !private ["SQ", "sourceProjectId"]
+- !private ["SQ", "startDate"]
+- !private ["SQ", "startSha"]
+- !private ["SQ", "state"]
+- !private ["SQ", "status"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscribed"]
+- !private ["SQ", "targetBranch"]
+- !private ["SQ", "targetProjectId"]
+- !private ["SQ", "timeEstimate"]
+- !private ["SQ", "timeStats"]
+- !private ["SQ", "title"]
+- !private ["SQ", "totalTimeSpent"]
+- !private ["SQ", "updatedAt"]
+- !private ["SQ", "upvotes"]
+- !private ["SQ", "userMergeData"]
+- !private ["SQ", "userNotesCount"]
+- !private ["SQ", "username"]
+- !private ["SQ", "webUrl"]
+- !private ["SQ", "workInProgress"]
+- ["6Danger6GitLabV", "CodingKey"]
+- ["6Danger6GitLabV", "CodingKeys"]
+- ["6Danger6GitLabV", "GitLabMergeRequest"]
+- ["6Danger6GitLabV", "GitLabMetadata"]
+- ["6Danger6GitLabV", "String"]
+- !private ["6Danger6GitLabV", "_findStringSwitchCase"]
+- ["6Danger6GitLabV", "deinit"]
+- ["6Danger6GitLabV", "init"]
+- ["6Danger6GitLabV", "mergeRequest"]
+- ["6Danger6GitLabV", "metadata"]
+- ["6Danger18GitLabMergeRequestV", "=="]
+- ["6Danger18GitLabMergeRequestV", "Bool"]
+- ["6Danger18GitLabMergeRequestV", "CodingKey"]
+- ["6Danger18GitLabMergeRequestV", "CodingKeys"]
+- ["6Danger18GitLabMergeRequestV", "Date"]
+- ["6Danger18GitLabMergeRequestV", "Decodable"]
+- ["6Danger18GitLabMergeRequestV", "DiffRefs"]
+- ["6Danger18GitLabMergeRequestV", "Equatable"]
+- ["6Danger18GitLabMergeRequestV", "GitLabUser"]
+- ["6Danger18GitLabMergeRequestV", "Int"]
+- ["6Danger18GitLabMergeRequestV", "Milestone"]
+- ["6Danger18GitLabMergeRequestV", "Pipeline"]
+- ["6Danger18GitLabMergeRequestV", "State"]
+- ["6Danger18GitLabMergeRequestV", "String"]
+- ["6Danger18GitLabMergeRequestV", "TimeStats"]
+- ["6Danger18GitLabMergeRequestV", "UserMergeData"]
+- ["6Danger18GitLabMergeRequestV", "__derived_struct_equals"]
+- !private ["6Danger18GitLabMergeRequestV", "_findStringSwitchCase"]
+- ["6Danger18GitLabMergeRequestV", "allowCollaboration"]
+- ["6Danger18GitLabMergeRequestV", "allowMaintainerToPush"]
+- ["6Danger18GitLabMergeRequestV", "approvalsBeforeMerge"]
+- ["6Danger18GitLabMergeRequestV", "assignee"]
+- ["6Danger18GitLabMergeRequestV", "author"]
+- ["6Danger18GitLabMergeRequestV", "changesCount"]
+- ["6Danger18GitLabMergeRequestV", "closedAt"]
+- ["6Danger18GitLabMergeRequestV", "closedBy"]
+- ["6Danger18GitLabMergeRequestV", "deinit"]
+- ["6Danger18GitLabMergeRequestV", "description"]
+- ["6Danger18GitLabMergeRequestV", "diffRefs"]
+- ["6Danger18GitLabMergeRequestV", "downvotes"]
+- ["6Danger18GitLabMergeRequestV", "firstDeployedToProductionAt"]
+- ["6Danger18GitLabMergeRequestV", "forceRemoveSourceBranch"]
+- ["6Danger18GitLabMergeRequestV", "id"]
+- ["6Danger18GitLabMergeRequestV", "iid"]
+- ["6Danger18GitLabMergeRequestV", "init"]
+- ["6Danger18GitLabMergeRequestV", "labels"]
+- ["6Danger18GitLabMergeRequestV", "latestBuildFinishedAt"]
+- ["6Danger18GitLabMergeRequestV", "latestBuildStartedAt"]
+- ["6Danger18GitLabMergeRequestV", "mergeCommitSha"]
+- ["6Danger18GitLabMergeRequestV", "mergeOnPipelineSuccess"]
+- ["6Danger18GitLabMergeRequestV", "mergedAt"]
+- ["6Danger18GitLabMergeRequestV", "mergedBy"]
+- ["6Danger18GitLabMergeRequestV", "milestone"]
+- ["6Danger18GitLabMergeRequestV", "pipeline"]
+- ["6Danger18GitLabMergeRequestV", "projectId"]
+- ["6Danger18GitLabMergeRequestV", "sha"]
+- ["6Danger18GitLabMergeRequestV", "shouldRemoveSourceBranch"]
+- ["6Danger18GitLabMergeRequestV", "sourceBranch"]
+- ["6Danger18GitLabMergeRequestV", "sourceProjectId"]
+- ["6Danger18GitLabMergeRequestV", "state"]
+- ["6Danger18GitLabMergeRequestV", "subscribed"]
+- ["6Danger18GitLabMergeRequestV", "targetBranch"]
+- ["6Danger18GitLabMergeRequestV", "targetProjectId"]
+- ["6Danger18GitLabMergeRequestV", "timeStats"]
+- ["6Danger18GitLabMergeRequestV", "title"]
+- ["6Danger18GitLabMergeRequestV", "upvotes"]
+- ["6Danger18GitLabMergeRequestV", "userCanMerge"]
+- ["6Danger18GitLabMergeRequestV", "userMergeData"]
+- ["6Danger18GitLabMergeRequestV", "userNotesCount"]
+- ["6Danger18GitLabMergeRequestV", "webUrl"]
+- ["6Danger18GitLabMergeRequestV", "workInProgress"]
+- ["6Danger14GitLabMetadataV", "=="]
+- ["6Danger14GitLabMetadataV", "String"]
+- ["6Danger14GitLabMetadataV", "__derived_struct_equals"]
+- ["6Danger14GitLabMetadataV", "deinit"]
+- ["6Danger14GitLabMetadataV", "init"]
+- ["6Danger14GitLabMetadataV", "pullRequestID"]
+- ["6Danger14GitLabMetadataV", "repoSlug"]
+- ["6Danger10GitLabUserV", "=="]
+- ["6Danger10GitLabUserV", "CodingKey"]
+- ["6Danger10GitLabUserV", "CodingKeys"]
+- ["6Danger10GitLabUserV", "Decodable"]
+- ["6Danger10GitLabUserV", "Int"]
+- ["6Danger10GitLabUserV", "State"]
+- ["6Danger10GitLabUserV", "String"]
+- ["6Danger10GitLabUserV", "__derived_struct_equals"]
+- !private ["6Danger10GitLabUserV", "_findStringSwitchCase"]
+- ["6Danger10GitLabUserV", "avatarUrl"]
+- ["6Danger10GitLabUserV", "deinit"]
+- ["6Danger10GitLabUserV", "id"]
+- ["6Danger10GitLabUserV", "init"]
+- ["6Danger10GitLabUserV", "name"]
+- ["6Danger10GitLabUserV", "state"]
+- ["6Danger10GitLabUserV", "username"]
+- ["6Danger10GitLabUserV", "webUrl"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "=="]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "CodingKey"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "CodingKeys"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "Date"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "Decodable"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "Int"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "State"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "String"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "__derived_struct_equals"]
+- !private ["6Danger18GitLabMergeRequestV9MilestoneV", "_findStringSwitchCase"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "createdAt"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "deinit"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "description"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "dueDate"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "id"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "iid"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "init"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "projectId"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "startDate"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "state"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "title"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "updatedAt"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV", "webUrl"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "=="]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "CodingKey"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "CodingKeys"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "Decodable"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "Int"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "Status"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "String"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "__derived_struct_equals"]
+- !private ["6Danger18GitLabMergeRequestV8PipelineV", "_findStringSwitchCase"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "deinit"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "id"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "init"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "ref"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "sha"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "status"]
+- ["6Danger18GitLabMergeRequestV8PipelineV", "webUrl"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["6Danger10GitLabUserV5StateO", "=="]
+- ["6Danger18GitLabMergeRequestV5StateO", "=="]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "=="]
+- ["6Danger10GitLabUserV5StateO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV5StateO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "RawValue"]
+- ["6Danger10GitLabUserV5StateO", "_Default_RawValue"]
+- ["6Danger18GitLabMergeRequestV5StateO", "_Default_RawValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "_Default_RawValue"]
+- !private ["6Danger10GitLabUserV5StateO", "_findStringSwitchCase"]
+- !private ["6Danger18GitLabMergeRequestV5StateO", "_findStringSwitchCase"]
+- !private ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "_findStringSwitchCase"]
+- ["6Danger10GitLabUserV5StateO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV5StateO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "_rawHashValue"]
+- ["6Danger10GitLabUserV5StateO", "active"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "active"]
+- ["6Danger10GitLabUserV5StateO", "blocked"]
+- ["6Danger18GitLabMergeRequestV5StateO", "closed"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "closed"]
+- ["6Danger10GitLabUserV5StateO", "deinit"]
+- ["6Danger18GitLabMergeRequestV5StateO", "deinit"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "deinit"]
+- ["6Danger10GitLabUserV5StateO", "hash"]
+- ["6Danger18GitLabMergeRequestV5StateO", "hash"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "hash"]
+- ["6Danger10GitLabUserV5StateO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV5StateO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "hashValue"]
+- ["6Danger10GitLabUserV5StateO", "init"]
+- ["6Danger18GitLabMergeRequestV5StateO", "init"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "init"]
+- ["6Danger18GitLabMergeRequestV5StateO", "locked"]
+- ["6Danger18GitLabMergeRequestV5StateO", "merged"]
+- ["6Danger18GitLabMergeRequestV5StateO", "open"]
+- ["6Danger10GitLabUserV5StateO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV5StateO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV9MilestoneV5StateO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "=="]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "RawValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "_Default_RawValue"]
+- !private ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "_findStringSwitchCase"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "_rawHashValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "canceled"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "deinit"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "failed"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "hash"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "hashValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "init"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "pending"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "rawValue"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "running"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "skipped"]
+- ["6Danger18GitLabMergeRequestV8PipelineV6StatusO", "success"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "=="]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "CodingKey"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "CodingKeys"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "Int"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "String"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "__derived_struct_equals"]
+- !private ["6Danger18GitLabMergeRequestV9TimeStatsV", "_findStringSwitchCase"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "deinit"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "humanTimeEstimate"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "humanTimeSpent"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "init"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "timeEstimate"]
+- ["6Danger18GitLabMergeRequestV9TimeStatsV", "totalTimeSpent"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "=="]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "Bool"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "CodingKey"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "CodingKeys"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "String"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "__derived_struct_equals"]
+- !private ["6Danger18GitLabMergeRequestV04UserD4DataV", "_findStringSwitchCase"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "canMerge"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "deinit"]
+- ["6Danger18GitLabMergeRequestV04UserD4DataV", "init"]
+depends-nominal:
+- "s9CodingKeyP"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- !private "6Danger10GitLabUserV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- !private "6Danger6GitLabV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- !private "6Danger10GitLabUserV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- !private "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- !private "6Danger6GitLabV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV04UserD4DataV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8DiffRefsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger6GitLabV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger10GitLabUserV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV8PipelineV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV9MilestoneV10CodingKeysO"
+- "6Danger18GitLabMergeRequestV10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "6Danger18GitLabMergeRequestV8DiffRefsV"
+- "SQ"
+- "6Danger6GitLabV"
+- "6Danger18GitLabMergeRequestV"
+- "6Danger14GitLabMetadataV"
+- "6Danger10GitLabUserV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "6Danger18GitLabMergeRequestV9MilestoneV"
+- "6Danger18GitLabMergeRequestV8PipelineV"
+- "SY"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- !private "6Danger10GitLabUserV5StateO"
+- !private "6Danger18GitLabMergeRequestV5StateO"
+- !private "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger10GitLabUserV5StateO"
+- "6Danger18GitLabMergeRequestV5StateO"
+- "6Danger18GitLabMergeRequestV9MilestoneV5StateO"
+- "6Danger18GitLabMergeRequestV8PipelineV6StatusO"
+- "6Danger18GitLabMergeRequestV9TimeStatsV"
+- "6Danger18GitLabMergeRequestV04UserD4DataV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a251206c5863bc523d2a27f9b013da84"

@@ -1,0 +1,288 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "resetDangerResults"
+- "fails"
+- "warnings"
+- "messages"
+- "markdowns"
+- "warn"
+- "warn"
+- "fail"
+- "fail"
+- "message"
+- "message"
+- "markdown"
+- "markdown"
+- "suggestion"
+provides-nominal:
+provides-member:
+- ["6Danger0A3DSLV", ""]
+- ["6Danger0A3DSLV", "fails"]
+- ["6Danger0A3DSLV", "warnings"]
+- ["6Danger0A3DSLV", "messages"]
+- ["6Danger0A3DSLV", "markdowns"]
+- ["6Danger0A3DSLV", "warn"]
+- ["6Danger0A3DSLV", "warn"]
+- ["6Danger0A3DSLV", "fail"]
+- ["6Danger0A3DSLV", "fail"]
+- ["6Danger0A3DSLV", "message"]
+- ["6Danger0A3DSLV", "message"]
+- ["6Danger0A3DSLV", "markdown"]
+- ["6Danger0A3DSLV", "markdown"]
+- ["6Danger0A3DSLV", "suggestion"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "DangerDSL"
+- "DangerResults"
+- "DangerRunner"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "ProcessInfo"
+- "String"
+- !private "StringLiteralType"
+- "Violation"
+- !private "dangerRunner"
+- "fail"
+- "fails"
+- !private "globalResults"
+- "markdown"
+- "markdowns"
+- "message"
+- "messages"
+- "resetDangerResults"
+- "suggestion"
+- !private "testingResults"
+- "warn"
+- "warnings"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", "append"]
+- !private ["SK", "hasSuffix"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "hasSuffix"]
+- !private ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "processName"]
+- !private ["Sl", "append"]
+- !private ["Sl", "hasSuffix"]
+- !private ["SL", "hasSuffix"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "processName"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "hasSuffix"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "hasSuffix"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "processName"]
+- ["6Danger0A3DSLV", "Int"]
+- ["6Danger0A3DSLV", "String"]
+- ["6Danger0A3DSLV", "Violation"]
+- !private ["6Danger0A3DSLV", "dangerRunner"]
+- ["6Danger0A3DSLV", "fail"]
+- ["6Danger0A3DSLV", "fails"]
+- !private ["6Danger0A3DSLV", "globalResults"]
+- ["6Danger0A3DSLV", "markdown"]
+- ["6Danger0A3DSLV", "markdowns"]
+- ["6Danger0A3DSLV", "message"]
+- ["6Danger0A3DSLV", "messages"]
+- ["6Danger0A3DSLV", "suggestion"]
+- !private ["6Danger0A3DSLV", "supportsSuggestions"]
+- ["6Danger0A3DSLV", "warn"]
+- ["6Danger0A3DSLV", "warnings"]
+- !private ["6Danger0A7ResultsV", "fails"]
+- ["6Danger0A7ResultsV", "init"]
+- !private ["6Danger0A7ResultsV", "markdowns"]
+- !private ["6Danger0A7ResultsV", "messages"]
+- !private ["6Danger0A7ResultsV", "warnings"]
+- !private ["6Danger0A6RunnerC", "dsl"]
+- !private ["6Danger0A6RunnerC", "results"]
+- !private ["6Danger0A6RunnerC", "shared"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "Violation"]
+- !private ["Se", "append"]
+- !private ["Se", "dangerRunner"]
+- !private ["Se", "fail"]
+- !private ["Se", "globalResults"]
+- !private ["Se", "hasSuffix"]
+- !private ["Se", "markdown"]
+- !private ["Se", "message"]
+- !private ["Se", "suggestion"]
+- !private ["Se", "supportsSuggestions"]
+- !private ["Se", "warn"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "fails"]
+- !private ["SE", "hasSuffix"]
+- ["SE", "init"]
+- !private ["SE", "markdowns"]
+- !private ["SE", "messages"]
+- !private ["SE", "warnings"]
+- !private ["SQ", "append"]
+- !private ["SQ", "hasSuffix"]
+- !private ["SQ", "processInfo"]
+- !private ["SQ", "processName"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasSuffix"]
+- !private ["s26ExpressibleByStringLiteralP", "hasSuffix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasSuffix"]
+- !private ["SH", "append"]
+- !private ["SH", "hasSuffix"]
+- !private ["SH", "processInfo"]
+- !private ["SH", "processName"]
+- !private ["s25LosslessStringConvertibleP", "hasSuffix"]
+- !private ["s10MirrorPathP", "hasSuffix"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["So8NSCodingP", "hasSuffix"]
+- !private ["So9NSCopyingP", "hasSuffix"]
+- !private ["So21NSItemProviderReadingP", "hasSuffix"]
+- !private ["So21NSItemProviderWritingP", "hasSuffix"]
+- !private ["So16NSMutableCopyingP", "hasSuffix"]
+- !private ["So8NSObjectC", "hasSuffix"]
+- !private ["So8NSObjectC", "processInfo"]
+- !private ["So8NSObjectC", "processName"]
+- !private ["So8NSObjectP", "hasSuffix"]
+- !private ["So8NSObjectP", "processInfo"]
+- !private ["So8NSObjectP", "processName"]
+- !private ["So14NSSecureCodingP", "hasSuffix"]
+- !private ["So8NSStringC", "hasSuffix"]
+- !private ["So13NSProcessInfoC", "processInfo"]
+- !private ["So13NSProcessInfoC", "processName"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["Sm", "hasSuffix"]
+- !private ["ST", "append"]
+- !private ["ST", "hasSuffix"]
+- !private ["SS", "hasSuffix"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "hasSuffix"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "hasSuffix"]
+- !private ["s20TextOutputStreamableP", "hasSuffix"]
+- !private ["6Danger9ViolationV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasSuffix"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasSuffix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasSuffix"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "hasSuffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasSuffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasSuffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasSuffix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processName"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "hasSuffix"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "6Danger0A3DSLV"
+- "6Danger0A7ResultsV"
+- !private "6Danger0A6RunnerC"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So13NSProcessInfoC"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6Danger9ViolationV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "549f087aea5694267654b9abb6031afc"

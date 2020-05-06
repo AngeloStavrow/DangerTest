@@ -1,0 +1,4 @@
+module Logger {
+    header "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/Logger-Swift.h"
+    requires objc
+}

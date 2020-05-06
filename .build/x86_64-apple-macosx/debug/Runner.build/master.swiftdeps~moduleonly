@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "31f802d7b562c4fc7eff5df522dab4c7"
+build_time: [1588678268, 938700000]
+inputs:
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Runner/Commands/Edit.swift": [1588677480, 942973136]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Runner/Commands/RunDangerJS.swift": [1588677480, 943185155]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Runner/Commands/Runner.swift": [1588677480, 943417635]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Runner/MarathonScriptManager.swift": [1588677480, 943662731]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Runner/Script+Imports.swift": [1588677480, 943830647]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Runner/main.swift": [1588677480, 944025080]

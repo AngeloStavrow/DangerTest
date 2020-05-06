@@ -1,0 +1,448 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CreateError"
+- "CreateTask"
+provides-nominal:
+- "12MarathonCore11CreateErrorO"
+- "12MarathonCore10CreateTaskC"
+provides-member:
+- ["12MarathonCore11CreateErrorO", ""]
+- ["12MarathonCore10CreateTaskC", ""]
+provides-dynamic-lookup:
+- "execute"
+- "makeScriptContent"
+depends-top-level:
+- !private "!"
+- "=="
+- !private "BooleanLiteralType"
+- "CreateError"
+- "CreateTask"
+- !private "EditTask"
+- "Executable"
+- !private "File"
+- !private "FileSystem"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PrintableError"
+- "String"
+- !private "StringLiteralType"
+- "Task"
+- !private "UnicodeScalarType"
+- !private "perform"
+depends-member:
+- !private ["Sa", "element"]
+- !private ["Sa", "first"]
+- !private ["SK", "asScriptPath"]
+- !private ["SK", "data"]
+- !private ["SK", "element"]
+- !private ["SK", "first"]
+- !private ["SK", "hasPrefix"]
+- !private ["s7CVarArgP", "asScriptPath"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "element"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "hasPrefix"]
+- !private ["Sl", "asScriptPath"]
+- !private ["Sl", "data"]
+- !private ["Sl", "element"]
+- !private ["Sl", "first"]
+- !private ["Sl", "hasPrefix"]
+- !private ["SL", "asScriptPath"]
+- !private ["SL", "data"]
+- !private ["SL", "hasPrefix"]
+- !private ["10Foundation15ContiguousBytesP", "element"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["12MarathonCore11CreateErrorO", "=="]
+- ["12MarathonCore11CreateErrorO", "String"]
+- ["12MarathonCore11CreateErrorO", "_code"]
+- ["12MarathonCore11CreateErrorO", "_domain"]
+- ["12MarathonCore11CreateErrorO", "_getEmbeddedNSError"]
+- ["12MarathonCore11CreateErrorO", "_userInfo"]
+- ["12MarathonCore11CreateErrorO", "deinit"]
+- ["12MarathonCore11CreateErrorO", "description"]
+- ["12MarathonCore11CreateErrorO", "failedToCreateFile"]
+- ["12MarathonCore11CreateErrorO", "hints"]
+- ["12MarathonCore11CreateErrorO", "message"]
+- ["12MarathonCore11CreateErrorO", "missingName"]
+- ["12MarathonCore10CreateTaskC", "CreateError"]
+- !private ["12MarathonCore10CreateTaskC", "EditTask"]
+- !private ["12MarathonCore10CreateTaskC", "Error"]
+- !private ["12MarathonCore10CreateTaskC", "File"]
+- !private ["12MarathonCore10CreateTaskC", "FileSystem"]
+- ["12MarathonCore10CreateTaskC", "String"]
+- !private ["12MarathonCore10CreateTaskC", "arguments"]
+- !private ["12MarathonCore10CreateTaskC", "argumentsContainNoOpenFlag"]
+- ["12MarathonCore10CreateTaskC", "deinit"]
+- ["12MarathonCore10CreateTaskC", "execute"]
+- !private ["12MarathonCore10CreateTaskC", "folder"]
+- ["12MarathonCore10CreateTaskC", "init"]
+- !private ["12MarathonCore10CreateTaskC", "makeScriptContent"]
+- !private ["12MarathonCore10CreateTaskC", "packageManager"]
+- !private ["12MarathonCore10CreateTaskC", "perform"]
+- !private ["12MarathonCore10CreateTaskC", "printer"]
+- !private ["12MarathonCore10CreateTaskC", "scriptManager"]
+- !private ["s28CustomDebugStringConvertibleP", "asScriptPath"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "element"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- !private ["s17CustomReflectableP", "asScriptPath"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "element"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "hasPrefix"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "asScriptPath"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "element"]
+- ["s23CustomStringConvertibleP", "failedToCreateFile"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "hasPrefix"]
+- ["s23CustomStringConvertibleP", "hints"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "message"]
+- ["s23CustomStringConvertibleP", "missingName"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation12DataProtocolP", "element"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "asScriptPath"]
+- !private ["Se", "data"]
+- !private ["Se", "element"]
+- !private ["Se", "first"]
+- !private ["Se", "hasPrefix"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["12MarathonCore8EditTaskC", "deinit"]
+- !private ["12MarathonCore8EditTaskC", "execute"]
+- !private ["12MarathonCore8EditTaskC", "init"]
+- !private ["SE", "asScriptPath"]
+- !private ["SE", "data"]
+- !private ["SE", "element"]
+- !private ["SE", "first"]
+- !private ["SE", "hasPrefix"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "asScriptPath"]
+- !private ["SQ", "data"]
+- ["SQ", "description"]
+- !private ["SQ", "element"]
+- ["SQ", "failedToCreateFile"]
+- !private ["SQ", "first"]
+- !private ["SQ", "hasPrefix"]
+- ["SQ", "hints"]
+- !private ["SQ", "init"]
+- ["SQ", "message"]
+- ["SQ", "missingName"]
+- !private ["SQ", "path"]
+- !private ["SQ", "utf8"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "failedToCreateFile"]
+- ["s5ErrorP", "hints"]
+- ["s5ErrorP", "message"]
+- ["s5ErrorP", "missingName"]
+- !private ["12MarathonCore10ExecutableP", "EditTask"]
+- !private ["12MarathonCore10ExecutableP", "Error"]
+- !private ["12MarathonCore10ExecutableP", "File"]
+- !private ["12MarathonCore10ExecutableP", "FileSystem"]
+- ["12MarathonCore10ExecutableP", ""]
+- !private ["12MarathonCore10ExecutableP", "arguments"]
+- !private ["12MarathonCore10ExecutableP", "argumentsContainNoOpenFlag"]
+- ["12MarathonCore10ExecutableP", "execute"]
+- !private ["12MarathonCore10ExecutableP", "folder"]
+- !private ["12MarathonCore10ExecutableP", "init"]
+- !private ["12MarathonCore10ExecutableP", "makeScriptContent"]
+- !private ["12MarathonCore10ExecutableP", "packageManager"]
+- !private ["12MarathonCore10ExecutableP", "perform"]
+- !private ["12MarathonCore10ExecutableP", "printer"]
+- !private ["12MarathonCore10ExecutableP", "scriptManager"]
+- !private ["s25ExpressibleByArrayLiteralP", "element"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "asScriptPath"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "asScriptPath"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasPrefix"]
+- !private ["s26ExpressibleByStringLiteralP", "asScriptPath"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "asScriptPath"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["5Files4FileC", "init"]
+- !private ["5Files4FileC", "path"]
+- !private ["5Files10FileSystemC", "createFile"]
+- !private ["5Files10FileSystemC", "init"]
+- !private ["5Files18FileSystemIterableP", "init"]
+- !private ["5Files18FileSystemIterableP", "path"]
+- !private ["SH", "asScriptPath"]
+- !private ["SH", "data"]
+- !private ["SH", "element"]
+- !private ["SH", "first"]
+- !private ["SH", "hasPrefix"]
+- !private ["SH", "utf8"]
+- !private ["5Files10FileSystemC4ItemC", "path"]
+- !private ["s25LosslessStringConvertibleP", "asScriptPath"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- !private ["s10MirrorPathP", "asScriptPath"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "hasPrefix"]
+- !private ["SM", "element"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "element"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", "asScriptPath"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "hasPrefix"]
+- !private ["So9NSCopyingP", "asScriptPath"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "hasPrefix"]
+- !private ["So21NSItemProviderReadingP", "asScriptPath"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderReadingP", "hasPrefix"]
+- !private ["So21NSItemProviderWritingP", "asScriptPath"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So21NSItemProviderWritingP", "hasPrefix"]
+- !private ["So16NSMutableCopyingP", "asScriptPath"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "hasPrefix"]
+- !private ["So8NSObjectC", "asScriptPath"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "hasPrefix"]
+- !private ["So8NSObjectP", "asScriptPath"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "hasPrefix"]
+- !private ["So14NSSecureCodingP", "asScriptPath"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "hasPrefix"]
+- !private ["So8NSStringC", "asScriptPath"]
+- !private ["So8NSStringC", "data"]
+- !private ["So8NSStringC", "hasPrefix"]
+- ["12MarathonCore14PrintableErrorP", "=="]
+- ["12MarathonCore14PrintableErrorP", ""]
+- ["12MarathonCore14PrintableErrorP", "_code"]
+- ["12MarathonCore14PrintableErrorP", "_domain"]
+- ["12MarathonCore14PrintableErrorP", "_getEmbeddedNSError"]
+- ["12MarathonCore14PrintableErrorP", "_userInfo"]
+- ["12MarathonCore14PrintableErrorP", "description"]
+- ["12MarathonCore14PrintableErrorP", "failedToCreateFile"]
+- ["12MarathonCore14PrintableErrorP", "hints"]
+- ["12MarathonCore14PrintableErrorP", "message"]
+- ["12MarathonCore14PrintableErrorP", "missingName"]
+- !private ["12MarathonCore7PrinterC", "output"]
+- !private ["Sk", "element"]
+- !private ["Sk", "first"]
+- !private ["Sm", "asScriptPath"]
+- !private ["Sm", "data"]
+- !private ["Sm", "element"]
+- !private ["Sm", "first"]
+- !private ["Sm", "hasPrefix"]
+- !private ["SY", "utf8"]
+- !private ["12MarathonCore6ScriptC", "setupForEdit"]
+- !private ["12MarathonCore6ScriptC", "watch"]
+- !private ["12MarathonCore13ScriptManagerC", "script"]
+- !private ["ST", "asScriptPath"]
+- !private ["ST", "data"]
+- !private ["ST", "element"]
+- !private ["ST", "first"]
+- !private ["ST", "hasPrefix"]
+- !private ["SS", "asScriptPath"]
+- !private ["SS", "data"]
+- !private ["SS", "hasPrefix"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "asScriptPath"]
+- !private ["Sy", "data"]
+- !private ["Sy", "hasPrefix"]
+- ["12MarathonCore4TaskC", "CreateError"]
+- !private ["12MarathonCore4TaskC", "EditTask"]
+- !private ["12MarathonCore4TaskC", "Error"]
+- !private ["12MarathonCore4TaskC", "File"]
+- !private ["12MarathonCore4TaskC", "FileSystem"]
+- ["12MarathonCore4TaskC", "String"]
+- ["12MarathonCore4TaskC", ""]
+- !private ["12MarathonCore4TaskC", "arguments"]
+- !private ["12MarathonCore4TaskC", "argumentsContainNoOpenFlag"]
+- ["12MarathonCore4TaskC", "execute"]
+- !private ["12MarathonCore4TaskC", "folder"]
+- ["12MarathonCore4TaskC", "init"]
+- ["12MarathonCore4TaskC", "makeScriptContent"]
+- !private ["12MarathonCore4TaskC", "packageManager"]
+- !private ["12MarathonCore4TaskC", "perform"]
+- !private ["12MarathonCore4TaskC", "printer"]
+- !private ["12MarathonCore4TaskC", "scriptManager"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "asScriptPath"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "hasPrefix"]
+- !private ["s20TextOutputStreamableP", "asScriptPath"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "hasPrefix"]
+- !private ["s14_ArrayProtocolP", "element"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asScriptPath"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasPrefix"]
+- !private ["s24_DestructorSafeContainerP", "element"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "asScriptPath"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "asScriptPath"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "asScriptPath"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s19_HasContiguousBytesP", "asScriptPath"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "element"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "hasPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asScriptPath"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "element"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asScriptPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasPrefix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "asScriptPath"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "asScriptPath"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "element"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "12MarathonCore11CreateErrorO"
+- "12MarathonCore10CreateTaskC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "12MarathonCore8EditTaskC"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- "s5ErrorP"
+- "12MarathonCore10ExecutableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Files4FileC"
+- !private "5Files10FileSystemC"
+- !private "5Files18FileSystemIterableP"
+- !private "SH"
+- !private "5Files10FileSystemC4ItemC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "12MarathonCore14PrintableErrorP"
+- !private "12MarathonCore7PrinterC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "12MarathonCore6ScriptC"
+- !private "12MarathonCore13ScriptManagerC"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "12MarathonCore4TaskC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d64ecaeb8adfb04face66e296a41f340"

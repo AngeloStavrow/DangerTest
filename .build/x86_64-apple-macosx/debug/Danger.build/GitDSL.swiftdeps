@@ -1,0 +1,278 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Git"
+- "GitCommit"
+- "GitCommitAuthor"
+provides-nominal:
+- "6Danger3GitV"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger9GitCommitV"
+- "6Danger15GitCommitAuthorV"
+provides-member:
+- ["6Danger3GitV", ""]
+- ["6Danger3GitV10CodingKeysO", ""]
+- ["6Danger9GitCommitV", ""]
+- ["6Danger15GitCommitAuthorV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "BooleanLiteralType"
+- "CodingKey"
+- "Decodable"
+- "Equatable"
+- "File"
+- !private "FloatLiteralType"
+- "Git"
+- "GitCommit"
+- "GitCommitAuthor"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["6Danger3GitV10CodingKeysO", "=="]
+- ["6Danger3GitV10CodingKeysO", "RawValue"]
+- ["6Danger3GitV10CodingKeysO", "_Default_RawValue"]
+- !private ["6Danger3GitV10CodingKeysO", "_findStringSwitchCase"]
+- ["6Danger3GitV10CodingKeysO", "_rawHashValue"]
+- ["6Danger3GitV10CodingKeysO", "createdFiles"]
+- ["6Danger3GitV10CodingKeysO", "debugDescription"]
+- ["6Danger3GitV10CodingKeysO", "deinit"]
+- ["6Danger3GitV10CodingKeysO", "deletedFiles"]
+- ["6Danger3GitV10CodingKeysO", "description"]
+- ["6Danger3GitV10CodingKeysO", "hash"]
+- ["6Danger3GitV10CodingKeysO", "hashValue"]
+- ["6Danger3GitV10CodingKeysO", "init"]
+- !private ["6Danger3GitV10CodingKeysO", "init"]
+- ["6Danger3GitV10CodingKeysO", "intValue"]
+- ["6Danger3GitV10CodingKeysO", "modifiedFiles"]
+- ["6Danger3GitV10CodingKeysO", "rawValue"]
+- ["6Danger3GitV10CodingKeysO", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "author"]
+- !private ["Se", "committer"]
+- !private ["Se", "createdFiles"]
+- !private ["Se", "date"]
+- !private ["Se", "deletedFiles"]
+- !private ["Se", "email"]
+- ["Se", "init"]
+- !private ["Se", "message"]
+- !private ["Se", "modifiedFiles"]
+- !private ["Se", "name"]
+- !private ["Se", "parents"]
+- !private ["Se", "sha"]
+- !private ["Se", "url"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "author"]
+- !private ["SQ", "committer"]
+- !private ["SQ", "createdFiles"]
+- !private ["SQ", "date"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "deletedFiles"]
+- ["SQ", "description"]
+- !private ["SQ", "email"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "message"]
+- !private ["SQ", "modifiedFiles"]
+- !private ["SQ", "name"]
+- !private ["SQ", "parents"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "sha"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "url"]
+- ["6Danger3GitV", "=="]
+- ["6Danger3GitV", "CodingKey"]
+- ["6Danger3GitV", "CodingKeys"]
+- ["6Danger3GitV", "File"]
+- ["6Danger3GitV", "String"]
+- ["6Danger3GitV", "__derived_struct_equals"]
+- !private ["6Danger3GitV", "_findStringSwitchCase"]
+- ["6Danger3GitV", "createdFiles"]
+- ["6Danger3GitV", "deinit"]
+- ["6Danger3GitV", "deletedFiles"]
+- ["6Danger3GitV", "init"]
+- ["6Danger3GitV", "modifiedFiles"]
+- ["6Danger9GitCommitV", "=="]
+- ["6Danger9GitCommitV", "GitCommitAuthor"]
+- ["6Danger9GitCommitV", "String"]
+- ["6Danger9GitCommitV", "__derived_struct_equals"]
+- ["6Danger9GitCommitV", "author"]
+- ["6Danger9GitCommitV", "committer"]
+- ["6Danger9GitCommitV", "deinit"]
+- ["6Danger9GitCommitV", "init"]
+- ["6Danger9GitCommitV", "message"]
+- ["6Danger9GitCommitV", "parents"]
+- ["6Danger9GitCommitV", "sha"]
+- ["6Danger9GitCommitV", "url"]
+- ["6Danger15GitCommitAuthorV", "=="]
+- ["6Danger15GitCommitAuthorV", "String"]
+- ["6Danger15GitCommitAuthorV", "__derived_struct_equals"]
+- ["6Danger15GitCommitAuthorV", "date"]
+- ["6Danger15GitCommitAuthorV", "deinit"]
+- ["6Danger15GitCommitAuthorV", "email"]
+- ["6Danger15GitCommitAuthorV", "init"]
+- ["6Danger15GitCommitAuthorV", "name"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+depends-nominal:
+- "s9CodingKeyP"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- !private "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- !private "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "6Danger3GitV10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "6Danger3GitV"
+- "6Danger9GitCommitV"
+- "6Danger15GitCommitAuthorV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e3e06d65e6c78993f9c894927cf5b21c"

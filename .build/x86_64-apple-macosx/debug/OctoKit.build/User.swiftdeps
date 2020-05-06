@@ -1,0 +1,379 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "User"
+- "UserRouter"
+provides-nominal:
+- "7OctoKit4UserC"
+- "7OctoKit4UserC10CodingKeysO"
+- "7OctoKit10UserRouterO"
+provides-member:
+- ["7OctoKit4UserC", ""]
+- ["7OctoKit4UserC10CodingKeysO", ""]
+- ["7OctoKit7OctokitV", ""]
+- ["7OctoKit10UserRouterO", ""]
+- ["7OctoKit7OctokitV", "user"]
+- ["7OctoKit7OctokitV", "me"]
+provides-dynamic-lookup:
+- "avatarURL"
+- "blog"
+- "company"
+- "email"
+- "encode"
+- "gravatarID"
+- "id"
+- "location"
+- "login"
+- "name"
+- "numberOfPrivateRepos"
+- "numberOfPublicGists"
+- "numberOfPublicRepos"
+- "type"
+depends-top-level:
+- "=="
+- "Codable"
+- "CodingKey"
+- "Configuration"
+- "FloatLiteralType"
+- "HTTPEncoding"
+- "HTTPMethod"
+- "Int"
+- "IntegerLiteralType"
+- "Octokit"
+- "RequestKitURLSession"
+- "Response"
+- "Router"
+- "String"
+- "StringLiteralType"
+- !private "URLSession"
+- "URLSessionDataTaskProtocol"
+- "User"
+- "UserRouter"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "shared"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["7OctoKit4UserC10CodingKeysO", "=="]
+- ["7OctoKit4UserC10CodingKeysO", "RawValue"]
+- ["7OctoKit4UserC10CodingKeysO", "_Default_RawValue"]
+- !private ["7OctoKit4UserC10CodingKeysO", "_findStringSwitchCase"]
+- ["7OctoKit4UserC10CodingKeysO", "_rawHashValue"]
+- ["7OctoKit4UserC10CodingKeysO", "avatarURL"]
+- ["7OctoKit4UserC10CodingKeysO", "blog"]
+- ["7OctoKit4UserC10CodingKeysO", "company"]
+- ["7OctoKit4UserC10CodingKeysO", "debugDescription"]
+- ["7OctoKit4UserC10CodingKeysO", "deinit"]
+- ["7OctoKit4UserC10CodingKeysO", "description"]
+- ["7OctoKit4UserC10CodingKeysO", "email"]
+- ["7OctoKit4UserC10CodingKeysO", "gravatarID"]
+- ["7OctoKit4UserC10CodingKeysO", "hash"]
+- ["7OctoKit4UserC10CodingKeysO", "hashValue"]
+- ["7OctoKit4UserC10CodingKeysO", "id"]
+- ["7OctoKit4UserC10CodingKeysO", "init"]
+- !private ["7OctoKit4UserC10CodingKeysO", "init"]
+- ["7OctoKit4UserC10CodingKeysO", "intValue"]
+- ["7OctoKit4UserC10CodingKeysO", "location"]
+- ["7OctoKit4UserC10CodingKeysO", "login"]
+- ["7OctoKit4UserC10CodingKeysO", "name"]
+- ["7OctoKit4UserC10CodingKeysO", "numberOfPrivateRepos"]
+- ["7OctoKit4UserC10CodingKeysO", "numberOfPublicGists"]
+- ["7OctoKit4UserC10CodingKeysO", "numberOfPublicRepos"]
+- ["7OctoKit4UserC10CodingKeysO", "rawValue"]
+- ["7OctoKit4UserC10CodingKeysO", "stringValue"]
+- ["7OctoKit4UserC10CodingKeysO", "type"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "avatarURL"]
+- !private ["Se", "blog"]
+- !private ["Se", "company"]
+- !private ["Se", "email"]
+- ["Se", "encode"]
+- !private ["Se", "gravatarID"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "location"]
+- !private ["Se", "login"]
+- !private ["Se", "name"]
+- !private ["Se", "numberOfPrivateRepos"]
+- !private ["Se", "numberOfPublicGists"]
+- !private ["Se", "numberOfPublicRepos"]
+- !private ["Se", "type"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "CodingKey"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "avatarURL"]
+- !private ["SE", "blog"]
+- !private ["SE", "company"]
+- !private ["SE", "email"]
+- ["SE", "encode"]
+- !private ["SE", "gravatarID"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "location"]
+- !private ["SE", "login"]
+- !private ["SE", "name"]
+- !private ["SE", "numberOfPrivateRepos"]
+- !private ["SE", "numberOfPublicGists"]
+- !private ["SE", "numberOfPublicRepos"]
+- !private ["SE", "type"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "GET"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "shared"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "url"]
+- !private ["10RequestKit12HTTPEncodingO", "url"]
+- !private ["10RequestKit10HTTPMethodO", "GET"]
+- ["SH", "=="]
+- !private ["SH", "GET"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- !private ["SH", "shared"]
+- ["SH", "stringValue"]
+- !private ["SH", "url"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "shared"]
+- ["7OctoKit7OctokitV", "RequestKitURLSession"]
+- ["7OctoKit7OctokitV", "Response"]
+- ["7OctoKit7OctokitV", "String"]
+- !private ["7OctoKit7OctokitV", "URLSession"]
+- ["7OctoKit7OctokitV", "URLSessionDataTaskProtocol"]
+- ["7OctoKit7OctokitV", "User"]
+- !private ["7OctoKit7OctokitV", "UserRouter"]
+- ["7OctoKit7OctokitV", "Void"]
+- !private ["7OctoKit7OctokitV", "configuration"]
+- ["7OctoKit7OctokitV", "me"]
+- ["7OctoKit7OctokitV", "user"]
+- ["SY", "=="]
+- !private ["SY", "GET"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["SY", "url"]
+- !private ["10RequestKit0aB10URLSessionP", "shared"]
+- !private ["10RequestKit8ResponseO", "failure"]
+- !private ["10RequestKit8ResponseO", "success"]
+- ["10RequestKit6RouterP", ""]
+- ["10RequestKit6RouterP", "configuration"]
+- ["10RequestKit6RouterP", "encoding"]
+- ["10RequestKit6RouterP", "load"]
+- ["10RequestKit6RouterP", "loadJSON"]
+- ["10RequestKit6RouterP", "method"]
+- ["10RequestKit6RouterP", "params"]
+- ["10RequestKit6RouterP", "path"]
+- ["10RequestKit6RouterP", "readAuthenticatedUser"]
+- ["10RequestKit6RouterP", "readUser"]
+- ["10RequestKit6RouterP", "request"]
+- ["10RequestKit6RouterP", "urlQuery"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7OctoKit18TokenConfigurationV", "deinit"]
+- !private ["So12NSURLSessionC", "shared"]
+- ["7OctoKit4UserC", "CodingKey"]
+- ["7OctoKit4UserC", "CodingKeys"]
+- ["7OctoKit4UserC", "Int"]
+- ["7OctoKit4UserC", "String"]
+- !private ["7OctoKit4UserC", "_findStringSwitchCase"]
+- ["7OctoKit4UserC", "avatarURL"]
+- ["7OctoKit4UserC", "blog"]
+- ["7OctoKit4UserC", "company"]
+- ["7OctoKit4UserC", "deinit"]
+- ["7OctoKit4UserC", "email"]
+- ["7OctoKit4UserC", "encode"]
+- ["7OctoKit4UserC", "gravatarID"]
+- ["7OctoKit4UserC", "id"]
+- ["7OctoKit4UserC", "init"]
+- ["7OctoKit4UserC", "location"]
+- ["7OctoKit4UserC", "login"]
+- ["7OctoKit4UserC", "name"]
+- ["7OctoKit4UserC", "numberOfPrivateRepos"]
+- ["7OctoKit4UserC", "numberOfPublicGists"]
+- ["7OctoKit4UserC", "numberOfPublicRepos"]
+- ["7OctoKit4UserC", "type"]
+- ["7OctoKit10UserRouterO", "Configuration"]
+- ["7OctoKit10UserRouterO", "HTTPEncoding"]
+- ["7OctoKit10UserRouterO", "HTTPMethod"]
+- ["7OctoKit10UserRouterO", "String"]
+- ["7OctoKit10UserRouterO", "configuration"]
+- ["7OctoKit10UserRouterO", "deinit"]
+- ["7OctoKit10UserRouterO", "encoding"]
+- ["7OctoKit10UserRouterO", "load"]
+- ["7OctoKit10UserRouterO", "loadJSON"]
+- ["7OctoKit10UserRouterO", "method"]
+- ["7OctoKit10UserRouterO", "params"]
+- ["7OctoKit10UserRouterO", "path"]
+- ["7OctoKit10UserRouterO", "readAuthenticatedUser"]
+- ["7OctoKit10UserRouterO", "readUser"]
+- ["7OctoKit10UserRouterO", "request"]
+- ["7OctoKit10UserRouterO", "urlQuery"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+depends-nominal:
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "7OctoKit4UserC10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "10RequestKit12HTTPEncodingO"
+- !private "10RequestKit10HTTPMethodO"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "7OctoKit7OctokitV"
+- "SY"
+- !private "10RequestKit0aB10URLSessionP"
+- !private "10RequestKit8ResponseO"
+- "10RequestKit6RouterP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "7OctoKit18TokenConfigurationV"
+- !private "So12NSURLSessionC"
+- "7OctoKit4UserC"
+- "7OctoKit10UserRouterO"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "77ef8917975e6f70968b0622e9aefe2a"

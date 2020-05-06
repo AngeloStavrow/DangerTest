@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "18be69e721bbeb9b8439705720919138"
+build_time: [1588678265, 164095000]
+inputs:
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgs.swift": [1588677480, 944249409]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgsParser.swift": [1588677480, 944441234]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/CreateConfig.swift": [1588677480, 844073615]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/DangerCommand.swift": [1588677480, 944636979]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/DangerJSVersionFinder.swift": [1588677480, 944837068]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/DangerSwiftOption.swift": [1588677480, 945032736]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/DangerfileArgumentsPath.swift": [1588677480, 844638191]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/Files Import/DangerFileGenerator.swift": [1588677480, 844858972]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/Files Import/ImportsFinder.swift": [1588677480, 845003677]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/GetDangerJSPath.swift": [1588677480, 945222280]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/HelpMessagePresenter.swift": [1588677480, 945410931]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/NSRegularExpression+FilesImport.swift": [1588677480, 845562488]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/Runtime.swift": [1588677480, 945633677]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/SPMDanger.swift": [1588677480, 945856495]

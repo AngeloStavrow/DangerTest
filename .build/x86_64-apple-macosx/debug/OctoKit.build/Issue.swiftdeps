@@ -1,0 +1,703 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Openness"
+- "Issue"
+- "Comment"
+- "IssueRouter"
+provides-nominal:
+- "7OctoKit8OpennessO"
+- "7OctoKit5IssueC"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit11IssueRouterO"
+provides-member:
+- ["7OctoKit8OpennessO", ""]
+- ["7OctoKit5IssueC", ""]
+- ["7OctoKit5IssueC10CodingKeysO", ""]
+- ["7OctoKit7CommentV", ""]
+- ["7OctoKit7CommentV10CodingKeysO", ""]
+- ["7OctoKit7OctokitV", ""]
+- ["7OctoKit11IssueRouterO", ""]
+- ["7OctoKit7OctokitV", "myIssues"]
+- ["7OctoKit7OctokitV", "issue"]
+- ["7OctoKit7OctokitV", "issues"]
+- ["7OctoKit7OctokitV", "postIssue"]
+- ["7OctoKit7OctokitV", "patchIssue"]
+- ["7OctoKit7OctokitV", "commentIssue"]
+provides-dynamic-lookup:
+- "assignee"
+- "body"
+- "closedAt"
+- "closedBy"
+- "comments"
+- "commentsURL"
+- "createdAt"
+- "encode"
+- "eventsURL"
+- "htmlURL"
+- "id"
+- "labels"
+- "labelsURL"
+- "locked"
+- "milestone"
+- "number"
+- "repositoryURL"
+- "state"
+- "title"
+- "updatedAt"
+- "url"
+- "user"
+depends-top-level:
+- !private "!"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "Codable"
+- "CodingKey"
+- "Comment"
+- "Configuration"
+- "Date"
+- "FloatLiteralType"
+- "HTTPEncoding"
+- "HTTPMethod"
+- "Int"
+- "IntegerLiteralType"
+- "Issue"
+- "IssueRouter"
+- !private "JSONDecoder"
+- "JSONPostRouter"
+- "Label"
+- "Milestone"
+- "Octokit"
+- "Openness"
+- "RequestKitURLSession"
+- "Response"
+- "String"
+- "StringLiteralType"
+- !private "Time"
+- "URL"
+- !private "URLSession"
+- "URLSessionDataTaskProtocol"
+- "UnicodeScalarType"
+- "User"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["Sa", "isEmpty"]
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["7OctoKit5IssueC10CodingKeysO", "=="]
+- ["7OctoKit7CommentV10CodingKeysO", "=="]
+- ["7OctoKit5IssueC10CodingKeysO", "RawValue"]
+- ["7OctoKit7CommentV10CodingKeysO", "RawValue"]
+- ["7OctoKit5IssueC10CodingKeysO", "_Default_RawValue"]
+- ["7OctoKit7CommentV10CodingKeysO", "_Default_RawValue"]
+- !private ["7OctoKit5IssueC10CodingKeysO", "_findStringSwitchCase"]
+- !private ["7OctoKit7CommentV10CodingKeysO", "_findStringSwitchCase"]
+- ["7OctoKit5IssueC10CodingKeysO", "_rawHashValue"]
+- ["7OctoKit7CommentV10CodingKeysO", "_rawHashValue"]
+- ["7OctoKit5IssueC10CodingKeysO", "assignee"]
+- ["7OctoKit5IssueC10CodingKeysO", "body"]
+- ["7OctoKit7CommentV10CodingKeysO", "body"]
+- ["7OctoKit5IssueC10CodingKeysO", "closedAt"]
+- ["7OctoKit5IssueC10CodingKeysO", "closedBy"]
+- ["7OctoKit5IssueC10CodingKeysO", "comments"]
+- ["7OctoKit5IssueC10CodingKeysO", "commentsURL"]
+- ["7OctoKit5IssueC10CodingKeysO", "createdAt"]
+- ["7OctoKit7CommentV10CodingKeysO", "createdAt"]
+- ["7OctoKit5IssueC10CodingKeysO", "debugDescription"]
+- ["7OctoKit7CommentV10CodingKeysO", "debugDescription"]
+- ["7OctoKit5IssueC10CodingKeysO", "deinit"]
+- ["7OctoKit7CommentV10CodingKeysO", "deinit"]
+- ["7OctoKit5IssueC10CodingKeysO", "description"]
+- ["7OctoKit7CommentV10CodingKeysO", "description"]
+- ["7OctoKit5IssueC10CodingKeysO", "eventsURL"]
+- ["7OctoKit5IssueC10CodingKeysO", "hash"]
+- ["7OctoKit7CommentV10CodingKeysO", "hash"]
+- ["7OctoKit5IssueC10CodingKeysO", "hashValue"]
+- ["7OctoKit7CommentV10CodingKeysO", "hashValue"]
+- ["7OctoKit5IssueC10CodingKeysO", "htmlURL"]
+- ["7OctoKit7CommentV10CodingKeysO", "htmlURL"]
+- ["7OctoKit5IssueC10CodingKeysO", "id"]
+- ["7OctoKit7CommentV10CodingKeysO", "id"]
+- ["7OctoKit5IssueC10CodingKeysO", "init"]
+- ["7OctoKit7CommentV10CodingKeysO", "init"]
+- !private ["7OctoKit5IssueC10CodingKeysO", "init"]
+- !private ["7OctoKit7CommentV10CodingKeysO", "init"]
+- ["7OctoKit5IssueC10CodingKeysO", "intValue"]
+- ["7OctoKit7CommentV10CodingKeysO", "intValue"]
+- ["7OctoKit5IssueC10CodingKeysO", "labels"]
+- ["7OctoKit5IssueC10CodingKeysO", "locked"]
+- ["7OctoKit5IssueC10CodingKeysO", "milestone"]
+- ["7OctoKit5IssueC10CodingKeysO", "number"]
+- ["7OctoKit5IssueC10CodingKeysO", "rawValue"]
+- ["7OctoKit7CommentV10CodingKeysO", "rawValue"]
+- ["7OctoKit5IssueC10CodingKeysO", "repositoryURL"]
+- ["7OctoKit5IssueC10CodingKeysO", "state"]
+- ["7OctoKit5IssueC10CodingKeysO", "stringValue"]
+- ["7OctoKit7CommentV10CodingKeysO", "stringValue"]
+- ["7OctoKit5IssueC10CodingKeysO", "title"]
+- ["7OctoKit5IssueC10CodingKeysO", "updatedAt"]
+- ["7OctoKit7CommentV10CodingKeysO", "updatedAt"]
+- ["7OctoKit5IssueC10CodingKeysO", "url"]
+- ["7OctoKit7CommentV10CodingKeysO", "url"]
+- ["7OctoKit5IssueC10CodingKeysO", "user"]
+- ["7OctoKit7CommentV10CodingKeysO", "user"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "subscript"]
+- ["7OctoKit7CommentV", "CodingKey"]
+- ["7OctoKit7CommentV", "CodingKeys"]
+- ["7OctoKit7CommentV", "Date"]
+- ["7OctoKit7CommentV", "Int"]
+- ["7OctoKit7CommentV", "String"]
+- ["7OctoKit7CommentV", "URL"]
+- ["7OctoKit7CommentV", "User"]
+- !private ["7OctoKit7CommentV", "_findStringSwitchCase"]
+- ["7OctoKit7CommentV", "body"]
+- ["7OctoKit7CommentV", "createdAt"]
+- ["7OctoKit7CommentV", "deinit"]
+- ["7OctoKit7CommentV", "encode"]
+- ["7OctoKit7CommentV", "htmlURL"]
+- ["7OctoKit7CommentV", "id"]
+- ["7OctoKit7CommentV", "init"]
+- ["7OctoKit7CommentV", "updatedAt"]
+- ["7OctoKit7CommentV", "url"]
+- ["7OctoKit7CommentV", "user"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "formatted"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "formatted"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation11JSONDecoderC20DateDecodingStrategyO", "formatted"]
+- ["Se", "=="]
+- ["Se", "CodingKey"]
+- !private ["Se", "Open"]
+- ["Se", "RawValue"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "assignee"]
+- !private ["Se", "body"]
+- !private ["Se", "closedAt"]
+- !private ["Se", "closedBy"]
+- !private ["Se", "comments"]
+- !private ["Se", "commentsURL"]
+- !private ["Se", "createdAt"]
+- ["Se", "encode"]
+- !private ["Se", "eventsURL"]
+- !private ["Se", "formatted"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "htmlURL"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "labels"]
+- !private ["Se", "locked"]
+- !private ["Se", "milestone"]
+- !private ["Se", "number"]
+- ["Se", "rawValue"]
+- !private ["Se", "repositoryURL"]
+- !private ["Se", "state"]
+- !private ["Se", "subscript"]
+- !private ["Se", "title"]
+- !private ["Se", "updatedAt"]
+- !private ["Se", "url"]
+- !private ["Se", "user"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- ["SE", "=="]
+- ["SE", "CodingKey"]
+- !private ["SE", "Open"]
+- ["SE", "RawValue"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "assignee"]
+- !private ["SE", "body"]
+- !private ["SE", "closedAt"]
+- !private ["SE", "closedBy"]
+- !private ["SE", "comments"]
+- !private ["SE", "commentsURL"]
+- !private ["SE", "createdAt"]
+- ["SE", "encode"]
+- !private ["SE", "eventsURL"]
+- !private ["SE", "formatted"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- !private ["SE", "htmlURL"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "labels"]
+- !private ["SE", "locked"]
+- !private ["SE", "milestone"]
+- !private ["SE", "number"]
+- ["SE", "rawValue"]
+- !private ["SE", "repositoryURL"]
+- !private ["SE", "state"]
+- !private ["SE", "subscript"]
+- !private ["SE", "title"]
+- !private ["SE", "updatedAt"]
+- !private ["SE", "url"]
+- !private ["SE", "user"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "GET"]
+- !private ["SQ", "Open"]
+- !private ["SQ", "POST"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- !private ["SQ", "formatted"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "json"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "shared"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "formatted"]
+- !private ["10RequestKit12HTTPEncodingO", "json"]
+- !private ["10RequestKit12HTTPEncodingO", "url"]
+- !private ["10RequestKit10HTTPMethodO", "GET"]
+- !private ["10RequestKit10HTTPMethodO", "POST"]
+- ["SH", "=="]
+- !private ["SH", "GET"]
+- !private ["SH", "Open"]
+- !private ["SH", "POST"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "encode"]
+- !private ["SH", "formatted"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "json"]
+- ["SH", "rawValue"]
+- !private ["SH", "shared"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- ["7OctoKit5IssueC", "Bool"]
+- ["7OctoKit5IssueC", "CodingKey"]
+- ["7OctoKit5IssueC", "CodingKeys"]
+- ["7OctoKit5IssueC", "Date"]
+- ["7OctoKit5IssueC", "Int"]
+- ["7OctoKit5IssueC", "Label"]
+- ["7OctoKit5IssueC", "Milestone"]
+- ["7OctoKit5IssueC", "Openness"]
+- ["7OctoKit5IssueC", "String"]
+- ["7OctoKit5IssueC", "URL"]
+- ["7OctoKit5IssueC", "User"]
+- !private ["7OctoKit5IssueC", "_findStringSwitchCase"]
+- ["7OctoKit5IssueC", "assignee"]
+- ["7OctoKit5IssueC", "body"]
+- ["7OctoKit5IssueC", "closedAt"]
+- ["7OctoKit5IssueC", "closedBy"]
+- ["7OctoKit5IssueC", "comments"]
+- ["7OctoKit5IssueC", "commentsURL"]
+- ["7OctoKit5IssueC", "createdAt"]
+- ["7OctoKit5IssueC", "deinit"]
+- ["7OctoKit5IssueC", "encode"]
+- ["7OctoKit5IssueC", "eventsURL"]
+- ["7OctoKit5IssueC", "htmlURL"]
+- ["7OctoKit5IssueC", "id"]
+- ["7OctoKit5IssueC", "init"]
+- ["7OctoKit5IssueC", "labels"]
+- ["7OctoKit5IssueC", "labelsURL"]
+- ["7OctoKit5IssueC", "locked"]
+- ["7OctoKit5IssueC", "milestone"]
+- ["7OctoKit5IssueC", "number"]
+- ["7OctoKit5IssueC", "repositoryURL"]
+- ["7OctoKit5IssueC", "state"]
+- ["7OctoKit5IssueC", "title"]
+- ["7OctoKit5IssueC", "updatedAt"]
+- ["7OctoKit5IssueC", "url"]
+- ["7OctoKit5IssueC", "user"]
+- ["7OctoKit11IssueRouterO", "Configuration"]
+- ["7OctoKit11IssueRouterO", "HTTPEncoding"]
+- ["7OctoKit11IssueRouterO", "HTTPMethod"]
+- ["7OctoKit11IssueRouterO", "Int"]
+- ["7OctoKit11IssueRouterO", "Openness"]
+- ["7OctoKit11IssueRouterO", "String"]
+- ["7OctoKit11IssueRouterO", "commentIssue"]
+- ["7OctoKit11IssueRouterO", "configuration"]
+- ["7OctoKit11IssueRouterO", "deinit"]
+- ["7OctoKit11IssueRouterO", "encoding"]
+- ["7OctoKit11IssueRouterO", "load"]
+- ["7OctoKit11IssueRouterO", "loadJSON"]
+- ["7OctoKit11IssueRouterO", "method"]
+- ["7OctoKit11IssueRouterO", "params"]
+- ["7OctoKit11IssueRouterO", "patchIssue"]
+- ["7OctoKit11IssueRouterO", "path"]
+- ["7OctoKit11IssueRouterO", "post"]
+- ["7OctoKit11IssueRouterO", "postIssue"]
+- ["7OctoKit11IssueRouterO", "postJSON"]
+- ["7OctoKit11IssueRouterO", "readAuthenticatedIssues"]
+- ["7OctoKit11IssueRouterO", "readIssue"]
+- ["7OctoKit11IssueRouterO", "readIssues"]
+- ["7OctoKit11IssueRouterO", "request"]
+- ["7OctoKit11IssueRouterO", "urlQuery"]
+- !private ["10Foundation11JSONDecoderC", "dateDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- ["10RequestKit14JSONPostRouterP", ""]
+- ["10RequestKit14JSONPostRouterP", "commentIssue"]
+- ["10RequestKit14JSONPostRouterP", "configuration"]
+- ["10RequestKit14JSONPostRouterP", "encoding"]
+- ["10RequestKit14JSONPostRouterP", "load"]
+- ["10RequestKit14JSONPostRouterP", "loadJSON"]
+- ["10RequestKit14JSONPostRouterP", "method"]
+- ["10RequestKit14JSONPostRouterP", "params"]
+- ["10RequestKit14JSONPostRouterP", "patchIssue"]
+- ["10RequestKit14JSONPostRouterP", "path"]
+- ["10RequestKit14JSONPostRouterP", "post"]
+- ["10RequestKit14JSONPostRouterP", "postIssue"]
+- ["10RequestKit14JSONPostRouterP", "postJSON"]
+- ["10RequestKit14JSONPostRouterP", "readAuthenticatedIssues"]
+- ["10RequestKit14JSONPostRouterP", "readIssue"]
+- ["10RequestKit14JSONPostRouterP", "readIssues"]
+- ["10RequestKit14JSONPostRouterP", "request"]
+- ["10RequestKit14JSONPostRouterP", "urlQuery"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["7OctoKit5LabelC", "deinit"]
+- ["7OctoKit9MilestoneC", "deinit"]
+- !private ["SM", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "shared"]
+- ["7OctoKit7OctokitV", "Comment"]
+- ["7OctoKit7OctokitV", "Int"]
+- ["7OctoKit7OctokitV", "Issue"]
+- !private ["7OctoKit7OctokitV", "IssueRouter"]
+- !private ["7OctoKit7OctokitV", "JSONDecoder"]
+- ["7OctoKit7OctokitV", "Openness"]
+- ["7OctoKit7OctokitV", "RequestKitURLSession"]
+- ["7OctoKit7OctokitV", "Response"]
+- ["7OctoKit7OctokitV", "String"]
+- !private ["7OctoKit7OctokitV", "Time"]
+- !private ["7OctoKit7OctokitV", "URLSession"]
+- ["7OctoKit7OctokitV", "URLSessionDataTaskProtocol"]
+- ["7OctoKit7OctokitV", "Void"]
+- ["7OctoKit7OctokitV", "commentIssue"]
+- !private ["7OctoKit7OctokitV", "configuration"]
+- ["7OctoKit7OctokitV", "issue"]
+- ["7OctoKit7OctokitV", "issues"]
+- ["7OctoKit7OctokitV", "myIssues"]
+- ["7OctoKit7OctokitV", "patchIssue"]
+- ["7OctoKit7OctokitV", "postIssue"]
+- ["7OctoKit8OpennessO", "=="]
+- ["7OctoKit8OpennessO", "All"]
+- ["7OctoKit8OpennessO", "Closed"]
+- ["7OctoKit8OpennessO", "Open"]
+- ["7OctoKit8OpennessO", "RawValue"]
+- ["7OctoKit8OpennessO", "_Default_RawValue"]
+- !private ["7OctoKit8OpennessO", "_findStringSwitchCase"]
+- ["7OctoKit8OpennessO", "_rawHashValue"]
+- ["7OctoKit8OpennessO", "deinit"]
+- ["7OctoKit8OpennessO", "encode"]
+- ["7OctoKit8OpennessO", "hash"]
+- ["7OctoKit8OpennessO", "hashValue"]
+- ["7OctoKit8OpennessO", "init"]
+- ["7OctoKit8OpennessO", "rawValue"]
+- !private ["Sq", "formatted"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", "isEmpty"]
+- ["SY", "=="]
+- !private ["SY", "GET"]
+- !private ["SY", "Open"]
+- !private ["SY", "POST"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "encode"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "json"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["SY", "url"]
+- !private ["10RequestKit0aB10URLSessionP", "shared"]
+- !private ["10RequestKit8ResponseO", "failure"]
+- !private ["10RequestKit8ResponseO", "success"]
+- ["10RequestKit6RouterP", ""]
+- ["10RequestKit6RouterP", "commentIssue"]
+- ["10RequestKit6RouterP", "configuration"]
+- ["10RequestKit6RouterP", "encoding"]
+- ["10RequestKit6RouterP", "load"]
+- ["10RequestKit6RouterP", "loadJSON"]
+- ["10RequestKit6RouterP", "method"]
+- ["10RequestKit6RouterP", "params"]
+- ["10RequestKit6RouterP", "patchIssue"]
+- ["10RequestKit6RouterP", "path"]
+- ["10RequestKit6RouterP", "post"]
+- ["10RequestKit6RouterP", "postIssue"]
+- ["10RequestKit6RouterP", "postJSON"]
+- ["10RequestKit6RouterP", "readAuthenticatedIssues"]
+- ["10RequestKit6RouterP", "readIssue"]
+- ["10RequestKit6RouterP", "readIssues"]
+- ["10RequestKit6RouterP", "request"]
+- ["10RequestKit6RouterP", "urlQuery"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7OctoKit4TimeV", "rfc3339DateFormatter"]
+- !private ["7OctoKit18TokenConfigurationV", "deinit"]
+- !private ["7Combine15TopLevelDecoderP", "dateDecodingStrategy"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["So12NSURLSessionC", "shared"]
+- ["7OctoKit4UserC", "deinit"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "formatted"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- !private "7OctoKit5IssueC10CodingKeysO"
+- !private "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- !private "7OctoKit5IssueC10CodingKeysO"
+- !private "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- "7OctoKit5IssueC10CodingKeysO"
+- "7OctoKit7CommentV10CodingKeysO"
+- !private "Sl"
+- "7OctoKit7CommentV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation11JSONDecoderC20DateDecodingStrategyO"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "10RequestKit12HTTPEncodingO"
+- !private "10RequestKit10HTTPMethodO"
+- "SH"
+- "7OctoKit5IssueC"
+- "7OctoKit11IssueRouterO"
+- !private "10Foundation11JSONDecoderC"
+- "10RequestKit14JSONPostRouterP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "7OctoKit5LabelC"
+- "7OctoKit9MilestoneC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "7OctoKit7OctokitV"
+- "7OctoKit8OpennessO"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10RequestKit0aB10URLSessionP"
+- !private "10RequestKit8ResponseO"
+- "10RequestKit6RouterP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "7OctoKit4TimeV"
+- !private "7OctoKit18TokenConfigurationV"
+- !private "7Combine15TopLevelDecoderP"
+- !private "So12NSURLSessionC"
+- "7OctoKit4UserC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b24f0d9d7a0163de6c7ee09348a8723d"

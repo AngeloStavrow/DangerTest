@@ -1,0 +1,145 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RequestKitURLSession"
+- "URLSessionDataTaskProtocol"
+provides-nominal:
+- "10RequestKit0aB10URLSessionP"
+- "10RequestKit26URLSessionDataTaskProtocolP"
+- "So20NSURLSessionDataTaskC"
+- "So12NSURLSessionC"
+provides-member:
+- ["10RequestKit0aB10URLSessionP", ""]
+- ["10RequestKit26URLSessionDataTaskProtocolP", ""]
+- ["So20NSURLSessionDataTaskC", ""]
+- ["So12NSURLSessionC", ""]
+provides-dynamic-lookup:
+- "dataTask"
+- "uploadTask"
+depends-top-level:
+- "CastingPrecedence"
+- "Data"
+- "Error"
+- "RequestKitURLSession"
+- "Swift"
+- "URLRequest"
+- "URLResponse"
+- "URLSession"
+- "URLSessionDataTask"
+- "URLSessionDataTaskProtocol"
+- "Void"
+depends-member:
+- ["s7CVarArgP", "dataTask"]
+- ["s7CVarArgP", "resume"]
+- ["s7CVarArgP", "uploadTask"]
+- ["s28CustomDebugStringConvertibleP", "dataTask"]
+- ["s28CustomDebugStringConvertibleP", "resume"]
+- ["s28CustomDebugStringConvertibleP", "uploadTask"]
+- ["s23CustomStringConvertibleP", "dataTask"]
+- ["s23CustomStringConvertibleP", "resume"]
+- ["s23CustomStringConvertibleP", "uploadTask"]
+- ["SQ", "dataTask"]
+- ["SQ", "resume"]
+- ["SQ", "uploadTask"]
+- ["SH", "dataTask"]
+- ["SH", "resume"]
+- ["SH", "uploadTask"]
+- ["So9NSCopyingP", "resume"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Swift"]
+- ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "URLResponse"]
+- !private ["So8NSObjectC", "URLSessionDataTask"]
+- ["So8NSObjectC", "URLSessionDataTaskProtocol"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "uploadTask"]
+- ["So8NSObjectP", "dataTask"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "uploadTask"]
+- ["So19NSProgressReportingP", "resume"]
+- ["10RequestKit0aB10URLSessionP", "Data"]
+- ["10RequestKit0aB10URLSessionP", "Error"]
+- ["10RequestKit0aB10URLSessionP", "Swift"]
+- ["10RequestKit0aB10URLSessionP", "URLRequest"]
+- ["10RequestKit0aB10URLSessionP", "URLResponse"]
+- ["10RequestKit0aB10URLSessionP", "URLSessionDataTaskProtocol"]
+- ["10RequestKit0aB10URLSessionP", "Void"]
+- ["10RequestKit0aB10URLSessionP", ""]
+- ["10RequestKit0aB10URLSessionP", "dataTask"]
+- ["10RequestKit0aB10URLSessionP", "uploadTask"]
+- ["So12NSURLSessionC", "Data"]
+- ["So12NSURLSessionC", "Error"]
+- ["So12NSURLSessionC", "Swift"]
+- ["So12NSURLSessionC", "URLRequest"]
+- ["So12NSURLSessionC", "URLResponse"]
+- !private ["So12NSURLSessionC", "URLSessionDataTask"]
+- ["So12NSURLSessionC", "URLSessionDataTaskProtocol"]
+- ["So12NSURLSessionC", "Void"]
+- ["So12NSURLSessionC", "dataTask"]
+- ["So12NSURLSessionC", "deinit"]
+- ["So12NSURLSessionC", "uploadTask"]
+- ["So20NSURLSessionDataTaskC", "deinit"]
+- ["So20NSURLSessionDataTaskC", "resume"]
+- ["10RequestKit26URLSessionDataTaskProtocolP", ""]
+- ["10RequestKit26URLSessionDataTaskProtocolP", "resume"]
+- ["So16NSURLSessionTaskC", "resume"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "uploadTask"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uploadTask"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19NSProgressReportingP"
+- "10RequestKit0aB10URLSessionP"
+- "So12NSURLSessionC"
+- "So20NSURLSessionDataTaskC"
+- "10RequestKit26URLSessionDataTaskProtocolP"
+- "So16NSURLSessionTaskC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7d8cabf09be3c5fec121a797028c4932"

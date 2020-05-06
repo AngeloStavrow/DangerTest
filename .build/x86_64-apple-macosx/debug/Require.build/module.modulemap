@@ -1,0 +1,4 @@
+module Require {
+    header "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/Require-Swift.h"
+    requires objc
+}

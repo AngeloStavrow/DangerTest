@@ -1,0 +1,474 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "githubBaseURL"
+- "githubWebURL"
+- "OctoKitErrorDomain"
+- "TokenConfiguration"
+- "OAuthConfiguration"
+- "OAuthRouter"
+provides-nominal:
+- "7OctoKit18TokenConfigurationV"
+- "7OctoKit18OAuthConfigurationV"
+- "7OctoKit11OAuthRouterO"
+provides-member:
+- ["7OctoKit18TokenConfigurationV", ""]
+- ["7OctoKit18OAuthConfigurationV", ""]
+- ["7OctoKit11OAuthRouterO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Configuration"
+- "FloatLiteralType"
+- "Foundation"
+- "HTTPEncoding"
+- "HTTPMethod"
+- !private "HTTPURLResponse"
+- "IntegerLiteralType"
+- !private "NSArray"
+- "OAuthConfiguration"
+- "OAuthRouter"
+- "OctoKitErrorDomain"
+- "RequestKitURLSession"
+- "Router"
+- "String"
+- "StringLiteralType"
+- "TokenConfiguration"
+- "URL"
+- !private "URLComponents"
+- !private "URLSession"
+- !private "UnicodeScalarType"
+- "Void"
+- "githubBaseURL"
+- "githubWebURL"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["SK", "components"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "componentsJoined"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "components"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "components"]
+- !private ["SL", "init"]
+- !private ["10RequestKit13ConfigurationP", "OAuthRouter"]
+- ["10RequestKit13ConfigurationP", "OctoKitErrorDomain"]
+- !private ["10RequestKit13ConfigurationP", "String"]
+- !private ["10RequestKit13ConfigurationP", "TokenConfiguration"]
+- !private ["10RequestKit13ConfigurationP", "URLSession"]
+- ["10RequestKit13ConfigurationP", ""]
+- ["10RequestKit13ConfigurationP", "accessToken"]
+- ["10RequestKit13ConfigurationP", "accessTokenFieldName"]
+- !private ["10RequestKit13ConfigurationP", "accessTokenFromResponse"]
+- ["10RequestKit13ConfigurationP", "apiEndpoint"]
+- ["10RequestKit13ConfigurationP", "authorizationHeader"]
+- !private ["10RequestKit13ConfigurationP", "authorize"]
+- ["10RequestKit13ConfigurationP", "customHeaders"]
+- ["10RequestKit13ConfigurationP", "errorDomain"]
+- !private ["10RequestKit13ConfigurationP", "githubBaseURL"]
+- !private ["10RequestKit13ConfigurationP", "githubWebURL"]
+- !private ["10RequestKit13ConfigurationP", "init"]
+- !private ["10RequestKit13ConfigurationP", "scopes"]
+- !private ["10RequestKit13ConfigurationP", "secret"]
+- !private ["10RequestKit13ConfigurationP", "token"]
+- !private ["10RequestKit13ConfigurationP", "webEndpoint"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "URLParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "componentsJoined"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "componentsJoined"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", "URLParameters"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "componentsJoined"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["Se", "URLParameters"]
+- !private ["Se", "components"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "URLParameters"]
+- !private ["SE", "components"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "subscript"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "GET"]
+- !private ["SQ", "POST"]
+- !private ["SQ", "URLParameters"]
+- !private ["SQ", "components"]
+- !private ["SQ", "componentsJoined"]
+- !private ["SQ", "first"]
+- !private ["SQ", "form"]
+- !private ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- !private ["SQ", "utf8"]
+- !private ["s25ExpressibleByArrayLiteralP", "componentsJoined"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "components"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["10RequestKit12HTTPEncodingO", "form"]
+- !private ["10RequestKit12HTTPEncodingO", "url"]
+- !private ["10RequestKit10HTTPMethodO", "GET"]
+- !private ["10RequestKit10HTTPMethodO", "POST"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "GET"]
+- !private ["SH", "POST"]
+- !private ["SH", "URLParameters"]
+- !private ["SH", "components"]
+- !private ["SH", "componentsJoined"]
+- !private ["SH", "first"]
+- !private ["SH", "form"]
+- !private ["SH", "init"]
+- !private ["SH", "last"]
+- !private ["SH", "shared"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- !private ["SH", "utf8"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "first"]
+- !private ["SM", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["So7NSArrayC", "componentsJoined"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "componentsJoined"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So9NSCopyingP", "componentsJoined"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So17NSFastEnumerationP", "componentsJoined"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So16NSMutableCopyingP", "componentsJoined"]
+- !private ["So8NSObjectC", "components"]
+- !private ["So8NSObjectC", "componentsJoined"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectP", "components"]
+- !private ["So8NSObjectP", "componentsJoined"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "componentsJoined"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So8NSStringC", "components"]
+- !private ["7OctoKit18OAuthConfigurationV", "HTTPURLResponse"]
+- !private ["7OctoKit18OAuthConfigurationV", "OAuthRouter"]
+- ["7OctoKit18OAuthConfigurationV", "OctoKitErrorDomain"]
+- ["7OctoKit18OAuthConfigurationV", "RequestKitURLSession"]
+- ["7OctoKit18OAuthConfigurationV", "String"]
+- ["7OctoKit18OAuthConfigurationV", "TokenConfiguration"]
+- ["7OctoKit18OAuthConfigurationV", "URL"]
+- !private ["7OctoKit18OAuthConfigurationV", "URLSession"]
+- ["7OctoKit18OAuthConfigurationV", "Void"]
+- ["7OctoKit18OAuthConfigurationV", "accessToken"]
+- ["7OctoKit18OAuthConfigurationV", "accessTokenFieldName"]
+- ["7OctoKit18OAuthConfigurationV", "accessTokenFromResponse"]
+- ["7OctoKit18OAuthConfigurationV", "apiEndpoint"]
+- ["7OctoKit18OAuthConfigurationV", "authenticate"]
+- ["7OctoKit18OAuthConfigurationV", "authorizationHeader"]
+- ["7OctoKit18OAuthConfigurationV", "authorize"]
+- ["7OctoKit18OAuthConfigurationV", "customHeaders"]
+- ["7OctoKit18OAuthConfigurationV", "deinit"]
+- ["7OctoKit18OAuthConfigurationV", "errorDomain"]
+- !private ["7OctoKit18OAuthConfigurationV", "githubBaseURL"]
+- !private ["7OctoKit18OAuthConfigurationV", "githubWebURL"]
+- ["7OctoKit18OAuthConfigurationV", "handleOpenURL"]
+- ["7OctoKit18OAuthConfigurationV", "init"]
+- ["7OctoKit18OAuthConfigurationV", "scopes"]
+- ["7OctoKit18OAuthConfigurationV", "secret"]
+- ["7OctoKit18OAuthConfigurationV", "token"]
+- ["7OctoKit18OAuthConfigurationV", "webEndpoint"]
+- ["7OctoKit11OAuthRouterO", "Configuration"]
+- ["7OctoKit11OAuthRouterO", "Foundation"]
+- ["7OctoKit11OAuthRouterO", "FoundationURLRequestType"]
+- ["7OctoKit11OAuthRouterO", "HTTPEncoding"]
+- ["7OctoKit11OAuthRouterO", "HTTPMethod"]
+- !private ["7OctoKit11OAuthRouterO", "NSArray"]
+- ["7OctoKit11OAuthRouterO", "OAuthConfiguration"]
+- ["7OctoKit11OAuthRouterO", "String"]
+- !private ["7OctoKit11OAuthRouterO", "URL"]
+- !private ["7OctoKit11OAuthRouterO", "URLComponents"]
+- ["7OctoKit11OAuthRouterO", "URLRequest"]
+- ["7OctoKit11OAuthRouterO", "accessToken"]
+- ["7OctoKit11OAuthRouterO", "authorize"]
+- ["7OctoKit11OAuthRouterO", "configuration"]
+- ["7OctoKit11OAuthRouterO", "deinit"]
+- ["7OctoKit11OAuthRouterO", "encoding"]
+- ["7OctoKit11OAuthRouterO", "load"]
+- ["7OctoKit11OAuthRouterO", "loadJSON"]
+- ["7OctoKit11OAuthRouterO", "method"]
+- ["7OctoKit11OAuthRouterO", "params"]
+- ["7OctoKit11OAuthRouterO", "path"]
+- ["7OctoKit11OAuthRouterO", "request"]
+- ["7OctoKit11OAuthRouterO", "urlQuery"]
+- !private ["Sk", "first"]
+- !private ["Sk", "last"]
+- !private ["Sm", "components"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["SY", "GET"]
+- !private ["SY", "POST"]
+- !private ["SY", "form"]
+- !private ["SY", "url"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "URLParameters"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- !private ["10RequestKit0aB10URLSessionP", "dataTask"]
+- !private ["10RequestKit0aB10URLSessionP", "shared"]
+- !private ["10RequestKit6RouterP", "URL"]
+- !private ["10RequestKit6RouterP", "URLComponents"]
+- !private ["10RequestKit6RouterP", "URLRequest"]
+- ["10RequestKit6RouterP", ""]
+- ["10RequestKit6RouterP", "accessToken"]
+- ["10RequestKit6RouterP", "authorize"]
+- ["10RequestKit6RouterP", "configuration"]
+- ["10RequestKit6RouterP", "encoding"]
+- ["10RequestKit6RouterP", "load"]
+- ["10RequestKit6RouterP", "loadJSON"]
+- ["10RequestKit6RouterP", "method"]
+- ["10RequestKit6RouterP", "params"]
+- ["10RequestKit6RouterP", "path"]
+- ["10RequestKit6RouterP", "request"]
+- ["10RequestKit6RouterP", "urlQuery"]
+- !private ["ST", "components"]
+- !private ["ST", "componentsJoined"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "subscript"]
+- !private ["SS", "components"]
+- !private ["SS", "init"]
+- !private ["Sy", "components"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "components"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "components"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["7OctoKit18TokenConfigurationV", "OctoKitErrorDomain"]
+- ["7OctoKit18TokenConfigurationV", "String"]
+- ["7OctoKit18TokenConfigurationV", "accessToken"]
+- ["7OctoKit18TokenConfigurationV", "accessTokenFieldName"]
+- ["7OctoKit18TokenConfigurationV", "apiEndpoint"]
+- ["7OctoKit18TokenConfigurationV", "authorizationHeader"]
+- ["7OctoKit18TokenConfigurationV", "customHeaders"]
+- ["7OctoKit18TokenConfigurationV", "deinit"]
+- ["7OctoKit18TokenConfigurationV", "errorDomain"]
+- !private ["7OctoKit18TokenConfigurationV", "githubBaseURL"]
+- ["7OctoKit18TokenConfigurationV", "init"]
+- !private ["10Foundation3URLV", "URLParameters"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation13URLComponentsV", "init"]
+- !private ["10Foundation10URLRequestV", "url"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["10RequestKit26URLSessionDataTaskProtocolP", "resume"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "URLParameters"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "components"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "URLParameters"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "components"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "componentsJoined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "componentsJoined"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "components"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "componentsJoined"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "URLParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "10RequestKit13ConfigurationP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "10RequestKit12HTTPEncodingO"
+- !private "10RequestKit10HTTPMethodO"
+- !private "So17NSHTTPURLResponseC"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So7NSArrayC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "7OctoKit18OAuthConfigurationV"
+- "7OctoKit11OAuthRouterO"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10RequestKit0aB10URLSessionP"
+- "10RequestKit6RouterP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "7OctoKit18TokenConfigurationV"
+- !private "10Foundation3URLV"
+- !private "10Foundation13URLComponentsV"
+- !private "10Foundation10URLRequestV"
+- !private "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "10RequestKit26URLSessionDataTaskProtocolP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3f62b1293e7262d26f03726e5811eeb3"
