@@ -1,0 +1,4 @@
+module DangerFixtures {
+    header "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/DangerFixtures-Swift.h"
+    requires objc
+}

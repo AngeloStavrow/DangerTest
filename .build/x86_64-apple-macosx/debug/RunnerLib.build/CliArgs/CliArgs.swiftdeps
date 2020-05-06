@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CliArgs"
+provides-nominal:
+- "9RunnerLib7CliArgsV"
+provides-member:
+- ["9RunnerLib7CliArgsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "CliArgs"
+- "Dictionary"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["SK", "base"]
+- !private ["SK", "dangerfile"]
+- !private ["SK", "externalCiProvider"]
+- !private ["SK", "id"]
+- !private ["SK", "textOnly"]
+- !private ["SK", "verbose"]
+- !private ["s7CVarArgP", "base"]
+- !private ["s7CVarArgP", "dangerfile"]
+- !private ["s7CVarArgP", "externalCiProvider"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "textOnly"]
+- !private ["s7CVarArgP", "verbose"]
+- ["9RunnerLib7CliArgsV", "CodingKeys"]
+- ["9RunnerLib7CliArgsV", "String"]
+- !private ["9RunnerLib7CliArgsV", "_findStringSwitchCase"]
+- ["9RunnerLib7CliArgsV", "base"]
+- ["9RunnerLib7CliArgsV", "dangerfile"]
+- ["9RunnerLib7CliArgsV", "externalCiProvider"]
+- ["9RunnerLib7CliArgsV", "id"]
+- ["9RunnerLib7CliArgsV", "init"]
+- ["9RunnerLib7CliArgsV", "textOnly"]
+- ["9RunnerLib7CliArgsV", "verbose"]
+- !private ["Sl", "base"]
+- !private ["Sl", "dangerfile"]
+- !private ["Sl", "externalCiProvider"]
+- !private ["Sl", "id"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "textOnly"]
+- !private ["Sl", "verbose"]
+- !private ["SL", "base"]
+- !private ["SL", "dangerfile"]
+- !private ["SL", "externalCiProvider"]
+- !private ["SL", "id"]
+- !private ["SL", "textOnly"]
+- !private ["SL", "verbose"]
+- !private ["s28CustomDebugStringConvertibleP", "base"]
+- !private ["s28CustomDebugStringConvertibleP", "dangerfile"]
+- !private ["s28CustomDebugStringConvertibleP", "externalCiProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "textOnly"]
+- !private ["s28CustomDebugStringConvertibleP", "verbose"]
+- !private ["s17CustomReflectableP", "base"]
+- !private ["s17CustomReflectableP", "dangerfile"]
+- !private ["s17CustomReflectableP", "externalCiProvider"]
+- !private ["s17CustomReflectableP", "id"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "textOnly"]
+- !private ["s17CustomReflectableP", "verbose"]
+- !private ["s23CustomStringConvertibleP", "base"]
+- !private ["s23CustomStringConvertibleP", "dangerfile"]
+- !private ["s23CustomStringConvertibleP", "externalCiProvider"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "textOnly"]
+- !private ["s23CustomStringConvertibleP", "verbose"]
+- !private ["Se", "base"]
+- !private ["Se", "dangerfile"]
+- !private ["Se", "externalCiProvider"]
+- !private ["Se", "id"]
+- !private ["Se", "subscript"]
+- !private ["Se", "textOnly"]
+- !private ["Se", "verbose"]
+- ["SD", "CliArgs"]
+- ["SD", "String"]
+- !private ["SD", "subscript"]
+- !private ["SE", "base"]
+- !private ["SE", "dangerfile"]
+- !private ["SE", "externalCiProvider"]
+- !private ["SE", "id"]
+- !private ["SE", "subscript"]
+- !private ["SE", "textOnly"]
+- !private ["SE", "verbose"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "base"]
+- !private ["SQ", "dangerfile"]
+- !private ["SQ", "externalCiProvider"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "textOnly"]
+- !private ["SQ", "verbose"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "base"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dangerfile"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "externalCiProvider"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "id"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "textOnly"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "verbose"]
+- !private ["s32ExpressibleByStringInterpolationP", "base"]
+- !private ["s32ExpressibleByStringInterpolationP", "dangerfile"]
+- !private ["s32ExpressibleByStringInterpolationP", "externalCiProvider"]
+- !private ["s32ExpressibleByStringInterpolationP", "id"]
+- !private ["s32ExpressibleByStringInterpolationP", "textOnly"]
+- !private ["s32ExpressibleByStringInterpolationP", "verbose"]
+- !private ["s26ExpressibleByStringLiteralP", "base"]
+- !private ["s26ExpressibleByStringLiteralP", "dangerfile"]
+- !private ["s26ExpressibleByStringLiteralP", "externalCiProvider"]
+- !private ["s26ExpressibleByStringLiteralP", "id"]
+- !private ["s26ExpressibleByStringLiteralP", "textOnly"]
+- !private ["s26ExpressibleByStringLiteralP", "verbose"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "base"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dangerfile"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "externalCiProvider"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "id"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "textOnly"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "verbose"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "base"]
+- !private ["SH", "dangerfile"]
+- !private ["SH", "externalCiProvider"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "id"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "textOnly"]
+- !private ["SH", "verbose"]
+- !private ["SD5IndexV", "base"]
+- !private ["SD5IndexV", "dangerfile"]
+- !private ["SD5IndexV", "externalCiProvider"]
+- !private ["SD5IndexV", "id"]
+- !private ["SD5IndexV", "textOnly"]
+- !private ["SD5IndexV", "verbose"]
+- !private ["s25LosslessStringConvertibleP", "base"]
+- !private ["s25LosslessStringConvertibleP", "dangerfile"]
+- !private ["s25LosslessStringConvertibleP", "externalCiProvider"]
+- !private ["s25LosslessStringConvertibleP", "id"]
+- !private ["s25LosslessStringConvertibleP", "textOnly"]
+- !private ["s25LosslessStringConvertibleP", "verbose"]
+- !private ["s10MirrorPathP", "base"]
+- !private ["s10MirrorPathP", "dangerfile"]
+- !private ["s10MirrorPathP", "externalCiProvider"]
+- !private ["s10MirrorPathP", "id"]
+- !private ["s10MirrorPathP", "textOnly"]
+- !private ["s10MirrorPathP", "verbose"]
+- !private ["Sk", "base"]
+- !private ["Sk", "dangerfile"]
+- !private ["Sk", "externalCiProvider"]
+- !private ["Sk", "id"]
+- !private ["Sk", "textOnly"]
+- !private ["Sk", "verbose"]
+- !private ["Sn", "base"]
+- !private ["Sn", "dangerfile"]
+- !private ["Sn", "externalCiProvider"]
+- !private ["Sn", "id"]
+- !private ["Sn", "textOnly"]
+- !private ["Sn", "verbose"]
+- !private ["SX", "base"]
+- !private ["SX", "dangerfile"]
+- !private ["SX", "externalCiProvider"]
+- !private ["SX", "id"]
+- !private ["SX", "textOnly"]
+- !private ["SX", "verbose"]
+- !private ["Sm", "base"]
+- !private ["Sm", "dangerfile"]
+- !private ["Sm", "externalCiProvider"]
+- !private ["Sm", "id"]
+- !private ["Sm", "textOnly"]
+- !private ["Sm", "verbose"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "base"]
+- !private ["SY", "dangerfile"]
+- !private ["SY", "externalCiProvider"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "id"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "textOnly"]
+- !private ["SY", "verbose"]
+- !private ["ST", "base"]
+- !private ["ST", "dangerfile"]
+- !private ["ST", "externalCiProvider"]
+- !private ["ST", "id"]
+- !private ["ST", "subscript"]
+- !private ["ST", "textOnly"]
+- !private ["ST", "verbose"]
+- !private ["SS", "base"]
+- !private ["SS", "dangerfile"]
+- !private ["SS", "externalCiProvider"]
+- !private ["SS", "id"]
+- !private ["SS", "textOnly"]
+- !private ["SS", "verbose"]
+- !private ["Sy", "base"]
+- !private ["Sy", "dangerfile"]
+- !private ["Sy", "externalCiProvider"]
+- !private ["Sy", "id"]
+- !private ["Sy", "textOnly"]
+- !private ["Sy", "verbose"]
+- !private ["s16TextOutputStreamP", "base"]
+- !private ["s16TextOutputStreamP", "dangerfile"]
+- !private ["s16TextOutputStreamP", "externalCiProvider"]
+- !private ["s16TextOutputStreamP", "id"]
+- !private ["s16TextOutputStreamP", "textOnly"]
+- !private ["s16TextOutputStreamP", "verbose"]
+- !private ["s20TextOutputStreamableP", "base"]
+- !private ["s20TextOutputStreamableP", "dangerfile"]
+- !private ["s20TextOutputStreamableP", "externalCiProvider"]
+- !private ["s20TextOutputStreamableP", "id"]
+- !private ["s20TextOutputStreamableP", "textOnly"]
+- !private ["s20TextOutputStreamableP", "verbose"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "base"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "dangerfile"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "externalCiProvider"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "id"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "textOnly"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "verbose"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "base"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "dangerfile"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "externalCiProvider"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "id"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "textOnly"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "verbose"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "base"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "dangerfile"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "externalCiProvider"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "id"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "textOnly"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "verbose"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "base"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "dangerfile"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "externalCiProvider"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "id"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "textOnly"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "verbose"]
+- !private ["s19_HasContiguousBytesP", "base"]
+- !private ["s19_HasContiguousBytesP", "dangerfile"]
+- !private ["s19_HasContiguousBytesP", "externalCiProvider"]
+- !private ["s19_HasContiguousBytesP", "id"]
+- !private ["s19_HasContiguousBytesP", "textOnly"]
+- !private ["s19_HasContiguousBytesP", "verbose"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "base"]
+- !private ["s21_ObjectiveCBridgeableP", "dangerfile"]
+- !private ["s21_ObjectiveCBridgeableP", "externalCiProvider"]
+- !private ["s21_ObjectiveCBridgeableP", "id"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "textOnly"]
+- !private ["s21_ObjectiveCBridgeableP", "verbose"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- "9RunnerLib7CliArgsV"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "SD5IndexV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c985193e715f0db06607a2308df0433b"

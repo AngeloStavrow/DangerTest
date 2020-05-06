@@ -1,0 +1,107 @@
+{
+  "": {
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/master.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/BitBucketServerDSL.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/BitBucketServerDSL.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/BitBucketServerDSL.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/BitBucketServerDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/BitBucketServerDSL.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Danger.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Danger.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Danger.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Danger~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Danger.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/DangerDSL.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerDSL.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerDSL.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerDSL.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/DangerResults.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerResults.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerResults.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerResults~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerResults.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/DangerUtils.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerUtils.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerUtils.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/DangerUtils.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Extensions/DateFormatterExtensions.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Extensions/DateFormatterExtensions.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Extensions/DateFormatterExtensions.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Extensions/DateFormatterExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Extensions/DateFormatterExtensions.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Extensions/NSRegularExpressionExtensions.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Extensions/NSRegularExpressionExtensions.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Extensions/NSRegularExpressionExtensions.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Extensions/NSRegularExpressionExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Extensions/NSRegularExpressionExtensions.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/File.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/File.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/File.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/File.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/GitDSL.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitDSL.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitDSL.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitDSL.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/GitHubDSL.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitHubDSL.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitHubDSL.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitHubDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitHubDSL.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/GitLabDSL.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitLabDSL.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitLabDSL.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitLabDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/GitLabDSL.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/CurrentPathProvider.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/CurrentPathProvider.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/CurrentPathProvider.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/CurrentPathProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/CurrentPathProvider.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLint.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftLint.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftLint.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftLint~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftLint.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLintViolation.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftLintViolation.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftLintViolation.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftLintViolation~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftLintViolation.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftlintReportDeleter.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftlintReportDeleter.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftlintReportDeleter.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftlintReportDeleter~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Plugins/SwiftLint/SwiftlintReportDeleter.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Report.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Report.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Report.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Report~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Report.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/Danger/Settings.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Settings.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Settings.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Settings~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Settings.swiftdeps"
+  }
+}

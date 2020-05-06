@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/master.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/DangerShellExecutor/ShellExecutor.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/ShellExecutor.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/ShellExecutor.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/ShellExecutor~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/ShellExecutor.swiftdeps"
+  }
+}

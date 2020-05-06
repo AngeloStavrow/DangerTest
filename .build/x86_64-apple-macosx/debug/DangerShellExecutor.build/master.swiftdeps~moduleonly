@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "dbac123ccd8034e93fed824aed8a5aeb"
+build_time: [1588677484, 251096000]
+inputs:
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/DangerShellExecutor/ShellExecutor.swift": [1588677480, 942703373]

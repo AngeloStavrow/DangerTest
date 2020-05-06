@@ -1,0 +1,429 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DangerFileGenerator"
+provides-nominal:
+- "9RunnerLib19DangerFileGeneratorC"
+provides-member:
+- ["9RunnerLib19DangerFileGeneratorC", ""]
+provides-dynamic-lookup:
+- "generateDangerFile"
+depends-top-level:
+- !private "-"
+- !private "BooleanLiteralType"
+- "DangerFileGenerator"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Logger"
+- !private "NSRange"
+- !private "NSRegularExpression"
+- !private "Range"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["SK", "Index"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "replaceSubrange"]
+- !private ["SK", "utf16"]
+- !private ["SK", "write"]
+- !private ["s7CVarArgP", "Index"]
+- !private ["s7CVarArgP", "adjustingRanges"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "enumerateMatches"]
+- !private ["s7CVarArgP", "filesImportRegex"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "replaceSubrange"]
+- !private ["s7CVarArgP", "replacementString"]
+- !private ["s7CVarArgP", "utf16"]
+- !private ["s7CVarArgP", "write"]
+- !private ["Sl", "Index"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "replaceSubrange"]
+- !private ["Sl", "utf16"]
+- !private ["Sl", "write"]
+- !private ["SL", "Index"]
+- !private ["SL", "count"]
+- !private ["SL", "init"]
+- !private ["SL", "replaceSubrange"]
+- !private ["SL", "utf16"]
+- !private ["SL", "write"]
+- !private ["s28CustomDebugStringConvertibleP", "Index"]
+- !private ["s28CustomDebugStringConvertibleP", "adjustingRanges"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerateMatches"]
+- !private ["s28CustomDebugStringConvertibleP", "filesImportRegex"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceSubrange"]
+- !private ["s28CustomDebugStringConvertibleP", "replacementString"]
+- !private ["s28CustomDebugStringConvertibleP", "utf16"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s17CustomReflectableP", "Index"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "replaceSubrange"]
+- !private ["s17CustomReflectableP", "utf16"]
+- !private ["s17CustomReflectableP", "write"]
+- !private ["s23CustomStringConvertibleP", "Index"]
+- !private ["s23CustomStringConvertibleP", "adjustingRanges"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "enumerateMatches"]
+- !private ["s23CustomStringConvertibleP", "filesImportRegex"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "replaceSubrange"]
+- !private ["s23CustomStringConvertibleP", "replacementString"]
+- !private ["s23CustomStringConvertibleP", "utf16"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- ["9RunnerLib19DangerFileGeneratorC", "Logger"]
+- !private ["9RunnerLib19DangerFileGeneratorC", "NSRange"]
+- !private ["9RunnerLib19DangerFileGeneratorC", "NSRegularExpression"]
+- !private ["9RunnerLib19DangerFileGeneratorC", "Range"]
+- ["9RunnerLib19DangerFileGeneratorC", "String"]
+- ["9RunnerLib19DangerFileGeneratorC", "deinit"]
+- ["9RunnerLib19DangerFileGeneratorC", "generateDangerFile"]
+- ["9RunnerLib19DangerFileGeneratorC", "init"]
+- !private ["Se", "Index"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "replaceSubrange"]
+- !private ["Se", "utf16"]
+- !private ["Se", "write"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "Index"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "replaceSubrange"]
+- !private ["SE", "utf16"]
+- !private ["SE", "write"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "Index"]
+- !private ["SQ", "adjustingRanges"]
+- !private ["SQ", "count"]
+- !private ["SQ", "enumerateMatches"]
+- !private ["SQ", "filesImportRegex"]
+- !private ["SQ", "init"]
+- !private ["SQ", "range"]
+- !private ["SQ", "replaceSubrange"]
+- !private ["SQ", "replacementString"]
+- !private ["SQ", "utf16"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "write"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Index"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replaceSubrange"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf16"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s32ExpressibleByStringInterpolationP", "Index"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "replaceSubrange"]
+- !private ["s32ExpressibleByStringInterpolationP", "utf16"]
+- !private ["s32ExpressibleByStringInterpolationP", "write"]
+- !private ["s26ExpressibleByStringLiteralP", "Index"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "replaceSubrange"]
+- !private ["s26ExpressibleByStringLiteralP", "utf16"]
+- !private ["s26ExpressibleByStringLiteralP", "write"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Index"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replaceSubrange"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf16"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "write"]
+- !private ["SH", "Index"]
+- !private ["SH", "adjustingRanges"]
+- !private ["SH", "count"]
+- !private ["SH", "enumerateMatches"]
+- !private ["SH", "filesImportRegex"]
+- !private ["SH", "init"]
+- !private ["SH", "range"]
+- !private ["SH", "replaceSubrange"]
+- !private ["SH", "replacementString"]
+- !private ["SH", "utf16"]
+- !private ["SH", "utf8"]
+- !private ["SH", "write"]
+- !private ["6LoggerAAV", "logWarning"]
+- !private ["s25LosslessStringConvertibleP", "Index"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "replaceSubrange"]
+- !private ["s25LosslessStringConvertibleP", "utf16"]
+- !private ["s25LosslessStringConvertibleP", "write"]
+- !private ["s10MirrorPathP", "Index"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "replaceSubrange"]
+- !private ["s10MirrorPathP", "utf16"]
+- !private ["s10MirrorPathP", "write"]
+- !private ["So8NSCodingP", "adjustingRanges"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "enumerateMatches"]
+- !private ["So8NSCodingP", "filesImportRegex"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "replaceSubrange"]
+- !private ["So8NSCodingP", "replacementString"]
+- !private ["So8NSCodingP", "utf16"]
+- !private ["So8NSCodingP", "write"]
+- !private ["So9NSCopyingP", "adjustingRanges"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "enumerateMatches"]
+- !private ["So9NSCopyingP", "filesImportRegex"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "replaceSubrange"]
+- !private ["So9NSCopyingP", "replacementString"]
+- !private ["So9NSCopyingP", "utf16"]
+- !private ["So9NSCopyingP", "write"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "replaceSubrange"]
+- !private ["So21NSItemProviderReadingP", "utf16"]
+- !private ["So21NSItemProviderReadingP", "write"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "replaceSubrange"]
+- !private ["So21NSItemProviderWritingP", "utf16"]
+- !private ["So21NSItemProviderWritingP", "write"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "replaceSubrange"]
+- !private ["So16NSMutableCopyingP", "utf16"]
+- !private ["So16NSMutableCopyingP", "write"]
+- !private ["So8NSObjectC", "adjustingRanges"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "enumerateMatches"]
+- !private ["So8NSObjectC", "filesImportRegex"]
+- !private ["So8NSObjectC", "range"]
+- !private ["So8NSObjectC", "replaceSubrange"]
+- !private ["So8NSObjectC", "replacementString"]
+- !private ["So8NSObjectC", "utf16"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So8NSObjectP", "adjustingRanges"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "enumerateMatches"]
+- !private ["So8NSObjectP", "filesImportRegex"]
+- !private ["So8NSObjectP", "range"]
+- !private ["So8NSObjectP", "replaceSubrange"]
+- !private ["So8NSObjectP", "replacementString"]
+- !private ["So8NSObjectP", "utf16"]
+- !private ["So8NSObjectP", "write"]
+- !private ["So19NSRegularExpressionC", "enumerateMatches"]
+- !private ["So19NSRegularExpressionC", "filesImportRegex"]
+- !private ["So19NSRegularExpressionC", "replacementString"]
+- !private ["So14NSSecureCodingP", "adjustingRanges"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "enumerateMatches"]
+- !private ["So14NSSecureCodingP", "filesImportRegex"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "replaceSubrange"]
+- !private ["So14NSSecureCodingP", "replacementString"]
+- !private ["So14NSSecureCodingP", "utf16"]
+- !private ["So14NSSecureCodingP", "write"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "replaceSubrange"]
+- !private ["So8NSStringC", "utf16"]
+- !private ["So8NSStringC", "write"]
+- !private ["So20NSTextCheckingResultC", "adjustingRanges"]
+- !private ["So20NSTextCheckingResultC", "range"]
+- !private ["Sk", "init"]
+- !private ["Sn", "init"]
+- !private ["SX", "init"]
+- !private ["Sm", "Index"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "utf16"]
+- !private ["Sm", "write"]
+- !private ["SY", "utf8"]
+- !private ["ST", "Index"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "replaceSubrange"]
+- !private ["ST", "utf16"]
+- !private ["ST", "write"]
+- !private ["SS", "Index"]
+- !private ["SS", "count"]
+- !private ["SS", "init"]
+- !private ["SS", "replaceSubrange"]
+- !private ["SS", "utf16"]
+- !private ["SS", "write"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "Index"]
+- !private ["Sy", "count"]
+- !private ["Sy", "init"]
+- !private ["Sy", "replaceSubrange"]
+- !private ["Sy", "utf16"]
+- !private ["Sy", "write"]
+- !private ["s16TextOutputStreamP", "Index"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "replaceSubrange"]
+- !private ["s16TextOutputStreamP", "utf16"]
+- !private ["s16TextOutputStreamP", "write"]
+- !private ["s20TextOutputStreamableP", "Index"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "replaceSubrange"]
+- !private ["s20TextOutputStreamableP", "utf16"]
+- !private ["s20TextOutputStreamableP", "write"]
+- !private ["SS9UTF16ViewV", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Index"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "replaceSubrange"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf16"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "write"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Index"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replaceSubrange"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf16"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Index"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replaceSubrange"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf16"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "write"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Index"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replaceSubrange"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf16"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "write"]
+- !private ["s19_HasContiguousBytesP", "Index"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "replaceSubrange"]
+- !private ["s19_HasContiguousBytesP", "utf16"]
+- !private ["s19_HasContiguousBytesP", "write"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replaceSubrange"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf16"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "write"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "adjustingRanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerateMatches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filesImportRegex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceSubrange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacementString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf16"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "adjustingRanges"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enumerateMatches"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "filesImportRegex"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "range"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replaceSubrange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replacementString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "utf16"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "write"]
+- !private ["So8_NSRangeV", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "Index"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "replaceSubrange"]
+- !private ["s21_ObjectiveCBridgeableP", "utf16"]
+- !private ["s21_ObjectiveCBridgeableP", "write"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "9RunnerLib19DangerFileGeneratorC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "6LoggerAAV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSRegularExpressionC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So20NSTextCheckingResultC"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "SS9UTF16ViewV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "So8_NSRangeV"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "297880987002b23c30be9a807ef98877"

@@ -1,0 +1,4 @@
+module Releases {
+    header "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/Releases-Swift.h"
+    requires objc
+}

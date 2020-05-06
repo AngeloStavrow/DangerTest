@@ -1,0 +1,35 @@
+{
+  "allExecutables" : [
+    "danger-swift",
+    "Marathon"
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.Danger-debug.module" : "Danger",
+    "C.DangerFixtures-debug.module" : "DangerFixtures",
+    "C.DangerShellExecutor-debug.module" : "DangerShellExecutor",
+    "C.dangertest-debug.module" : "dangertest",
+    "C.Files-debug.module" : "Files",
+    "C.Logger-debug.module" : "Logger",
+    "C.Marathon-debug.module" : "Marathon",
+    "C.MarathonCore-debug.module" : "MarathonCore",
+    "C.OctoKit-debug.module" : "OctoKit",
+    "C.Releases-debug.module" : "Releases",
+    "C.RequestKit-debug.module" : "RequestKit",
+    "C.Require-debug.module" : "Require",
+    "C.Runner-debug.module" : "Runner",
+    "C.RunnerLib-debug.module" : "RunnerLib",
+    "C.ShellOut-debug.module" : "ShellOut"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

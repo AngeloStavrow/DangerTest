@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/master.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/RequestKit/Sources/RequestKit/JSONPostRouter.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/JSONPostRouter.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/JSONPostRouter.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/JSONPostRouter~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/JSONPostRouter.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/RequestKit/Sources/RequestKit/RequestKitSession.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/RequestKitSession.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/RequestKitSession.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/RequestKitSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/RequestKitSession.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/RequestKit/Sources/RequestKit/Router.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/Router.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/Router.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/Router~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/Router.swiftdeps"
+  }
+}

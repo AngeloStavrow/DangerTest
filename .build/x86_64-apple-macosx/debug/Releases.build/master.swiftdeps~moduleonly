@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "996d9f9301016880265d7422ceca55c1"
+build_time: [1588678266, 546427000]
+inputs:
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/Releases/Sources/Array+Version.swift": [1588677479, 953199288]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/Releases/Sources/Releases.swift": [1588677479, 953353022]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/Releases/Sources/ReleasesError.swift": [1588677479, 953499309]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/Releases/Sources/Version.swift": [1588677479, 953793398]

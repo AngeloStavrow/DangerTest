@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "42717f6c9548ea7ba26beecb6cd66e4f"
+build_time: [1588677484, 251411000]
+inputs:
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/RequestKit/Sources/RequestKit/JSONPostRouter.swift": [1588677480, 158612933]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/RequestKit/Sources/RequestKit/RequestKitSession.swift": [1588677480, 158922558]
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/RequestKit/Sources/RequestKit/Router.swift": [1588677480, 159123653]

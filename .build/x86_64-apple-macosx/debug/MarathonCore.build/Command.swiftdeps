@@ -1,0 +1,380 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CommandError"
+- "Command"
+provides-nominal:
+- "12MarathonCore12CommandErrorO"
+- "12MarathonCore7CommandO"
+provides-member:
+- ["12MarathonCore12CommandErrorO", ""]
+- ["12MarathonCore7CommandO", ""]
+- ["12MarathonCore12CommandErrorO", "message"]
+- ["12MarathonCore12CommandErrorO", "hints"]
+- ["12MarathonCore7CommandO", "all"]
+- ["12MarathonCore7CommandO", "description"]
+- ["12MarathonCore7CommandO", "usageText"]
+- ["12MarathonCore7CommandO", "makeTaskClosure"]
+- ["12MarathonCore7CommandO", "allowsProgressOutput"]
+- ["12MarathonCore7CommandO", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- !private "AddTask"
+- "AssignmentPrecedence"
+- "Bool"
+- "Command"
+- "CommandError"
+- !private "CreateTask"
+- !private "EditTask"
+- "Executable"
+- "FloatLiteralType"
+- "Folder"
+- !private "HelpTask"
+- !private "InstallTask"
+- "Int"
+- "IntegerLiteralType"
+- !private "ListTask"
+- "PackageManager"
+- "PrintableError"
+- "Printer"
+- !private "RemoveTask"
+- !private "RunTask"
+- "ScriptManager"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "UpdateTask"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["12MarathonCore7AddTaskC", "deinit"]
+- !private ["12MarathonCore7AddTaskC", "init"]
+- !private ["12MarathonCore7AddTaskC", "init"]
+- !private ["Sa", "element"]
+- !private ["SK", "element"]
+- !private ["s7CVarArgP", "element"]
+- !private ["Sl", "element"]
+- ["12MarathonCore7CommandO", "=="]
+- !private ["12MarathonCore7CommandO", "AddTask"]
+- ["12MarathonCore7CommandO", "Bool"]
+- ["12MarathonCore7CommandO", "Command"]
+- ["12MarathonCore7CommandO", "CommandError"]
+- !private ["12MarathonCore7CommandO", "CreateTask"]
+- !private ["12MarathonCore7CommandO", "EditTask"]
+- !private ["12MarathonCore7CommandO", "Error"]
+- ["12MarathonCore7CommandO", "Executable"]
+- ["12MarathonCore7CommandO", "Folder"]
+- !private ["12MarathonCore7CommandO", "HelpTask"]
+- !private ["12MarathonCore7CommandO", "InstallTask"]
+- ["12MarathonCore7CommandO", "Int"]
+- !private ["12MarathonCore7CommandO", "ListTask"]
+- ["12MarathonCore7CommandO", "PackageManager"]
+- ["12MarathonCore7CommandO", "Printer"]
+- ["12MarathonCore7CommandO", "RawValue"]
+- !private ["12MarathonCore7CommandO", "RemoveTask"]
+- !private ["12MarathonCore7CommandO", "RunTask"]
+- ["12MarathonCore7CommandO", "ScriptManager"]
+- ["12MarathonCore7CommandO", "String"]
+- !private ["12MarathonCore7CommandO", "UpdateTask"]
+- ["12MarathonCore7CommandO", "_Default_RawValue"]
+- !private ["12MarathonCore7CommandO", "_findStringSwitchCase"]
+- ["12MarathonCore7CommandO", "_rawHashValue"]
+- ["12MarathonCore7CommandO", "add"]
+- ["12MarathonCore7CommandO", "all"]
+- ["12MarathonCore7CommandO", "allowsProgressOutput"]
+- ["12MarathonCore7CommandO", "create"]
+- ["12MarathonCore7CommandO", "deinit"]
+- ["12MarathonCore7CommandO", "description"]
+- ["12MarathonCore7CommandO", "edit"]
+- ["12MarathonCore7CommandO", "hash"]
+- ["12MarathonCore7CommandO", "hashValue"]
+- ["12MarathonCore7CommandO", "help"]
+- ["12MarathonCore7CommandO", "init"]
+- ["12MarathonCore7CommandO", "install"]
+- ["12MarathonCore7CommandO", "list"]
+- ["12MarathonCore7CommandO", "makeTaskClosure"]
+- ["12MarathonCore7CommandO", "rawValue"]
+- ["12MarathonCore7CommandO", "remove"]
+- ["12MarathonCore7CommandO", "run"]
+- ["12MarathonCore7CommandO", "update"]
+- ["12MarathonCore7CommandO", "usageText"]
+- ["12MarathonCore12CommandErrorO", "=="]
+- ["12MarathonCore12CommandErrorO", "String"]
+- ["12MarathonCore12CommandErrorO", "_code"]
+- ["12MarathonCore12CommandErrorO", "_domain"]
+- ["12MarathonCore12CommandErrorO", "_getEmbeddedNSError"]
+- ["12MarathonCore12CommandErrorO", "_userInfo"]
+- ["12MarathonCore12CommandErrorO", "deinit"]
+- ["12MarathonCore12CommandErrorO", "description"]
+- ["12MarathonCore12CommandErrorO", "hints"]
+- ["12MarathonCore12CommandErrorO", "invalid"]
+- ["12MarathonCore12CommandErrorO", "message"]
+- !private ["10Foundation15ContiguousBytesP", "element"]
+- !private ["12MarathonCore10CreateTaskC", "deinit"]
+- !private ["12MarathonCore10CreateTaskC", "init"]
+- !private ["12MarathonCore10CreateTaskC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "element"]
+- !private ["s17CustomReflectableP", "element"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "element"]
+- ["s23CustomStringConvertibleP", "hints"]
+- ["s23CustomStringConvertibleP", "invalid"]
+- ["s23CustomStringConvertibleP", "message"]
+- !private ["10Foundation12DataProtocolP", "element"]
+- !private ["Se", "element"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["12MarathonCore8EditTaskC", "deinit"]
+- !private ["12MarathonCore8EditTaskC", "init"]
+- !private ["12MarathonCore8EditTaskC", "init"]
+- !private ["SE", "element"]
+- ["SQ", "=="]
+- !private ["SQ", "AddTask"]
+- !private ["SQ", "Command"]
+- !private ["SQ", "CreateTask"]
+- !private ["SQ", "EditTask"]
+- !private ["SQ", "Error"]
+- !private ["SQ", "HelpTask"]
+- !private ["SQ", "InstallTask"]
+- !private ["SQ", "ListTask"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "RemoveTask"]
+- !private ["SQ", "RunTask"]
+- !private ["SQ", "UpdateTask"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- ["SQ", "add"]
+- ["SQ", "create"]
+- ["SQ", "description"]
+- ["SQ", "edit"]
+- !private ["SQ", "element"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "help"]
+- ["SQ", "hints"]
+- ["SQ", "init"]
+- ["SQ", "install"]
+- ["SQ", "invalid"]
+- ["SQ", "list"]
+- ["SQ", "message"]
+- ["SQ", "rawValue"]
+- ["SQ", "remove"]
+- ["SQ", "run"]
+- ["SQ", "update"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "hints"]
+- ["s5ErrorP", "invalid"]
+- ["s5ErrorP", "message"]
+- !private ["12MarathonCore10ExecutableP", "init"]
+- !private ["12MarathonCore10ExecutableP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "element"]
+- ["SH", "=="]
+- !private ["SH", "AddTask"]
+- !private ["SH", "Command"]
+- !private ["SH", "CreateTask"]
+- !private ["SH", "EditTask"]
+- !private ["SH", "Error"]
+- !private ["SH", "HelpTask"]
+- !private ["SH", "InstallTask"]
+- !private ["SH", "ListTask"]
+- ["SH", "RawValue"]
+- !private ["SH", "RemoveTask"]
+- !private ["SH", "RunTask"]
+- !private ["SH", "UpdateTask"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "add"]
+- ["SH", "create"]
+- ["SH", "edit"]
+- !private ["SH", "element"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "help"]
+- ["SH", "init"]
+- ["SH", "install"]
+- ["SH", "list"]
+- ["SH", "rawValue"]
+- ["SH", "remove"]
+- ["SH", "run"]
+- ["SH", "update"]
+- !private ["12MarathonCore8HelpTaskC", "deinit"]
+- !private ["12MarathonCore8HelpTaskC", "init"]
+- !private ["12MarathonCore8HelpTaskC", "init"]
+- !private ["12MarathonCore11InstallTaskC", "deinit"]
+- !private ["12MarathonCore11InstallTaskC", "init"]
+- !private ["12MarathonCore11InstallTaskC", "init"]
+- !private ["12MarathonCore8ListTaskC", "deinit"]
+- !private ["12MarathonCore8ListTaskC", "init"]
+- !private ["12MarathonCore8ListTaskC", "init"]
+- !private ["SM", "element"]
+- !private ["10Foundation19MutableDataProtocolP", "element"]
+- ["12MarathonCore14PrintableErrorP", "=="]
+- ["12MarathonCore14PrintableErrorP", ""]
+- ["12MarathonCore14PrintableErrorP", "_code"]
+- ["12MarathonCore14PrintableErrorP", "_domain"]
+- ["12MarathonCore14PrintableErrorP", "_getEmbeddedNSError"]
+- ["12MarathonCore14PrintableErrorP", "_userInfo"]
+- ["12MarathonCore14PrintableErrorP", "description"]
+- ["12MarathonCore14PrintableErrorP", "hints"]
+- ["12MarathonCore14PrintableErrorP", "invalid"]
+- ["12MarathonCore14PrintableErrorP", "message"]
+- !private ["Sk", "element"]
+- !private ["Sm", "element"]
+- ["SY", "=="]
+- !private ["SY", "AddTask"]
+- !private ["SY", "Command"]
+- !private ["SY", "CreateTask"]
+- !private ["SY", "EditTask"]
+- !private ["SY", "Error"]
+- !private ["SY", "HelpTask"]
+- !private ["SY", "InstallTask"]
+- !private ["SY", "ListTask"]
+- ["SY", "RawValue"]
+- !private ["SY", "RemoveTask"]
+- !private ["SY", "RunTask"]
+- !private ["SY", "UpdateTask"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "add"]
+- ["SY", "create"]
+- ["SY", "edit"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "help"]
+- ["SY", "init"]
+- ["SY", "install"]
+- ["SY", "list"]
+- ["SY", "rawValue"]
+- ["SY", "remove"]
+- ["SY", "run"]
+- ["SY", "update"]
+- !private ["12MarathonCore10RemoveTaskC", "deinit"]
+- !private ["12MarathonCore10RemoveTaskC", "init"]
+- !private ["12MarathonCore10RemoveTaskC", "init"]
+- !private ["12MarathonCore7RunTaskC", "deinit"]
+- !private ["12MarathonCore7RunTaskC", "init"]
+- !private ["12MarathonCore7RunTaskC", "init"]
+- !private ["ST", "element"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["12MarathonCore4TaskC", "init"]
+- !private ["12MarathonCore4TaskC", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["12MarathonCore10UpdateTaskC", "deinit"]
+- !private ["12MarathonCore10UpdateTaskC", "init"]
+- !private ["12MarathonCore10UpdateTaskC", "init"]
+- !private ["s14_ArrayProtocolP", "element"]
+- !private ["s24_DestructorSafeContainerP", "element"]
+- !private ["s19_HasContiguousBytesP", "element"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "element"]
+- !private ["s21_ObjectiveCBridgeableP", "element"]
+depends-nominal:
+- !private "12MarathonCore7AddTaskC"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "12MarathonCore7CommandO"
+- "12MarathonCore12CommandErrorO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "12MarathonCore10CreateTaskC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "12MarathonCore8EditTaskC"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "12MarathonCore10ExecutableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "12MarathonCore8HelpTaskC"
+- !private "12MarathonCore11InstallTaskC"
+- !private "12MarathonCore8ListTaskC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "12MarathonCore14PrintableErrorP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "12MarathonCore10RemoveTaskC"
+- !private "12MarathonCore7RunTaskC"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "12MarathonCore4TaskC"
+- !private "s16TextOutputStreamP"
+- !private "12MarathonCore10UpdateTaskC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "20d8fde1640a6563bd64306c3cfa9177"

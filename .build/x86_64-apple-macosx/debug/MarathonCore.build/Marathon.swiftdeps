@@ -1,0 +1,348 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Marathon"
+provides-nominal:
+- "12MarathonCore0A0C"
+- "12MarathonCore0A0C5ErrorO"
+provides-member:
+- ["12MarathonCore0A0C", ""]
+- ["12MarathonCore0A0C5ErrorO", ""]
+provides-dynamic-lookup:
+- "installShellAutocompleteIfNeeded"
+- "makePrinter"
+- "makeProgressPrintingFunction"
+- "makeVerbosePrintingFunction"
+- "resolveTask"
+- "run"
+depends-top-level:
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Command"
+- !private "CommandLine"
+- "Executable"
+- !private "FileSystem"
+- !private "FishAutocompleteInstaller"
+- !private "FloatLiteralType"
+- "Folder"
+- !private "IntegerLiteralType"
+- "Marathon"
+- !private "PackageManager"
+- "PrintFunction"
+- "Printer"
+- !private "ScriptManager"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- !private "TernaryPrecedence"
+- "VerbosePrintFunction"
+- !private "ZshAutocompleteInstaller"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["Sa", "dropFirst"]
+- !private ["Sa", "init"]
+- !private ["SK", "contains"]
+- !private ["SK", "dropFirst"]
+- !private ["SK", "init"]
+- !private ["SK", "withIndentedNewLines"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "dropFirst"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "withIndentedNewLines"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "dropFirst"]
+- !private ["Sl", "init"]
+- !private ["Sl", "withIndentedNewLines"]
+- !private ["12MarathonCore7CommandO", "allowsProgressOutput"]
+- !private ["12MarathonCore7CommandO", "deinit"]
+- !private ["12MarathonCore7CommandO", "init"]
+- !private ["12MarathonCore7CommandO", "makeTaskClosure"]
+- !private ["s11CommandLineO", "arguments"]
+- !private ["SL", "withIndentedNewLines"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "dropFirst"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "withIndentedNewLines"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "withIndentedNewLines"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "createSubfolderIfNeeded"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "withIndentedNewLines"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "dropFirst"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "contains"]
+- !private ["Se", "dropFirst"]
+- !private ["Se", "init"]
+- !private ["Se", "withIndentedNewLines"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "contains"]
+- !private ["SE", "dropFirst"]
+- !private ["SE", "init"]
+- !private ["SE", "withIndentedNewLines"]
+- !private ["SQ", "allowsProgressOutput"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "createSubfolderIfNeeded"]
+- !private ["SQ", "dropFirst"]
+- !private ["SQ", "init"]
+- !private ["SQ", "makeTaskClosure"]
+- !private ["SQ", "withIndentedNewLines"]
+- ["12MarathonCore0A0C5ErrorO", "String"]
+- ["s5ErrorP", ""]
+- ["12MarathonCore0A0C5ErrorO", "_code"]
+- ["s5ErrorP", "_code"]
+- ["12MarathonCore0A0C5ErrorO", "_domain"]
+- ["s5ErrorP", "_domain"]
+- ["12MarathonCore0A0C5ErrorO", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["12MarathonCore0A0C5ErrorO", "_userInfo"]
+- ["s5ErrorP", "_userInfo"]
+- ["12MarathonCore0A0C5ErrorO", "couldNotPerformSetup"]
+- !private ["s5ErrorP", "couldNotPerformSetup"]
+- ["12MarathonCore0A0C5ErrorO", "deinit"]
+- !private ["12MarathonCore10ExecutableP", "execute"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "dropFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withIndentedNewLines"]
+- !private ["s32ExpressibleByStringInterpolationP", "withIndentedNewLines"]
+- !private ["s26ExpressibleByStringLiteralP", "withIndentedNewLines"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withIndentedNewLines"]
+- !private ["5Files10FileSystemC", "createFolderIfNeeded"]
+- !private ["5Files10FileSystemC", "currentFolder"]
+- !private ["5Files10FileSystemC", "init"]
+- !private ["5Files18FileSystemIterableP", "createSubfolderIfNeeded"]
+- !private ["12MarathonCore25FishAutocompleteInstallerC", "installIfNeeded"]
+- !private ["5Files6FolderC", "createSubfolderIfNeeded"]
+- !private ["SH", "allowsProgressOutput"]
+- !private ["SH", "contains"]
+- !private ["SH", "dropFirst"]
+- !private ["SH", "init"]
+- !private ["SH", "makeTaskClosure"]
+- !private ["SH", "withIndentedNewLines"]
+- !private ["5Files10FileSystemC4ItemC", "createSubfolderIfNeeded"]
+- !private ["s25LosslessStringConvertibleP", "withIndentedNewLines"]
+- !private ["12MarathonCore0A0C", "Array"]
+- ["12MarathonCore0A0C", "Command"]
+- !private ["12MarathonCore0A0C", "CommandLine"]
+- ["12MarathonCore0A0C", "Error"]
+- ["12MarathonCore0A0C", "Executable"]
+- !private ["12MarathonCore0A0C", "FileSystem"]
+- !private ["12MarathonCore0A0C", "FishAutocompleteInstaller"]
+- ["12MarathonCore0A0C", "Folder"]
+- !private ["12MarathonCore0A0C", "Folders"]
+- !private ["12MarathonCore0A0C", "PackageManager"]
+- ["12MarathonCore0A0C", "PrintFunction"]
+- ["12MarathonCore0A0C", "Printer"]
+- !private ["12MarathonCore0A0C", "ScriptManager"]
+- ["12MarathonCore0A0C", "String"]
+- ["12MarathonCore0A0C", "Swift"]
+- ["12MarathonCore0A0C", "VerbosePrintFunction"]
+- !private ["12MarathonCore0A0C", "ZshAutocompleteInstaller"]
+- ["12MarathonCore0A0C", "deinit"]
+- ["12MarathonCore0A0C", "init"]
+- !private ["12MarathonCore0A0C", "installShellAutocompleteIfNeeded"]
+- !private ["12MarathonCore0A0C", "makePrinter"]
+- !private ["12MarathonCore0A0C", "makeProgressPrintingFunction"]
+- !private ["12MarathonCore0A0C", "makeVerbosePrintingFunction"]
+- !private ["12MarathonCore0A0C", "print"]
+- !private ["12MarathonCore0A0C", "resolveTask"]
+- ["12MarathonCore0A0C", "run"]
+- !private ["s10MirrorPathP", "withIndentedNewLines"]
+- !private ["SM", "contains"]
+- !private ["SM", "dropFirst"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "dropFirst"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "withIndentedNewLines"]
+- !private ["So9NSCopyingP", "withIndentedNewLines"]
+- !private ["So21NSItemProviderReadingP", "withIndentedNewLines"]
+- !private ["So21NSItemProviderWritingP", "withIndentedNewLines"]
+- !private ["So16NSMutableCopyingP", "withIndentedNewLines"]
+- !private ["So8NSObjectC", "withIndentedNewLines"]
+- !private ["So8NSObjectP", "withIndentedNewLines"]
+- !private ["So14NSSecureCodingP", "withIndentedNewLines"]
+- !private ["So8NSStringC", "withIndentedNewLines"]
+- !private ["12MarathonCore14PackageManagerC", "init"]
+- !private ["12MarathonCore7PrinterC", "init"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "dropFirst"]
+- !private ["Sk", "init"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "dropFirst"]
+- !private ["Sm", "init"]
+- !private ["Sm", "withIndentedNewLines"]
+- !private ["SY", "allowsProgressOutput"]
+- !private ["SY", "init"]
+- !private ["SY", "makeTaskClosure"]
+- !private ["12MarathonCore13ScriptManagerC", "init"]
+- !private ["ST", "contains"]
+- !private ["ST", "dropFirst"]
+- !private ["ST", "init"]
+- !private ["ST", "withIndentedNewLines"]
+- !private ["SS", "withIndentedNewLines"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "withIndentedNewLines"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "withIndentedNewLines"]
+- !private ["s20TextOutputStreamableP", "withIndentedNewLines"]
+- !private ["12MarathonCore24ZshAutocompleteInstallerC", "installIfNeeded"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "dropFirst"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withIndentedNewLines"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "dropFirst"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withIndentedNewLines"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withIndentedNewLines"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withIndentedNewLines"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "dropFirst"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "withIndentedNewLines"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dropFirst"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withIndentedNewLines"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withIndentedNewLines"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "withIndentedNewLines"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "dropFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "withIndentedNewLines"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "12MarathonCore7CommandO"
+- !private "s11CommandLineO"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- "12MarathonCore0A0C5ErrorO"
+- "s5ErrorP"
+- "12MarathonCore0A0C5ErrorO"
+- "s5ErrorP"
+- "12MarathonCore0A0C5ErrorO"
+- "s5ErrorP"
+- "12MarathonCore0A0C5ErrorO"
+- "s5ErrorP"
+- "12MarathonCore0A0C5ErrorO"
+- "s5ErrorP"
+- "12MarathonCore0A0C5ErrorO"
+- !private "s5ErrorP"
+- "12MarathonCore0A0C5ErrorO"
+- !private "12MarathonCore10ExecutableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Files10FileSystemC"
+- !private "5Files18FileSystemIterableP"
+- !private "12MarathonCore25FishAutocompleteInstallerC"
+- !private "5Files6FolderC"
+- !private "SH"
+- !private "5Files10FileSystemC4ItemC"
+- !private "s25LosslessStringConvertibleP"
+- "12MarathonCore0A0C"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "12MarathonCore14PackageManagerC"
+- !private "12MarathonCore7PrinterC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "12MarathonCore13ScriptManagerC"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "12MarathonCore24ZshAutocompleteInstallerC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c51b0abaaebbd54d90b82202aea83a4a"

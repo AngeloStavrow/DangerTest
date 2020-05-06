@@ -1,0 +1,141 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Time"
+provides-nominal:
+- "7OctoKit4TimeV"
+provides-member:
+- ["7OctoKit4TimeV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "DateFormatter"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Locale"
+- "StringLiteralType"
+- "Time"
+- "TimeZone"
+depends-member:
+- ["s7CVarArgP", "dateFormat"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "locale"]
+- ["s7CVarArgP", "timeZone"]
+- ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "locale"]
+- ["s28CustomDebugStringConvertibleP", "timeZone"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "dateFormat"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "locale"]
+- ["s23CustomStringConvertibleP", "timeZone"]
+- ["So15NSDateFormatterC", "dateFormat"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "locale"]
+- ["So15NSDateFormatterC", "timeZone"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", "dateFormat"]
+- ["SQ", "init"]
+- ["SQ", "locale"]
+- ["SQ", "timeZone"]
+- ["So11NSFormatterC", "dateFormat"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "locale"]
+- ["So11NSFormatterC", "timeZone"]
+- ["SH", "dateFormat"]
+- ["SH", "init"]
+- ["SH", "locale"]
+- ["SH", "timeZone"]
+- ["10Foundation6LocaleV", "init"]
+- ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "locale"]
+- ["So8NSCodingP", "timeZone"]
+- ["So9NSCopyingP", "dateFormat"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "locale"]
+- ["So9NSCopyingP", "timeZone"]
+- ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "timeZone"]
+- ["So8NSObjectP", "dateFormat"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "locale"]
+- ["So8NSObjectP", "timeZone"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["7OctoKit4TimeV", "DateFormatter"]
+- ["7OctoKit4TimeV", "Locale"]
+- ["7OctoKit4TimeV", "TimeZone"]
+- ["7OctoKit4TimeV", "init"]
+- ["7OctoKit4TimeV", "rfc3339DateFormatter"]
+- ["10Foundation8TimeZoneV", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeZone"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "So15NSDateFormatterC"
+- "Se"
+- "SE"
+- "SQ"
+- "So11NSFormatterC"
+- "SH"
+- "10Foundation6LocaleV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10Foundation20ReferenceConvertibleP"
+- "7OctoKit4TimeV"
+- "10Foundation8TimeZoneV"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a6bf7ae6738750c61de495f4d4795d3d"

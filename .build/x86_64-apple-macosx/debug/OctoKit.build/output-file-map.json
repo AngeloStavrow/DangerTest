@@ -1,0 +1,119 @@
+{
+  "": {
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/master.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Configuration.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Configuration.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Configuration.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Configuration.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/File.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/File.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/File.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/File.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Follow.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Follow.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Follow.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Follow~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Follow.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Gist.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Gist.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Gist.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Gist~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Gist.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Issue.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Issue.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Issue.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Issue~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Issue.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Label.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Label.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Label.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Label~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Label.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Milestone.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Milestone.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Milestone.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Milestone~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Milestone.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Octokit.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Octokit.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Octokit.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Octokit~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Octokit.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Parameters.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Parameters.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Parameters.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Parameters~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Parameters.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/PublicKey.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/PublicKey.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/PublicKey.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/PublicKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/PublicKey.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/PullRequest.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/PullRequest.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/PullRequest.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/PullRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/PullRequest.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Releases.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Releases.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Releases.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Releases~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Releases.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Repositories.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Repositories.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Repositories.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Repositories~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Repositories.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Review.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Review.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Review.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Review~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Review.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Stars.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Stars.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Stars.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Stars~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Stars.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/String+PercentEncoding.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/String+PercentEncoding.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/String+PercentEncoding.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/String+PercentEncoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/String+PercentEncoding.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/Time.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Time.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Time.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Time~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/Time.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/URL+URLParameters.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/URL+URLParameters.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/URL+URLParameters.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/URL+URLParameters~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/URL+URLParameters.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/octokit.swift/OctoKit/User.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/User.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/User.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/User.swiftdeps"
+  }
+}

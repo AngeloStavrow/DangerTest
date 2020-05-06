@@ -1,0 +1,4 @@
+module Danger {
+    header "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/Danger-Swift.h"
+    requires objc
+}

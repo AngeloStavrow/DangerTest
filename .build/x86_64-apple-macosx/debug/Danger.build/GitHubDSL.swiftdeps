@@ -1,0 +1,1081 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GitHub"
+- "GitHubPR"
+- "GitHubUser"
+- "GitHubTeam"
+- "GitHubRequestedReviewers"
+- "GitHubMergeRef"
+- "GitHubRepo"
+- "GitHubReview"
+- "GitHubCommit"
+- "GitHubIssue"
+- "GitHubIssueLabel"
+- "GitHubMilestone"
+provides-nominal:
+- "6Danger6GitHubV"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger8GitHubPRV16PullRequestStateO"
+- "6Danger10GitHubUserV"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger10GitHubUserV0D4TypeO"
+- "6Danger10GitHubTeamV"
+- "6Danger24GitHubRequestedReviewersV"
+- "6Danger14GitHubMergeRefV"
+- "6Danger10GitHubRepoV"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger12GitHubReviewV"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger12GitHubReviewV0D5StateO"
+- "6Danger12GitHubCommitV"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger11GitHubIssueV"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger11GitHubIssueV0D5StateO"
+- "6Danger16GitHubIssueLabelV"
+- "6Danger15GitHubMilestoneV"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger15GitHubMilestoneV0D5StateO"
+provides-member:
+- ["6Danger6GitHubV", ""]
+- ["6Danger6GitHubV10CodingKeysO", ""]
+- ["6Danger8GitHubPRV", ""]
+- ["6Danger8GitHubPRV10CodingKeysO", ""]
+- ["6Danger8GitHubPRV16PullRequestStateO", ""]
+- ["6Danger10GitHubUserV", ""]
+- ["6Danger10GitHubUserV10CodingKeysO", ""]
+- ["6Danger10GitHubUserV0D4TypeO", ""]
+- ["6Danger10GitHubTeamV", ""]
+- ["6Danger24GitHubRequestedReviewersV", ""]
+- ["6Danger14GitHubMergeRefV", ""]
+- ["6Danger10GitHubRepoV", ""]
+- ["6Danger10GitHubRepoV10CodingKeysO", ""]
+- ["6Danger12GitHubReviewV", ""]
+- ["6Danger12GitHubReviewV10CodingKeysO", ""]
+- ["6Danger12GitHubReviewV0D5StateO", ""]
+- ["6Danger12GitHubCommitV", ""]
+- ["6Danger12GitHubCommitV10CodingKeysO", ""]
+- ["6Danger11GitHubIssueV", ""]
+- ["6Danger11GitHubIssueV10CodingKeysO", ""]
+- ["6Danger11GitHubIssueV0D5StateO", ""]
+- ["6Danger16GitHubIssueLabelV", ""]
+- ["6Danger15GitHubMilestoneV", ""]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", ""]
+- ["6Danger15GitHubMilestoneV0D5StateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CodingKey"
+- "Date"
+- "Decodable"
+- "Decoder"
+- "Equatable"
+- !private "FloatLiteralType"
+- "GitCommit"
+- "GitHub"
+- "GitHubCommit"
+- "GitHubIssue"
+- "GitHubIssueLabel"
+- "GitHubMergeRef"
+- "GitHubMilestone"
+- "GitHubPR"
+- "GitHubRepo"
+- "GitHubRequestedReviewers"
+- "GitHubReview"
+- "GitHubTeam"
+- "GitHubUser"
+- "Int"
+- !private "IntegerLiteralType"
+- "Octokit"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "author"]
+- !private ["s9CodingKeyP", "commit"]
+- !private ["s9CodingKeyP", "committer"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "sha"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "url"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "=="]
+- ["6Danger10GitHubUserV10CodingKeysO", "=="]
+- ["6Danger11GitHubIssueV10CodingKeysO", "=="]
+- ["6Danger12GitHubCommitV10CodingKeysO", "=="]
+- ["6Danger12GitHubReviewV10CodingKeysO", "=="]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "=="]
+- ["6Danger6GitHubV10CodingKeysO", "=="]
+- ["6Danger8GitHubPRV10CodingKeysO", "=="]
+- ["6Danger10GitHubRepoV10CodingKeysO", "RawValue"]
+- ["6Danger10GitHubUserV10CodingKeysO", "RawValue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "RawValue"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "RawValue"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "RawValue"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "RawValue"]
+- ["6Danger6GitHubV10CodingKeysO", "RawValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "RawValue"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger10GitHubUserV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger6GitHubV10CodingKeysO", "_Default_RawValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "_Default_RawValue"]
+- !private ["6Danger10GitHubRepoV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger10GitHubUserV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger11GitHubIssueV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger12GitHubCommitV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger12GitHubReviewV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger15GitHubMilestoneV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger6GitHubV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["6Danger8GitHubPRV10CodingKeysO", "_findStringSwitchCase"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "_rawHashValue"]
+- ["6Danger10GitHubUserV10CodingKeysO", "_rawHashValue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "_rawHashValue"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "_rawHashValue"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "_rawHashValue"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "_rawHashValue"]
+- ["6Danger6GitHubV10CodingKeysO", "_rawHashValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "_rawHashValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "additions"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "assignee"]
+- ["6Danger8GitHubPRV10CodingKeysO", "assignee"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "assignees"]
+- ["6Danger8GitHubPRV10CodingKeysO", "assignees"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "author"]
+- ["6Danger8GitHubPRV10CodingKeysO", "base"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "body"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "body"]
+- ["6Danger8GitHubPRV10CodingKeysO", "body"]
+- ["6Danger8GitHubPRV10CodingKeysO", "changedFiles"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "closedAt"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "closedAt"]
+- ["6Danger8GitHubPRV10CodingKeysO", "closedAt"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "closedIssues"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "commentCount"]
+- ["6Danger8GitHubPRV10CodingKeysO", "commentCount"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "commit"]
+- ["6Danger8GitHubPRV10CodingKeysO", "commitCount"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "commitId"]
+- ["6Danger6GitHubV10CodingKeysO", "commits"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "committer"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "createdAt"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "createdAt"]
+- ["6Danger8GitHubPRV10CodingKeysO", "createdAt"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "creator"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "debugDescription"]
+- ["6Danger10GitHubUserV10CodingKeysO", "debugDescription"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "debugDescription"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "debugDescription"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "debugDescription"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "debugDescription"]
+- ["6Danger6GitHubV10CodingKeysO", "debugDescription"]
+- ["6Danger8GitHubPRV10CodingKeysO", "debugDescription"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "deinit"]
+- ["6Danger10GitHubUserV10CodingKeysO", "deinit"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "deinit"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "deinit"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "deinit"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "deinit"]
+- ["6Danger6GitHubV10CodingKeysO", "deinit"]
+- ["6Danger8GitHubPRV10CodingKeysO", "deinit"]
+- ["6Danger8GitHubPRV10CodingKeysO", "deletions"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "description"]
+- ["6Danger10GitHubUserV10CodingKeysO", "description"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "description"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "description"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "description"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "description"]
+- ["6Danger6GitHubV10CodingKeysO", "description"]
+- ["6Danger8GitHubPRV10CodingKeysO", "description"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "dueOn"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "fullName"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "hash"]
+- ["6Danger10GitHubUserV10CodingKeysO", "hash"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "hash"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "hash"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "hash"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "hash"]
+- ["6Danger6GitHubV10CodingKeysO", "hash"]
+- ["6Danger8GitHubPRV10CodingKeysO", "hash"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "hashValue"]
+- ["6Danger10GitHubUserV10CodingKeysO", "hashValue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "hashValue"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "hashValue"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "hashValue"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "hashValue"]
+- ["6Danger6GitHubV10CodingKeysO", "hashValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "hashValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "head"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "htmlURL"]
+- ["6Danger8GitHubPRV10CodingKeysO", "htmlUrl"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "id"]
+- ["6Danger10GitHubUserV10CodingKeysO", "id"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "id"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "id"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "id"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "init"]
+- ["6Danger10GitHubUserV10CodingKeysO", "init"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "init"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "init"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "init"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "init"]
+- ["6Danger6GitHubV10CodingKeysO", "init"]
+- ["6Danger8GitHubPRV10CodingKeysO", "init"]
+- !private ["6Danger10GitHubRepoV10CodingKeysO", "init"]
+- !private ["6Danger10GitHubUserV10CodingKeysO", "init"]
+- !private ["6Danger11GitHubIssueV10CodingKeysO", "init"]
+- !private ["6Danger12GitHubCommitV10CodingKeysO", "init"]
+- !private ["6Danger12GitHubReviewV10CodingKeysO", "init"]
+- !private ["6Danger15GitHubMilestoneV10CodingKeysO", "init"]
+- !private ["6Danger6GitHubV10CodingKeysO", "init"]
+- !private ["6Danger8GitHubPRV10CodingKeysO", "init"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "intValue"]
+- ["6Danger10GitHubUserV10CodingKeysO", "intValue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "intValue"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "intValue"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "intValue"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "intValue"]
+- ["6Danger6GitHubV10CodingKeysO", "intValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "intValue"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "isFork"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "isLocked"]
+- ["6Danger8GitHubPRV10CodingKeysO", "isLocked"]
+- ["6Danger8GitHubPRV10CodingKeysO", "isMerged"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "isPrivate"]
+- ["6Danger6GitHubV10CodingKeysO", "issue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "labels"]
+- ["6Danger10GitHubUserV10CodingKeysO", "login"]
+- ["6Danger8GitHubPRV10CodingKeysO", "mergedAt"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "milestone"]
+- ["6Danger8GitHubPRV10CodingKeysO", "milestone"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "name"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "number"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "number"]
+- ["6Danger8GitHubPRV10CodingKeysO", "number"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "openIssues"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "owner"]
+- ["6Danger6GitHubV10CodingKeysO", "pullRequest"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "rawValue"]
+- ["6Danger10GitHubUserV10CodingKeysO", "rawValue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "rawValue"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "rawValue"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "rawValue"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "rawValue"]
+- ["6Danger6GitHubV10CodingKeysO", "rawValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "rawValue"]
+- ["6Danger6GitHubV10CodingKeysO", "requestedReviewers"]
+- ["6Danger8GitHubPRV10CodingKeysO", "reviewCommentCount"]
+- ["6Danger6GitHubV10CodingKeysO", "reviews"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "sha"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "state"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "state"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "state"]
+- ["6Danger8GitHubPRV10CodingKeysO", "state"]
+- ["6Danger10GitHubRepoV10CodingKeysO", "stringValue"]
+- ["6Danger10GitHubUserV10CodingKeysO", "stringValue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "stringValue"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "stringValue"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "stringValue"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "stringValue"]
+- ["6Danger6GitHubV10CodingKeysO", "stringValue"]
+- ["6Danger8GitHubPRV10CodingKeysO", "stringValue"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "title"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "title"]
+- ["6Danger8GitHubPRV10CodingKeysO", "title"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "updatedAt"]
+- ["6Danger15GitHubMilestoneV10CodingKeysO", "updatedAt"]
+- ["6Danger8GitHubPRV10CodingKeysO", "updatedAt"]
+- ["6Danger12GitHubCommitV10CodingKeysO", "url"]
+- ["6Danger11GitHubIssueV10CodingKeysO", "user"]
+- ["6Danger12GitHubReviewV10CodingKeysO", "user"]
+- ["6Danger8GitHubPRV10CodingKeysO", "user"]
+- ["6Danger10GitHubUserV10CodingKeysO", "userType"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "author"]
+- !private ["s28CustomDebugStringConvertibleP", "commit"]
+- !private ["s28CustomDebugStringConvertibleP", "committer"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "sha"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "author"]
+- !private ["s23CustomStringConvertibleP", "commit"]
+- !private ["s23CustomStringConvertibleP", "committer"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "sha"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- ["Se", "=="]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "GitCommit"]
+- !private ["Se", "GitHubUser"]
+- ["Se", "RawValue"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "additions"]
+- !private ["Se", "assignee"]
+- !private ["Se", "assignees"]
+- !private ["Se", "author"]
+- !private ["Se", "base"]
+- !private ["Se", "body"]
+- !private ["Se", "changedFiles"]
+- !private ["Se", "closedAt"]
+- !private ["Se", "closedIssues"]
+- !private ["Se", "color"]
+- !private ["Se", "commentCount"]
+- !private ["Se", "commit"]
+- !private ["Se", "commitCount"]
+- !private ["Se", "commitId"]
+- !private ["Se", "commits"]
+- !private ["Se", "committer"]
+- !private ["Se", "createdAt"]
+- !private ["Se", "creator"]
+- !private ["Se", "deletions"]
+- !private ["Se", "description"]
+- !private ["Se", "dueOn"]
+- !private ["Se", "fullName"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "head"]
+- !private ["Se", "htmlURL"]
+- !private ["Se", "htmlUrl"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "isFork"]
+- !private ["Se", "isLocked"]
+- !private ["Se", "isMerged"]
+- !private ["Se", "isPrivate"]
+- !private ["Se", "issue"]
+- !private ["Se", "label"]
+- !private ["Se", "labels"]
+- !private ["Se", "login"]
+- !private ["Se", "mergedAt"]
+- !private ["Se", "milestone"]
+- !private ["Se", "name"]
+- !private ["Se", "number"]
+- !private ["Se", "openIssues"]
+- !private ["Se", "owner"]
+- !private ["Se", "pullRequest"]
+- ["Se", "rawValue"]
+- !private ["Se", "ref"]
+- !private ["Se", "repo"]
+- !private ["Se", "requestedReviewers"]
+- !private ["Se", "reviewCommentCount"]
+- !private ["Se", "reviews"]
+- !private ["Se", "sha"]
+- !private ["Se", "state"]
+- !private ["Se", "teams"]
+- !private ["Se", "title"]
+- !private ["Se", "updatedAt"]
+- !private ["Se", "url"]
+- !private ["Se", "user"]
+- !private ["Se", "userType"]
+- !private ["Se", "users"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "GitCommit"]
+- !private ["SQ", "GitHubUser"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "additions"]
+- !private ["SQ", "assignee"]
+- !private ["SQ", "assignees"]
+- !private ["SQ", "author"]
+- !private ["SQ", "base"]
+- !private ["SQ", "body"]
+- !private ["SQ", "changedFiles"]
+- !private ["SQ", "closedAt"]
+- !private ["SQ", "closedIssues"]
+- !private ["SQ", "color"]
+- !private ["SQ", "commentCount"]
+- !private ["SQ", "commit"]
+- !private ["SQ", "commitCount"]
+- !private ["SQ", "commitId"]
+- !private ["SQ", "committer"]
+- !private ["SQ", "createdAt"]
+- !private ["SQ", "creator"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "deletions"]
+- ["SQ", "description"]
+- !private ["SQ", "dueOn"]
+- !private ["SQ", "fullName"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "head"]
+- !private ["SQ", "htmlURL"]
+- !private ["SQ", "htmlUrl"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isFork"]
+- !private ["SQ", "isLocked"]
+- !private ["SQ", "isMerged"]
+- !private ["SQ", "isPrivate"]
+- !private ["SQ", "label"]
+- !private ["SQ", "labels"]
+- !private ["SQ", "login"]
+- !private ["SQ", "mergedAt"]
+- !private ["SQ", "milestone"]
+- !private ["SQ", "name"]
+- !private ["SQ", "number"]
+- !private ["SQ", "openIssues"]
+- !private ["SQ", "owner"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "ref"]
+- !private ["SQ", "repo"]
+- !private ["SQ", "reviewCommentCount"]
+- !private ["SQ", "sha"]
+- !private ["SQ", "state"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "teams"]
+- !private ["SQ", "title"]
+- !private ["SQ", "updatedAt"]
+- !private ["SQ", "url"]
+- !private ["SQ", "user"]
+- !private ["SQ", "userType"]
+- !private ["SQ", "users"]
+- ["6Danger9GitCommitV", "deinit"]
+- ["6Danger6GitHubV", "CodingKey"]
+- ["6Danger6GitHubV", "CodingKeys"]
+- ["6Danger6GitHubV", "GitHubCommit"]
+- ["6Danger6GitHubV", "GitHubIssue"]
+- ["6Danger6GitHubV", "GitHubPR"]
+- ["6Danger6GitHubV", "GitHubRequestedReviewers"]
+- ["6Danger6GitHubV", "GitHubReview"]
+- ["6Danger6GitHubV", "Octokit"]
+- ["6Danger6GitHubV", "String"]
+- !private ["6Danger6GitHubV", "_findStringSwitchCase"]
+- ["6Danger6GitHubV", "api"]
+- ["6Danger6GitHubV", "commits"]
+- ["6Danger6GitHubV", "deinit"]
+- ["6Danger6GitHubV", "init"]
+- ["6Danger6GitHubV", "issue"]
+- ["6Danger6GitHubV", "pullRequest"]
+- ["6Danger6GitHubV", "requestedReviewers"]
+- ["6Danger6GitHubV", "reviews"]
+- ["6Danger12GitHubCommitV", "=="]
+- ["6Danger12GitHubCommitV", "CodingKey"]
+- ["6Danger12GitHubCommitV", "CodingKeys"]
+- ["6Danger12GitHubCommitV", "Decoder"]
+- ["6Danger12GitHubCommitV", "GitCommit"]
+- ["6Danger12GitHubCommitV", "GitHubUser"]
+- ["6Danger12GitHubCommitV", "String"]
+- ["6Danger12GitHubCommitV", "__derived_struct_equals"]
+- !private ["6Danger12GitHubCommitV", "_findStringSwitchCase"]
+- ["6Danger12GitHubCommitV", "author"]
+- ["6Danger12GitHubCommitV", "commit"]
+- ["6Danger12GitHubCommitV", "committer"]
+- ["6Danger12GitHubCommitV", "deinit"]
+- ["6Danger12GitHubCommitV", "init"]
+- ["6Danger12GitHubCommitV", "sha"]
+- ["6Danger12GitHubCommitV", "url"]
+- ["6Danger11GitHubIssueV", "=="]
+- ["6Danger11GitHubIssueV", "Bool"]
+- ["6Danger11GitHubIssueV", "CodingKey"]
+- ["6Danger11GitHubIssueV", "CodingKeys"]
+- ["6Danger11GitHubIssueV", "Date"]
+- ["6Danger11GitHubIssueV", "Decodable"]
+- ["6Danger11GitHubIssueV", "GitHubIssueLabel"]
+- ["6Danger11GitHubIssueV", "GitHubMilestone"]
+- ["6Danger11GitHubIssueV", "GitHubUser"]
+- ["6Danger11GitHubIssueV", "Int"]
+- ["6Danger11GitHubIssueV", "IssueState"]
+- ["6Danger11GitHubIssueV", "String"]
+- ["6Danger11GitHubIssueV", "__derived_struct_equals"]
+- !private ["6Danger11GitHubIssueV", "_findStringSwitchCase"]
+- ["6Danger11GitHubIssueV", "assignee"]
+- ["6Danger11GitHubIssueV", "assignees"]
+- ["6Danger11GitHubIssueV", "body"]
+- ["6Danger11GitHubIssueV", "closedAt"]
+- ["6Danger11GitHubIssueV", "commentCount"]
+- ["6Danger11GitHubIssueV", "createdAt"]
+- ["6Danger11GitHubIssueV", "deinit"]
+- ["6Danger11GitHubIssueV", "id"]
+- ["6Danger11GitHubIssueV", "init"]
+- ["6Danger11GitHubIssueV", "isLocked"]
+- ["6Danger11GitHubIssueV", "labels"]
+- ["6Danger11GitHubIssueV", "milestone"]
+- ["6Danger11GitHubIssueV", "number"]
+- ["6Danger11GitHubIssueV", "state"]
+- ["6Danger11GitHubIssueV", "title"]
+- ["6Danger11GitHubIssueV", "updatedAt"]
+- ["6Danger11GitHubIssueV", "user"]
+- ["6Danger16GitHubIssueLabelV", "=="]
+- ["6Danger16GitHubIssueLabelV", "Int"]
+- ["6Danger16GitHubIssueLabelV", "String"]
+- ["6Danger16GitHubIssueLabelV", "__derived_struct_equals"]
+- ["6Danger16GitHubIssueLabelV", "color"]
+- ["6Danger16GitHubIssueLabelV", "deinit"]
+- ["6Danger16GitHubIssueLabelV", "id"]
+- ["6Danger16GitHubIssueLabelV", "init"]
+- ["6Danger16GitHubIssueLabelV", "name"]
+- ["6Danger16GitHubIssueLabelV", "url"]
+- ["6Danger14GitHubMergeRefV", "=="]
+- ["6Danger14GitHubMergeRefV", "GitHubRepo"]
+- ["6Danger14GitHubMergeRefV", "GitHubUser"]
+- ["6Danger14GitHubMergeRefV", "String"]
+- ["6Danger14GitHubMergeRefV", "__derived_struct_equals"]
+- ["6Danger14GitHubMergeRefV", "deinit"]
+- ["6Danger14GitHubMergeRefV", "init"]
+- ["6Danger14GitHubMergeRefV", "label"]
+- ["6Danger14GitHubMergeRefV", "ref"]
+- ["6Danger14GitHubMergeRefV", "repo"]
+- ["6Danger14GitHubMergeRefV", "sha"]
+- ["6Danger14GitHubMergeRefV", "user"]
+- ["6Danger15GitHubMilestoneV", "=="]
+- ["6Danger15GitHubMilestoneV", "CodingKey"]
+- ["6Danger15GitHubMilestoneV", "CodingKeys"]
+- ["6Danger15GitHubMilestoneV", "Date"]
+- ["6Danger15GitHubMilestoneV", "Decodable"]
+- ["6Danger15GitHubMilestoneV", "GitHubUser"]
+- ["6Danger15GitHubMilestoneV", "Int"]
+- ["6Danger15GitHubMilestoneV", "MilestoneState"]
+- ["6Danger15GitHubMilestoneV", "String"]
+- ["6Danger15GitHubMilestoneV", "__derived_struct_equals"]
+- !private ["6Danger15GitHubMilestoneV", "_findStringSwitchCase"]
+- ["6Danger15GitHubMilestoneV", "closedAt"]
+- ["6Danger15GitHubMilestoneV", "closedIssues"]
+- ["6Danger15GitHubMilestoneV", "createdAt"]
+- ["6Danger15GitHubMilestoneV", "creator"]
+- ["6Danger15GitHubMilestoneV", "deinit"]
+- ["6Danger15GitHubMilestoneV", "description"]
+- ["6Danger15GitHubMilestoneV", "dueOn"]
+- ["6Danger15GitHubMilestoneV", "id"]
+- ["6Danger15GitHubMilestoneV", "init"]
+- ["6Danger15GitHubMilestoneV", "number"]
+- ["6Danger15GitHubMilestoneV", "openIssues"]
+- ["6Danger15GitHubMilestoneV", "state"]
+- ["6Danger15GitHubMilestoneV", "title"]
+- ["6Danger15GitHubMilestoneV", "updatedAt"]
+- ["6Danger8GitHubPRV", "=="]
+- ["6Danger8GitHubPRV", "Bool"]
+- ["6Danger8GitHubPRV", "CodingKey"]
+- ["6Danger8GitHubPRV", "CodingKeys"]
+- ["6Danger8GitHubPRV", "Date"]
+- ["6Danger8GitHubPRV", "Decodable"]
+- ["6Danger8GitHubPRV", "GitHubMergeRef"]
+- ["6Danger8GitHubPRV", "GitHubMilestone"]
+- ["6Danger8GitHubPRV", "GitHubUser"]
+- ["6Danger8GitHubPRV", "Int"]
+- ["6Danger8GitHubPRV", "PullRequestState"]
+- ["6Danger8GitHubPRV", "String"]
+- ["6Danger8GitHubPRV", "__derived_struct_equals"]
+- !private ["6Danger8GitHubPRV", "_findStringSwitchCase"]
+- ["6Danger8GitHubPRV", "additions"]
+- ["6Danger8GitHubPRV", "assignee"]
+- ["6Danger8GitHubPRV", "assignees"]
+- ["6Danger8GitHubPRV", "base"]
+- ["6Danger8GitHubPRV", "body"]
+- ["6Danger8GitHubPRV", "changedFiles"]
+- ["6Danger8GitHubPRV", "closedAt"]
+- ["6Danger8GitHubPRV", "commentCount"]
+- ["6Danger8GitHubPRV", "commitCount"]
+- ["6Danger8GitHubPRV", "createdAt"]
+- ["6Danger8GitHubPRV", "deinit"]
+- ["6Danger8GitHubPRV", "deletions"]
+- ["6Danger8GitHubPRV", "head"]
+- ["6Danger8GitHubPRV", "htmlUrl"]
+- ["6Danger8GitHubPRV", "init"]
+- ["6Danger8GitHubPRV", "isLocked"]
+- ["6Danger8GitHubPRV", "isMerged"]
+- ["6Danger8GitHubPRV", "mergedAt"]
+- ["6Danger8GitHubPRV", "milestone"]
+- ["6Danger8GitHubPRV", "number"]
+- ["6Danger8GitHubPRV", "reviewCommentCount"]
+- ["6Danger8GitHubPRV", "state"]
+- ["6Danger8GitHubPRV", "title"]
+- ["6Danger8GitHubPRV", "updatedAt"]
+- ["6Danger8GitHubPRV", "user"]
+- ["6Danger10GitHubRepoV", "=="]
+- ["6Danger10GitHubRepoV", "Bool"]
+- ["6Danger10GitHubRepoV", "CodingKey"]
+- ["6Danger10GitHubRepoV", "CodingKeys"]
+- ["6Danger10GitHubRepoV", "GitHubUser"]
+- ["6Danger10GitHubRepoV", "Int"]
+- ["6Danger10GitHubRepoV", "String"]
+- ["6Danger10GitHubRepoV", "__derived_struct_equals"]
+- !private ["6Danger10GitHubRepoV", "_findStringSwitchCase"]
+- ["6Danger10GitHubRepoV", "deinit"]
+- ["6Danger10GitHubRepoV", "description"]
+- ["6Danger10GitHubRepoV", "fullName"]
+- ["6Danger10GitHubRepoV", "htmlURL"]
+- ["6Danger10GitHubRepoV", "id"]
+- ["6Danger10GitHubRepoV", "init"]
+- ["6Danger10GitHubRepoV", "isFork"]
+- ["6Danger10GitHubRepoV", "isPrivate"]
+- ["6Danger10GitHubRepoV", "name"]
+- ["6Danger10GitHubRepoV", "owner"]
+- ["6Danger24GitHubRequestedReviewersV", "=="]
+- ["6Danger24GitHubRequestedReviewersV", "GitHubTeam"]
+- ["6Danger24GitHubRequestedReviewersV", "GitHubUser"]
+- ["6Danger24GitHubRequestedReviewersV", "__derived_struct_equals"]
+- ["6Danger24GitHubRequestedReviewersV", "deinit"]
+- ["6Danger24GitHubRequestedReviewersV", "init"]
+- ["6Danger24GitHubRequestedReviewersV", "teams"]
+- ["6Danger24GitHubRequestedReviewersV", "users"]
+- ["6Danger12GitHubReviewV", "=="]
+- ["6Danger12GitHubReviewV", "CodingKey"]
+- ["6Danger12GitHubReviewV", "CodingKeys"]
+- ["6Danger12GitHubReviewV", "Decodable"]
+- ["6Danger12GitHubReviewV", "GitHubUser"]
+- ["6Danger12GitHubReviewV", "Int"]
+- ["6Danger12GitHubReviewV", "ReviewState"]
+- ["6Danger12GitHubReviewV", "String"]
+- ["6Danger12GitHubReviewV", "__derived_struct_equals"]
+- !private ["6Danger12GitHubReviewV", "_findStringSwitchCase"]
+- ["6Danger12GitHubReviewV", "body"]
+- ["6Danger12GitHubReviewV", "commitId"]
+- ["6Danger12GitHubReviewV", "deinit"]
+- ["6Danger12GitHubReviewV", "id"]
+- ["6Danger12GitHubReviewV", "init"]
+- ["6Danger12GitHubReviewV", "state"]
+- ["6Danger12GitHubReviewV", "user"]
+- ["6Danger10GitHubTeamV", "=="]
+- ["6Danger10GitHubTeamV", "Int"]
+- ["6Danger10GitHubTeamV", "String"]
+- ["6Danger10GitHubTeamV", "__derived_struct_equals"]
+- ["6Danger10GitHubTeamV", "deinit"]
+- ["6Danger10GitHubTeamV", "id"]
+- ["6Danger10GitHubTeamV", "init"]
+- ["6Danger10GitHubTeamV", "name"]
+- ["6Danger10GitHubUserV", "=="]
+- ["6Danger10GitHubUserV", "CodingKey"]
+- ["6Danger10GitHubUserV", "CodingKeys"]
+- ["6Danger10GitHubUserV", "Decodable"]
+- ["6Danger10GitHubUserV", "Int"]
+- ["6Danger10GitHubUserV", "String"]
+- ["6Danger10GitHubUserV", "UserType"]
+- ["6Danger10GitHubUserV", "__derived_struct_equals"]
+- !private ["6Danger10GitHubUserV", "_findStringSwitchCase"]
+- ["6Danger10GitHubUserV", "deinit"]
+- ["6Danger10GitHubUserV", "id"]
+- ["6Danger10GitHubUserV", "init"]
+- ["6Danger10GitHubUserV", "login"]
+- ["6Danger10GitHubUserV", "userType"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "author"]
+- !private ["SH", "commit"]
+- !private ["SH", "committer"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- !private ["SH", "sha"]
+- ["SH", "stringValue"]
+- !private ["SH", "url"]
+- !private ["s6HasherV", "combine"]
+- ["6Danger11GitHubIssueV0D5StateO", "=="]
+- ["6Danger11GitHubIssueV0D5StateO", "RawValue"]
+- ["6Danger11GitHubIssueV0D5StateO", "_Default_RawValue"]
+- !private ["6Danger11GitHubIssueV0D5StateO", "_findStringSwitchCase"]
+- ["6Danger11GitHubIssueV0D5StateO", "_rawHashValue"]
+- ["6Danger11GitHubIssueV0D5StateO", "closed"]
+- ["6Danger11GitHubIssueV0D5StateO", "deinit"]
+- ["6Danger11GitHubIssueV0D5StateO", "hash"]
+- ["6Danger11GitHubIssueV0D5StateO", "hashValue"]
+- ["6Danger11GitHubIssueV0D5StateO", "init"]
+- ["6Danger11GitHubIssueV0D5StateO", "locked"]
+- ["6Danger11GitHubIssueV0D5StateO", "open"]
+- ["6Danger11GitHubIssueV0D5StateO", "rawValue"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "=="]
+- ["6Danger15GitHubMilestoneV0D5StateO", "RawValue"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "_Default_RawValue"]
+- !private ["6Danger15GitHubMilestoneV0D5StateO", "_findStringSwitchCase"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "_rawHashValue"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "all"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "closed"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "deinit"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "hash"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "hashValue"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "init"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "open"]
+- ["6Danger15GitHubMilestoneV0D5StateO", "rawValue"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "=="]
+- ["6Danger8GitHubPRV16PullRequestStateO", "RawValue"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "_Default_RawValue"]
+- !private ["6Danger8GitHubPRV16PullRequestStateO", "_findStringSwitchCase"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "_rawHashValue"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "closed"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "deinit"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "hash"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "hashValue"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "init"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "locked"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "merged"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "open"]
+- ["6Danger8GitHubPRV16PullRequestStateO", "rawValue"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "author"]
+- !private ["SY", "commit"]
+- !private ["SY", "committer"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- !private ["SY", "sha"]
+- ["SY", "stringValue"]
+- !private ["SY", "url"]
+- ["6Danger12GitHubReviewV0D5StateO", "=="]
+- ["6Danger12GitHubReviewV0D5StateO", "RawValue"]
+- ["6Danger12GitHubReviewV0D5StateO", "_Default_RawValue"]
+- !private ["6Danger12GitHubReviewV0D5StateO", "_findStringSwitchCase"]
+- ["6Danger12GitHubReviewV0D5StateO", "_rawHashValue"]
+- ["6Danger12GitHubReviewV0D5StateO", "approved"]
+- ["6Danger12GitHubReviewV0D5StateO", "comment"]
+- ["6Danger12GitHubReviewV0D5StateO", "deinit"]
+- ["6Danger12GitHubReviewV0D5StateO", "dismissed"]
+- ["6Danger12GitHubReviewV0D5StateO", "hash"]
+- ["6Danger12GitHubReviewV0D5StateO", "hashValue"]
+- ["6Danger12GitHubReviewV0D5StateO", "init"]
+- ["6Danger12GitHubReviewV0D5StateO", "pending"]
+- ["6Danger12GitHubReviewV0D5StateO", "rawValue"]
+- ["6Danger12GitHubReviewV0D5StateO", "requestedChanges"]
+- ["6Danger10GitHubUserV0D4TypeO", "=="]
+- ["6Danger10GitHubUserV0D4TypeO", "RawValue"]
+- ["6Danger10GitHubUserV0D4TypeO", "_Default_RawValue"]
+- !private ["6Danger10GitHubUserV0D4TypeO", "_findStringSwitchCase"]
+- ["6Danger10GitHubUserV0D4TypeO", "_rawHashValue"]
+- ["6Danger10GitHubUserV0D4TypeO", "bot"]
+- ["6Danger10GitHubUserV0D4TypeO", "deinit"]
+- ["6Danger10GitHubUserV0D4TypeO", "hash"]
+- ["6Danger10GitHubUserV0D4TypeO", "hashValue"]
+- ["6Danger10GitHubUserV0D4TypeO", "init"]
+- ["6Danger10GitHubUserV0D4TypeO", "organization"]
+- ["6Danger10GitHubUserV0D4TypeO", "rawValue"]
+- ["6Danger10GitHubUserV0D4TypeO", "user"]
+depends-nominal:
+- "s9CodingKeyP"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- !private "6Danger10GitHubRepoV10CodingKeysO"
+- !private "6Danger10GitHubUserV10CodingKeysO"
+- !private "6Danger11GitHubIssueV10CodingKeysO"
+- !private "6Danger12GitHubCommitV10CodingKeysO"
+- !private "6Danger12GitHubReviewV10CodingKeysO"
+- !private "6Danger15GitHubMilestoneV10CodingKeysO"
+- !private "6Danger6GitHubV10CodingKeysO"
+- !private "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- !private "6Danger10GitHubRepoV10CodingKeysO"
+- !private "6Danger10GitHubUserV10CodingKeysO"
+- !private "6Danger11GitHubIssueV10CodingKeysO"
+- !private "6Danger12GitHubCommitV10CodingKeysO"
+- !private "6Danger12GitHubReviewV10CodingKeysO"
+- !private "6Danger15GitHubMilestoneV10CodingKeysO"
+- !private "6Danger6GitHubV10CodingKeysO"
+- !private "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubRepoV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger6GitHubV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger15GitHubMilestoneV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger12GitHubCommitV10CodingKeysO"
+- "6Danger11GitHubIssueV10CodingKeysO"
+- "6Danger12GitHubReviewV10CodingKeysO"
+- "6Danger8GitHubPRV10CodingKeysO"
+- "6Danger10GitHubUserV10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "6Danger9GitCommitV"
+- "6Danger6GitHubV"
+- "6Danger12GitHubCommitV"
+- "6Danger11GitHubIssueV"
+- "6Danger16GitHubIssueLabelV"
+- "6Danger14GitHubMergeRefV"
+- "6Danger15GitHubMilestoneV"
+- "6Danger8GitHubPRV"
+- "6Danger10GitHubRepoV"
+- "6Danger24GitHubRequestedReviewersV"
+- "6Danger12GitHubReviewV"
+- "6Danger10GitHubTeamV"
+- "6Danger10GitHubUserV"
+- "SH"
+- !private "s6HasherV"
+- "6Danger11GitHubIssueV0D5StateO"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "6Danger15GitHubMilestoneV0D5StateO"
+- "6Danger8GitHubPRV16PullRequestStateO"
+- "SY"
+- "6Danger12GitHubReviewV0D5StateO"
+- "6Danger10GitHubUserV0D4TypeO"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dcec7941c1cdb3c9d0af27404b4783e0"

@@ -1,0 +1,354 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DangerRunner"
+- "Danger"
+provides-nominal:
+- "6Danger0A6RunnerC"
+provides-member:
+- ["6Danger0A6RunnerC", ""]
+provides-dynamic-lookup:
+- "dsl"
+- "logger"
+- "results"
+- "shared"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "-"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "CommandLine"
+- !private "DSL"
+- "Danger"
+- "DangerDSL"
+- "DangerResults"
+- "DangerRunner"
+- !private "DateFormatter"
+- !private "FileManager"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- "Logger"
+- !private "ProcessInfo"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "atexit"
+- !private "dumpInfo"
+- !private "dumpResultsAtExit"
+- !private "exit"
+- !private "||"
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "joined"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "contents"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "createFile"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "defaultDateFormatter"]
+- !private ["s7CVarArgP", "environment"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "subscript"]
+- !private ["s11CommandLineO", "arguments"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "contents"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "createFile"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultDateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "environment"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "contents"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createFile"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "defaultDateFormatter"]
+- !private ["s23CustomStringConvertibleP", "environment"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["6Danger3DSLV", "danger"]
+- !private ["6Danger3DSLV", "deinit"]
+- !private ["6Danger0A7ResultsV", "deinit"]
+- ["6Danger0A7ResultsV", "init"]
+- !private ["6Danger0A6RunnerC", "CommandLine"]
+- !private ["6Danger0A6RunnerC", "DSL"]
+- ["6Danger0A6RunnerC", "DangerDSL"]
+- ["6Danger0A6RunnerC", "DangerResults"]
+- ["6Danger0A6RunnerC", "DangerRunner"]
+- !private ["6Danger0A6RunnerC", "DateFormatter"]
+- !private ["6Danger0A6RunnerC", "FileManager"]
+- !private ["6Danger0A6RunnerC", "JSONDecoder"]
+- ["6Danger0A6RunnerC", "Logger"]
+- !private ["6Danger0A6RunnerC", "ProcessInfo"]
+- !private ["6Danger0A6RunnerC", "String"]
+- ["6Danger0A6RunnerC", "deinit"]
+- ["6Danger0A6RunnerC", "dsl"]
+- !private ["6Danger0A6RunnerC", "dumpResultsAtExit"]
+- !private ["6Danger0A6RunnerC", "exit"]
+- ["6Danger0A6RunnerC", "init"]
+- ["6Danger0A6RunnerC", "logger"]
+- ["6Danger0A6RunnerC", "results"]
+- ["6Danger0A6RunnerC", "shared"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation11JSONDecoderC20DateDecodingStrategyO", "formatted"]
+- !private ["So15NSDateFormatterC", "defaultDateFormatter"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "danger"]
+- !private ["Se", "joined"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "contents"]
+- !private ["SQ", "count"]
+- !private ["SQ", "createFile"]
+- !private ["SQ", "default"]
+- !private ["SQ", "defaultDateFormatter"]
+- !private ["SQ", "environment"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "prettyPrinted"]
+- !private ["SQ", "processInfo"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["So13NSFileManagerC", "contents"]
+- !private ["So13NSFileManagerC", "createFile"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So11NSFormatterC", "defaultDateFormatter"]
+- !private ["SH", "contains"]
+- !private ["SH", "contents"]
+- !private ["SH", "count"]
+- !private ["SH", "createFile"]
+- !private ["SH", "default"]
+- !private ["SH", "defaultDateFormatter"]
+- !private ["SH", "environment"]
+- !private ["SH", "joined"]
+- !private ["SH", "processInfo"]
+- !private ["SH", "subscript"]
+- !private ["10Foundation11JSONDecoderC", "dateDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "outputFormatting"]
+- !private ["6LoggerAAV", "debug"]
+- !private ["6LoggerAAV", "init"]
+- !private ["6LoggerAAV", "logError"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "joined"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "defaultDateFormatter"]
+- !private ["So9NSCopyingP", "defaultDateFormatter"]
+- !private ["So8NSObjectC", "contents"]
+- !private ["So8NSObjectC", "createFile"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "defaultDateFormatter"]
+- !private ["So8NSObjectC", "environment"]
+- !private ["So8NSObjectC", "processInfo"]
+- !private ["So8NSObjectP", "contents"]
+- !private ["So8NSObjectP", "createFile"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "defaultDateFormatter"]
+- !private ["So8NSObjectP", "environment"]
+- !private ["So8NSObjectP", "processInfo"]
+- !private ["s9OptionSetP", "prettyPrinted"]
+- !private ["10Foundation11JSONEncoderC16OutputFormattingV", "prettyPrinted"]
+- !private ["So13NSProcessInfoC", "environment"]
+- !private ["So13NSProcessInfoC", "processInfo"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "prettyPrinted"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "joined"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "prettyPrinted"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7Combine15TopLevelDecoderP", "dateDecodingStrategy"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "outputFormatting"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultDateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "environment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contents"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createFile"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "defaultDateFormatter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "environment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s11CommandLineO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "6Danger3DSLV"
+- "6Danger0A7ResultsV"
+- "6Danger0A6RunnerC"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation11JSONDecoderC20DateDecodingStrategyO"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "So13NSFileManagerC"
+- !private "So11NSFormatterC"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "6LoggerAAV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "10Foundation11JSONEncoderC16OutputFormattingV"
+- !private "So13NSProcessInfoC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7Combine15TopLevelEncoderP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.swiftmodule"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Require.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/MarathonCore.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Logger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Danger.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerShellExecutor.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/DangerFixtures.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/Releases.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/OctoKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RequestKit.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/dangertest.build/module.modulemap"
+- "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d268ac62bdf7745349ea1572f0b7922c"

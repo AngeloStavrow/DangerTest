@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/master.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgs.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CliArgs/CliArgs.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CliArgs/CliArgs.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CliArgs/CliArgs~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CliArgs/CliArgs.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgsParser.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CliArgs/CliArgsParser.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CliArgs/CliArgsParser.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CliArgs/CliArgsParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CliArgs/CliArgsParser.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/CreateConfig.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CreateConfig.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CreateConfig.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CreateConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/CreateConfig.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/DangerCommand.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerCommand.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerCommand.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerCommand.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/DangerJSVersionFinder.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerJSVersionFinder.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerJSVersionFinder.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerJSVersionFinder~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerJSVersionFinder.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/DangerSwiftOption.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerSwiftOption.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerSwiftOption.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerSwiftOption~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerSwiftOption.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/DangerfileArgumentsPath.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerfileArgumentsPath.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerfileArgumentsPath.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerfileArgumentsPath~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/DangerfileArgumentsPath.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/Files Import/DangerFileGenerator.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Files Import/DangerFileGenerator.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Files Import/DangerFileGenerator.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Files Import/DangerFileGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Files Import/DangerFileGenerator.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/Files Import/ImportsFinder.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Files Import/ImportsFinder.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Files Import/ImportsFinder.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Files Import/ImportsFinder~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Files Import/ImportsFinder.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/GetDangerJSPath.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/GetDangerJSPath.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/GetDangerJSPath.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/GetDangerJSPath~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/GetDangerJSPath.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/HelpMessagePresenter.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/HelpMessagePresenter.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/HelpMessagePresenter.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/HelpMessagePresenter~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/HelpMessagePresenter.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/NSRegularExpression+FilesImport.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/NSRegularExpression+FilesImport.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/NSRegularExpression+FilesImport.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/NSRegularExpression+FilesImport~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/NSRegularExpression+FilesImport.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/Runtime.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Runtime.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Runtime.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Runtime~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/Runtime.swiftdeps"
+  },
+  "/Users/angelo/Developer/DroppedBits/DangerTest/.build/checkouts/swift/Sources/RunnerLib/SPMDanger.swift": {
+    "dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/SPMDanger.d",
+    "object": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/SPMDanger.swift.o",
+    "swiftmodule": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/SPMDanger~partial.swiftmodule",
+    "swift-dependencies": "/Users/angelo/Developer/DroppedBits/DangerTest/.build/x86_64-apple-macosx/debug/RunnerLib.build/SPMDanger.swiftdeps"
+  }
+}
