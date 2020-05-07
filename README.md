@@ -114,6 +114,8 @@ According to the Danger Swift docs, "you can use the [auto-generated] `GITHUB_TO
 
 I should be able to push some commits and have GitHub Actions do something — I guess I'll need to open a PR to trigger Danger. Let's see what happens!
 
+### An aside
+
 I checkout a new branch with all the Danger stuff added in the local repo and add my changes — immediately getting a warning:
 
 ```bash
@@ -154,7 +156,9 @@ file and the HEAD:
 
 I guess I should have added .build to a .gitignore file or something. Oh well, this is just a test repo, so that's fine. Let's continue. I commit my changes and push them up to GitHub on a feature branch.
 
-Once that's done, I open a PR on GitHub… and wait. Nothing seems to happen and so I go to the GitHub Actions tab and see that it did run a workflow when I committed the YAML file, but it failed:
+---
+
+Once that's done, I open a [PR](https://github.com/AngeloStavrow/DangerTest/pull/1) on GitHub… and wait. Nothing seems to happen and so I go to the GitHub Actions tab and see that it did run a workflow when I committed the YAML file, but it [failed](https://github.com/AngeloStavrow/DangerTest/actions/runs/96995087):
 
 > Check failure on line 12 in .github/workflows/main.yml
 > 
@@ -164,7 +168,7 @@ Once that's done, I open a PR on GitHub… and wait. Nothing seems to happen and
 > Invalid workflow file
 > You have an error in your yaml syntax on line 12
 
-Nice. That's the `env:` line which, looking back, should have no value, and the `GITHUB_TOKEN` stuff should be on its own line. That's my fault, I think I missed the return key when adding that! I change it and go back to the GitHub Actions tab — and it still fails:
+Okay. That's the `env:` line which, looking back, shouldn't have no value, and the `GITHUB_TOKEN` stuff should be on its own line. That's my fault, I think I missed the return key when adding that! I change it and go back to the GitHub Actions tab — and it [still fails](https://github.com/AngeloStavrow/DangerTest/actions/runs/97003120):
 
 > Check failure
 > 
@@ -197,7 +201,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Let's see if that sorts things out. I close my old PR and open a new one aaaaand… it looks like the action is running! Building Danger takes a while (4m30s) and then… fails?
+Let's see if that sorts things out. I close my old PR and open a [new one](https://github.com/AngeloStavrow/DangerTest/pull/2) aaaaand… it looks like the action is running! Building Danger takes a while (4m30s) and then… [fails](https://github.com/AngeloStavrow/DangerTest/runs/649024562?check_suite_focus=true). Okay, we're getting closer!
 
 On the "Danger" step of the job, I have:
 
@@ -215,9 +219,11 @@ Error:  { Error: write EPIPE
     at Object.<anonymous> (/github/home/.npm/_npx/1/lib/node_modules/danger/distribution/commands/ci/runner.js:112:39) errno: 'EPIPE', code: 'EPIPE', syscall: 'write' }
 ```
 
-I _think_ this might be because there's no Dangerfile in the repo yet? I'll merge this in, make a trivial commit, and try again.
+I _think_ this might be because there's no Dangerfile in the repo yet? I'll merge this in, make a trivial [PR](https://github.com/AngeloStavrow/DangerTest/pull/3), and try again.
 
-But, nope, that doesn't help. So now I'm stuck. Technically, I've added Danger to the repository, but it… doesn't work for some reason that I don't fully understand.
+But, nope, [that doesn't help](https://github.com/AngeloStavrow/DangerTest/runs/649059344?check_suite_focus=true). So now I'm stuck. Technically, I've added Danger to the repository, but it… doesn't work for some reason that I don't fully understand.
+
+I looked for '`EPIPE`' in various Danger repos on GitHub. [This one] suggested the problem is something to do with a dependency on Marathon. Not sure I can do too much about that?
 
 [Danger]: https://danger.systems/swift/
 [Installation]: https://danger.systems/swift/guides/getting_started.html#swift-pm
@@ -231,3 +237,4 @@ But, nope, that doesn't help. So now I'm stuck. Technically, I've added Danger t
 [Verify Installation]: https://danger.systems/swift/guides/getting_started.html#verify-installation
 [this file]: https://github.com/danger/swift/issues/316#issuecomment-582596405
 [README]: https://github.com/danger/swift/blob/master/README.md
+[This one]: https://github.com/danger/swift/issues/63
